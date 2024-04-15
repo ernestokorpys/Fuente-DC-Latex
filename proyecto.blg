@@ -1,0 +1,14 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'proyecto.blg'
+[230] biber-MSWIN64:340> INFO - === 
+[301] Biber.pm:419> INFO - Reading 'proyecto.bcf'
+[545] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[584] Biber.pm:4419> INFO - Processing section 0
+[609] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia/bibliografia.bib' for section 0
+[687] bibtex.pm:1713> INFO - LaTeX decoding ...
+[700] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia/bibliografia.bib'
+[785] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[785] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[786] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[800] bbl.pm:660> INFO - Writing 'proyecto.bbl' with encoding 'UTF-8'
+[802] bbl.pm:763> INFO - Output to proyecto.bbl
