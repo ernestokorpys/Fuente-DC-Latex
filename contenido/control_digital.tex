@@ -6,7 +6,7 @@
 \section{Diagrama de bloques de la etapa digital}
 Para la etapa digital se propone el diagrama de bloques de la figura~\ref{F:diagrama_digital}. Se pretende controlar la tensión y corriente de salida mediante el ajuste de las referencias con un teclado numérico, de tal manera que mediante comunicación serie I2C podamos enviar los datos que proporcionan la referencia de tensión y corriente para el lazo de control. A su vez, por el bus I2C se lleva a cabo la lectura de la tensión y corriente de salida mediante un convertidor AD de alta resolución (12 o 16 bits) y los datos procesados se despliegan en un display OLED o LCD. En el display se proporciona la tensión y corriente de salida medidas, la tensión y corriente configurada deseada, y el modo de operación del sistema (CV o CI) así como también si la carga se encuentra conectada o desconectada entre otras funciones. 
 
-\begin{figure}
+\begin{figure} [H]
     \centering
     \includegraphics[scale=0.5]{./imagenes/diagrama_digital.jpg}
     \caption{Estructura de archivos de la plantilla.}
@@ -33,8 +33,8 @@ Universal Asynchronous Receiver Transmitter (UART): Permite la comunicación ser
 CAN (Controller Area Network): Es un protocolo de comunicación serial diseñado para aplicaciones de control en tiempo real, especialmente en entornos automotrices e industriales.
 Para este proyecto en particular, se optará por emplear el protocolo I2C debido a su compatibilidad con los componentes utilizados en la fuente. La elección de este protocolo se fundamenta en su eficiencia y versatilidad, lo que lo hace idóneo para satisfacer los requisitos de comunicación de este sistema embebido.
 
-\begin{figure}
-    \centering
+\begin{figure}[H]
+    \centering 
     \includegraphics[scale=0.5]{./imagenes/mplab.jpg}
     \caption{Logo MPLAB IDE.}
     \label{F:LogoMPLAB}
@@ -45,7 +45,7 @@ El teclado de membrana matricial 4x4 autoadhesivo es un dispositivo de entrada q
 Cada botón en el teclado de membrana está interconectado mediante una disposición de líneas conductoras en la membrana. Estas líneas están organizadas de manera que forman una matriz, permitiendo la detección de la ubicación específica de la tecla presionada. El funcionamiento del teclado de membrana matricial implica un proceso de escaneo continuo de todas las filas y columnas para detectar la presencia de un botón presionado. Cuando un botón se presiona, se cierra un circuito entre la fila y la columna correspondientes, lo que indica al microcontrolador la ubicación de la tecla activada.
 
 \begin{figure}
-    \centering
+    \centering [H]
     \includegraphics[scale=0.5]{./imagenes/Teclado Matricial 4x4_2.jpg}
     \caption{Estructura de archivos de la plantilla.}
     \label{F:teclado4x4}
@@ -54,8 +54,8 @@ Cada botón en el teclado de membrana está interconectado mediante una disposic
 \subsection{Display OLED SSD1306.}
 El display OLED SSD1306 elegido para el proyecto utiliza comunicación I2C y ofrece una resolución de 128x64 píxeles. En la Figura 4.13 se presenta una imagen del display, que opera dentro de un rango de voltaje de 3.3 a 5.5 V, lo cual lo hace compatible con el microcontrolador seleccionado. En esta pantalla se mostrará tanto el menú de funcionamiento los modos de operación como un indicador a tiempo real de las magnitudes registradas. Será el vínculo principal entre el usuario y la fuente.
 
-\begin{figure}
-    \centering
+\begin{figure} [H]
+    \centering 
     \includegraphics[scale=0.1]{./imagenes/display.jpg}
     \caption{Display OLED SSD1306.}
     \label{F:display}
@@ -64,7 +64,7 @@ El display OLED SSD1306 elegido para el proyecto utiliza comunicación I2C y ofr
 \subsection{Aislador I2C capacitivo.}
 El dispositivo a utilizar es un ISO1540 [insertar referencia] el cual cuenta con buffers de entrada y salida que están separados por tecnología de aislamiento capacitivo de Texas Instruments que utiliza una barrera de dióxido de silicio (SiO2). Cuando se utilizan con fuentes de alimentación aisladas, estos dispositivos bloquean voltajes altos, aíslan tierras y evitan corrientes de ruido que puedan ingresar a la tierra local e interferir o dañar circuitos sensibles. Esta tecnología de aislamiento ofrece ventajas en función, rendimiento, tamaño y consumo de energía en comparación con los optoacopladores.
 De este modo tendremos la aislación galvánica para separar apropiadamente la parte de potencia de la de control.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[scale=0.1]{./imagenes/optoi2c.jpg}
     \caption{Aislador capacitivo I2C ISO1540.}
@@ -74,7 +74,7 @@ De este modo tendremos la aislación galvánica para separar apropiadamente la p
 \subsection{Convertidor analógico digital. AD.}
 El ADS1115 es un componente crucial en la transición de una fuente de alimentación de corriente continua de analógica a digital. Este dispositivo ofrece una impresionante precisión de 16 bits, junto con una velocidad de muestreo de hasta 860 muestras por segundo a través del protocolo de comunicación I2C. Configurable para operar con cuatro canales de entrada de un solo extremo o dos canales diferenciales, el ADS1115 se destaca por su versatilidad en la medición de señales analógicas en entornos digitales. 
 Equipado con un conversor delta-sigma de 16 bits, un comparador programable con salida directa al pin de alerta, y una ganancia ajustable que permite la lectura de hasta 256mV en escala completa, este dispositivo garantiza una captura precisa de los datos analógicos. Su interfaz de comunicación I2C facilita la lectura de datos digitales, mientras que su dirección predeterminada de 0x48 y la disponibilidad de bibliotecas para plataformas como Arduino lo convierten en una opción conveniente y de fácil integración en proyectos electrónicos.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[scale=0.1]{./imagenes/ads1115.jpg}
     \caption{Convertidor AD ADS1115.}

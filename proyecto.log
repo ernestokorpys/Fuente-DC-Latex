@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.22)  14 APR 2024 22:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.22)  15 APR 2024 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2912,7 +2912,7 @@ Package pdftex.def Info: ./imagenes/Teclado Matricial 4x4_2.jpg  used on input
 line 49.
 (pdftex.def)             Requested size: 276.03056pt x 127.9778pt.
 
-Underfull \vbox (badness 2547) has occurred while \output is active []
+Underfull \vbox (badness 4872) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
@@ -2932,8 +2932,8 @@ File: ./imagenes/ads1115.jpg Graphic file (type jpg)
 <use ./imagenes/ads1115.jpg>
 Package pdftex.def Info: ./imagenes/ads1115.jpg  used on input line 79.
 (pdftex.def)             Requested size: 32.14697pt x 31.69525pt.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
  [29 <./imagenes/Teclado Matricial 4x4_2.jpg> <./imagenes/display.jpg> <./image
 nes/optoi2c.jpg>]) (contenido/Instrucciones_uso.tex
 LaTeX Info: Redefining \. on input line 1.
@@ -2976,10 +2976,10 @@ Package logreq Info: Writing requests to 'proyecto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 79219 strings out of 474423
- 1837211 string characters out of 5743134
+ 79220 strings out of 474423
+ 1837221 string characters out of 5743134
  3158313 words of memory out of 5000000
- 100201 multiletter control sequences out of 15000+600000
+ 100202 multiletter control sequences out of 15000+600000
  767381 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,15n,147p,1612b,2804s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3011,7 +3011,7 @@ s/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nLibertineTI.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/cou
 rier/ucrro8a.pfb>
-Output written on proyecto.pdf (52 pages, 1497406 bytes).
+Output written on proyecto.pdf (52 pages, 1497735 bytes).
 PDF statistics:
  1060 PDF objects out of 1200 (max. 8388607)
  353 named destinations out of 1000 (max. 500000)
