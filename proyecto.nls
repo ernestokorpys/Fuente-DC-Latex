@@ -1,34 +1,34 @@
 
 \begin{thenomenclature} 
 \nomgroup{A}
-  \item [{$I$}]\begingroup Corriente eléctrica\nomeqref {0}\nompageref{xiii}
-  \item [{$R$}]\begingroup Resistencia eléctrica\nomeqref {0}\nompageref{xiii}
-  \item [{$V$}]\begingroup Tensión eléctrica\nomeqref {0}\nompageref{xiii}
-  \item [{$VEEEEE$}]\begingroup asdasdasdas eléctrica\nomeqref {0}\nompageref{xiii}
-  \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {0}\nompageref{xiii}
-  \item [{COSMAC}]\begingroup Complementary Symmetry Monolithic Array Computer\nomeqref {0}\nompageref{xiii}
-  \item [{E/S}]\begingroup Entrada/Salida\nomeqref {0}\nompageref{xiii}
-  \item [{EDA}]\begingroup Electronic Design Automation\nomeqref {0}\nompageref{xiii}
-  \item [{EEPROM}]\begingroup Electrically Erasable Programmable Read-Only Memory\nomeqref {0}\nompageref{xiii}
-  \item [{EPROM}]\begingroup Erasable Programmable Read-Only Memory\nomeqref {0}\nompageref{xiii}
-  \item [{FIO}]\begingroup Facultad de Ingeniería\nomeqref {0}\nompageref{xiii}
-  \item [{GAL}]\begingroup Generic Array Logic\nomeqref {0}\nompageref{xiii}
-  \item [{I\textsuperscript{2}C}]\begingroup Inter-Integrated Circuit\nomeqref {0}\nompageref{xiii}
-  \item [{IEEE}]\begingroup Instituto de Ingenieros Eléctricos y Electrónicos (del inglés \textit{Institute of Electrical and Electronics Engineers})\nomeqref {0}\nompageref{xiii}
-  \item [{KiCad}]\begingroup Software para el diseño de esquemáticos y PCBs de circuitos electrónicos\nomeqref {0}\nompageref{xiii}
-  \item [{LSB}]\begingroup Least Sifnificant Bit\nomeqref {0}\nompageref{xiii}
-  \item [{MRD}]\begingroup Memory Read\nomeqref {0}\nompageref{xiii}
-  \item [{MSB}]\begingroup Most Significant Bit\nomeqref {0}\nompageref{xiii}
-  \item [{MWR}]\begingroup Memory Read\nomeqref {0}\nompageref{xiii}
-  \item [{PAL}]\begingroup Programmable Array Logic\nomeqref {0}\nompageref{xiii}
-  \item [{PCB}]\begingroup Circuito impreso (del inglés \textit{Printed Circuit Board})\nomeqref {0}\nompageref{xiii}
-  \item [{PLC}]\begingroup Programmable Logic Controller\nomeqref {0}\nompageref{xiii}
-  \item [{RAM}]\begingroup Random Access Memory\nomeqref {0}\nompageref{xiii}
-  \item [{RCA}]\begingroup Radio Corporation of America\nomeqref {0}\nompageref{xiii}
-  \item [{ROM}]\begingroup Read Only Memory\nomeqref {0}\nompageref{xiii}
-  \item [{SPI}]\begingroup Serial Peripheral Interface\nomeqref {0}\nompageref{xiii}
-  \item [{TTL}]\begingroup Transistor-Transistor Logic\nomeqref {0}\nompageref{xiii}
-  \item [{UART}]\begingroup Universal Asynchronous Receiver-Transmitter\nomeqref {0}\nompageref{xiii}
-  \item [{UNaM}]\begingroup Universidad Nacional de Misiones\nomeqref {0}\nompageref{xiii}
+  \item [{$I$}]\begingroup Corriente eléctrica\nomeqref {0}\nompageref{xiv}
+  \item [{$R$}]\begingroup Resistencia eléctrica\nomeqref {0}\nompageref{xiv}
+  \item [{$V$}]\begingroup Tensión eléctrica\nomeqref {0}\nompageref{xiv}
+  \item [{$VEEEEE$}]\begingroup asdasdasdas eléctrica\nomeqref {0}\nompageref{xiv}
+  \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {0}\nompageref{xiv}
+  \item [{COSMAC}]\begingroup Complementary Symmetry Monolithic Array Computer\nomeqref {0}\nompageref{xiv}
+  \item [{E/S}]\begingroup Entrada/Salida\nomeqref {0}\nompageref{xiv}
+  \item [{EDA}]\begingroup Electronic Design Automation\nomeqref {0}\nompageref{xiv}
+  \item [{EEPROM}]\begingroup Electrically Erasable Programmable Read-Only Memory\nomeqref {0}\nompageref{xiv}
+  \item [{EPROM}]\begingroup Erasable Programmable Read-Only Memory\nomeqref {0}\nompageref{xiv}
+  \item [{FIO}]\begingroup Facultad de Ingeniería\nomeqref {0}\nompageref{xiv}
+  \item [{GAL}]\begingroup Generic Array Logic\nomeqref {0}\nompageref{xiv}
+  \item [{I\textsuperscript{2}C}]\begingroup Inter-Integrated Circuit\nomeqref {0}\nompageref{xiv}
+  \item [{IEEE}]\begingroup Instituto de Ingenieros Eléctricos y Electrónicos (del inglés \textit{Institute of Electrical and Electronics Engineers})\nomeqref {0}\nompageref{xiv}
+  \item [{KiCad}]\begingroup Software para el diseño de esquemáticos y PCBs de circuitos electrónicos\nomeqref {0}\nompageref{xiv}
+  \item [{LSB}]\begingroup Least Sifnificant Bit\nomeqref {0}\nompageref{xiv}
+  \item [{MRD}]\begingroup Memory Read\nomeqref {0}\nompageref{xiv}
+  \item [{MSB}]\begingroup Most Significant Bit\nomeqref {0}\nompageref{xiv}
+  \item [{MWR}]\begingroup Memory Read\nomeqref {0}\nompageref{xiv}
+  \item [{PAL}]\begingroup Programmable Array Logic\nomeqref {0}\nompageref{xiv}
+  \item [{PCB}]\begingroup Circuito impreso (del inglés \textit{Printed Circuit Board})\nomeqref {0}\nompageref{xiv}
+  \item [{PLC}]\begingroup Programmable Logic Controller\nomeqref {0}\nompageref{xiv}
+  \item [{RAM}]\begingroup Random Access Memory\nomeqref {0}\nompageref{xiv}
+  \item [{RCA}]\begingroup Radio Corporation of America\nomeqref {0}\nompageref{xiv}
+  \item [{ROM}]\begingroup Read Only Memory\nomeqref {0}\nompageref{xiv}
+  \item [{SPI}]\begingroup Serial Peripheral Interface\nomeqref {0}\nompageref{xiv}
+  \item [{TTL}]\begingroup Transistor-Transistor Logic\nomeqref {0}\nompageref{xiv}
+  \item [{UART}]\begingroup Universal Asynchronous Receiver-Transmitter\nomeqref {0}\nompageref{xiv}
+  \item [{UNaM}]\begingroup Universidad Nacional de Misiones\nomeqref {0}\nompageref{xiv}
 
 \end{thenomenclature}
