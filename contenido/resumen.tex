@@ -4,8 +4,20 @@
 \begin{resumen}{Fuente de tensión, Lazo de control, DSP, digital,}
 
 El proyecto se centra en la modernización de una fuente de alimentación preexistente, en su mayoría analógica, de una tensión variable desde 0V hasta 30V y una corriente ajustable desde 0A hasta 3A, mediante la implementación de un control digital para la regulación precisa de la tensión y corriente de salida, así como la implementación de lazos de control digital para garantizar la estabilidad de la salida en diversas condiciones de carga. 
-La esencia de este proyecto radica en la utilización de un controlador digital de señales para ajustar la salida de la fuente de alimentación, a través de un teclado. Este enfoque proporciona al usuario la capacidad de configurar fácilmente los valores deseados de tensión y corriente de salida, mientras que un display integrado ofrece una retroalimentación visual en tiempo real, mostrando tanto los valores establecidos como los valores reales de salida.
-Como núcleo de control, se emplea el controlador digital de señales dsPIC30F4011 (40-Pin PDIP), destacando su capacidad para gestionar eficientemente las operaciones del sistema. Es importante mencionar que este diseño no requiere de conexión inalámbrica, lo que simplifica su implementación y uso.
 
+La esencia de este proyecto radica en la utilización de un controlador digital de señales para ajustar la salida de la fuente de alimentación, a través de un teclado. Este enfoque proporciona al usuario la capacidad de configurar fácilmente los valores deseados de tensión y corriente de salida, mientras que un display integrado ofrece una retroalimentación visual en tiempo real, mostrando tanto los valores establecidos como los valores reales de salida.
+
+Como núcleo de control, se emplea el Arduino NANO, destacando su capacidad para gestionar eficientemente las operaciones del sistema. Es importante mencionar que este diseño no requiere de conexión inalámbrica, lo que simplifica su implementación y uso.\par
+
+\section*{Objetivos}
+
+\begin{itemize}
+    \item Fuente de alimentación que proporcione una tensión de salida variable desde 0V hasta 30V y una corriente ajustable desde 0A hasta 3A.
+    \item Implementar la funcionalidad de lazos de control digital para garantizar una regulación de la tensión y corriente de salida, asegurando estabilidad en diversas condiciones de carga.
+    \item Permitir la configuración fácil y precisa de la tensión y corriente de salida mediante un sistema de entrada, como un encoder rotativo o un teclado.
+    \item Integrar un display que presente tanto los valores establecidos por el usuario como los valores reales de salida, proporcionando retroalimentación visual en tiempo real.
+    \item Garantizar un aislamiento galvánico completo entre la etapa de potencia y el control digital, asegurando la seguridad y fiabilidad del sistema.
+    \item No es necesario disponer de conexión inalámbrica.
+\end{itemize}
 
 \end{resumen}

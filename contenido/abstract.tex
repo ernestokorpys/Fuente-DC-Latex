@@ -1,13 +1,24 @@
 % EL RESUMEN EN INGLÉS
 % --------------------
 
-\begin{theabstract} {Digitization of Analog Control for adjustable Power Supply} {Voltage source, Control loop, DSP, Digital}
+\begin{theabstract} {Direct Current Power Supply:\\Digitization of Analog Control for adjustable Power Supply} {Voltage source, Control loop, DSP, Digital}
 
 The project focuses on modernizing an existing power supply, predominantly analog, with a variable voltage range from 0V to 30V and an adjustable current range from 0A to 3A. This is achieved through the implementation of digital control for precise regulation of both voltage and current output, alongside the incorporation of digital control loops to ensure output stability under various load conditions.
 
 The essence of this project lies in the utilization of a digital signal controller to adjust the power supply's output via a keypad. This approach grants users the ability to easily configure desired voltage and current values, while an integrated display provides real-time visual feedback, showcasing both set and actual output values.
 
-At the core of control, the project employs the dsPIC30F4011 digital signal controller (40-Pin PDIP), notable for its efficient management of system operations. It is pertinent to mention that this design does not necessitate wireless connectivity, simplifying its implementation and usage.
+At the core of control, the project employs the Arduino NANO, notable for its efficient management of system operations. It is pertinent to mention that this design does not necessitate wireless connectivity, simplifying its implementation and usage.
+
+\section*{Objectives}
+
+\begin{itemize}
+    \item Power supply providing a variable output voltage from 0V to 30V and an adjustable current from 0A to 3A.
+    \item Implement digital control loops to ensure the regulation of output voltage and current, maintaining stability under various load conditions.
+    \item Allow easy and precise configuration of output voltage and current using an input system, such as a rotary encoder or a keypad.
+    \item Integrate a display showing both user-set values and actual output values, providing real-time visual feedback.
+    \item Ensure complete galvanic isolation between the power stage and digital control, ensuring system safety and reliability.
+    \item Wireless connectivity is not required.
+\end{itemize}
 
 \end{theabstract}
 

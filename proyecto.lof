@@ -1,50 +1,46 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Voltaje de tensión constante salida de fuente ideal.}}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Partes de una fuentes de tensión.}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Voltaje de tensión constante salida de fuente ideal.}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de bloques de una fuente de tensión.}}{5}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sección de referencia de tensión.}}{9}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Potenciómetros digital MCP4661.}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Conexión voltímetro/amerimetro.}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Acople y desacople de carga.}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sección de referencia de tensión.}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Circuito registrador de datos.}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Encoder rotativos.}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sección de referencia de tensión a aplicar sobre la base de los transistores.}}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Símbolo del potenciómetro digital MCP4661.}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Conexión voltímetro/amerimetro.}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Acople y desacople de carga.}}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sección de referencia de tensión.}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Circuito registrador de datos.}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Encoder rotativos.}}{12}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Estructura de archivos de la plantilla.}}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Creación de nuevo capítulo}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Creación de nuevo capítulo}}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de bloques del sistema mínimo}}{21}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Una figura con varias subfiguras, utilizando el paquete \texttt {subfig}}}{22}{figure.caption.20}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Transistor (texto que aparece en el índice)}}{22}{subfigure.5.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces LED}}{22}{subfigure.5.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Fotoconductor}}{22}{subfigure.5.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces Circuito integrado}}{22}{subfigure.5.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Fuente de alimentación de los componentes}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Circuito de rectificación y filtrado de la etapa de potencia}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Circuito de sensado de la corriente de salida}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Circuito de sensado de la tensión de salida}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Regulador de tensión con transistores de paso.}}{16}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Circuito de acople y desacople de carga.}}{19}{figure.caption.22}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de bloques del funcionamiento del controlador.}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Modelo de la salida de tensión.}}{23}{figure.caption.24}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Estructura de archivos de la plantilla.}}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Arduino IDE.}}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Display OLED SSD1306.}}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Convertidor AD ADS1115.}}{28}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Estructura de archivos de la plantilla.}}{37}{figure.caption.24}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Arduino IDE.}}{38}{figure.caption.25}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Estructura de archivos de la plantilla.}}{38}{figure.caption.26}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Display OLED SSD1306.}}{39}{figure.caption.27}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{39}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Convertidor AD ADS1115.}}{39}{figure.caption.29}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Arduino Nano.}}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Conexionado tipico de protocolo I2C.}}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Software Proteus 8 Professional.}}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Esquemático de simulación en Proteus.}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Esquemático de simulación en Proteus.}}{33}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Arduino Nano.}}{42}{figure.caption.30}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Conexionado tipico de protocolo I2C.}}{42}{figure.caption.31}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Software Proteus 8 Professional.}}{44}{figure.caption.32}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Esquemático de simulación en Proteus.}}{44}{figure.caption.33}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Esquemático de simulación en Proteus.}}{45}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Logo del software Kicad.}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Antes desmontaje de la placa.}}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Despues del desmontaje de la placa.}}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Primer prototipo de PCB.}}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Vista 3D del primer prototipo.}}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Montaje de los compoenntes en la placa.}}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Ensayo con osciloscopio de la placa.}}{38}{figure.caption.42}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Logo del software Kicad.}}{47}{figure.caption.35}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Despues del desmontaje de la placa.}}{48}{figure.caption.36}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Antes desmontaje de la placa.}}{48}{figure.caption.37}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Primer prototipo de PCB.}}{49}{figure.caption.38}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Vista 3D del primer prototipo.}}{49}{figure.caption.39}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Montaje de los compoenntes en la placa.}}{50}{figure.caption.40}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Ensayo con osciloscopio de la placa.}}{51}{figure.caption.41}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Diagrama de bloques del funcioanmiento estandar.}}{56}{figure.caption.44}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Diagrama de bloques del funcioanmiento estandar.}}{42}{figure.caption.45}%

@@ -33,67 +33,220 @@
       \verb https://es.overleaf.com/latex/templates/plantilla-proyecto-electrico/thtnrybqfsbf
       \endverb
     \endentry
-    \entry{Instruments1978}{book}{}
-      \name{author}{1}{}{%
-        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
-           family={Instruments},
-           familyi={I\bibinitperiod},
-           given={Texas},
-           giveni={T\bibinitperiod}}}%
+    \entry{zhang2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f8f07a616c983063aef52041706cc085}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{namehash}{8b1b92c4ef5258def4745c59dcc995a6}
+      \strng{fullhash}{8b1b92c4ef5258def4745c59dcc995a6}
+      \strng{bibnamehash}{8b1b92c4ef5258def4745c59dcc995a6}
+      \strng{authorbibnamehash}{8b1b92c4ef5258def4745c59dcc995a6}
+      \strng{authornamehash}{8b1b92c4ef5258def4745c59dcc995a6}
+      \strng{authorfullhash}{8b1b92c4ef5258def4745c59dcc995a6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{TTL Data Book}
-      \field{year}{1978}
-      \field{dateera}{ce}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{title}{High-Frequency Magnetic Integration for DC-DC Converters}
+      \field{year}{2013}
     \endentry
-    \entry{tutorial_latex}{online}{}
+    \entry{palmour2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fd2623495bf1c69ffea5344224141908}{%
+           family={Palmour},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=3d832cf096ca9027222ada173d2e4657}{%
+           family={Scofield},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{972ec0a6bdd35b19b047368243724443}
+      \strng{fullhash}{972ec0a6bdd35b19b047368243724443}
+      \strng{bibnamehash}{972ec0a6bdd35b19b047368243724443}
+      \strng{authorbibnamehash}{972ec0a6bdd35b19b047368243724443}
+      \strng{authornamehash}{972ec0a6bdd35b19b047368243724443}
+      \strng{authorfullhash}{972ec0a6bdd35b19b047368243724443}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(Accedido: 13/11/2022)}
-      \field{title}{Tutoriales Latex usando texmaker}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://youtube.com/playlist?list=PLKRmVEXGjGWc3IIKmo_0F1gxyNggVzdsI
-      \endverb
-      \verb{url}
-      \verb https://youtube.com/playlist?list=PLKRmVEXGjGWc3IIKmo_0F1gxyNggVzdsI
-      \endverb
+      \field{journaltitle}{IEEE Journal of Emerging and Selected Topics in Power Electronics}
+      \field{title}{Wide Bandgap Semiconductor Devices for Power Electronics}
+      \field{year}{2019}
     \endentry
-    \entry{tablas_latex_online}{online}{}
+    \entry{brown2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a615fcd84b64c00118a825d89bd325c}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a615fcd84b64c00118a825d89bd325c}
+      \strng{fullhash}{7a615fcd84b64c00118a825d89bd325c}
+      \strng{bibnamehash}{7a615fcd84b64c00118a825d89bd325c}
+      \strng{authorbibnamehash}{7a615fcd84b64c00118a825d89bd325c}
+      \strng{authornamehash}{7a615fcd84b64c00118a825d89bd325c}
+      \strng{authorfullhash}{7a615fcd84b64c00118a825d89bd325c}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(Accedido: 13/11/2022)}
-      \field{title}{Table Generator - LaTeX Tables}
-      \verb{urlraw}
-      \verb https://www.tablesgenerator.com/latex_tables
-      \endverb
-      \verb{url}
-      \verb https://www.tablesgenerator.com/latex_tables
-      \endverb
+      \field{journaltitle}{Electronics Weekly}
+      \field{title}{Smart Power Supplies: The Future of Power Management}
+      \field{year}{2020}
     \endentry
-    \entry{jabref}{online}{}
+    \entry{kumar2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d59d2029f930cf2b55b723cca6aafc0e}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b8812d5710d5f4148ed606f77dbbd8a4}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c09321b90bc9db928b9719a851ce7fd6}
+      \strng{fullhash}{c09321b90bc9db928b9719a851ce7fd6}
+      \strng{bibnamehash}{c09321b90bc9db928b9719a851ce7fd6}
+      \strng{authorbibnamehash}{c09321b90bc9db928b9719a851ce7fd6}
+      \strng{authornamehash}{c09321b90bc9db928b9719a851ce7fd6}
+      \strng{authorfullhash}{c09321b90bc9db928b9719a851ce7fd6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering}
+      \field{title}{Miniaturization Techniques in Power Electronics}
+      \field{year}{2017}
+    \endentry
+    \entry{hoffmann2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=38464b449c15d777fed59d75d58a9d78}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f9809d78dfe5e6129453365bf4ecb0dc}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1548060f8c377e6c0b6baa1c9808a748}
+      \strng{fullhash}{1548060f8c377e6c0b6baa1c9808a748}
+      \strng{bibnamehash}{1548060f8c377e6c0b6baa1c9808a748}
+      \strng{authorbibnamehash}{1548060f8c377e6c0b6baa1c9808a748}
+      \strng{authornamehash}{1548060f8c377e6c0b6baa1c9808a748}
+      \strng{authorfullhash}{1548060f8c377e6c0b6baa1c9808a748}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(Accedido: 13/11/2022)}
-      \field{title}{Página oficial de JabRef}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{Integration of Renewable Energy Sources with Smart DC Grids}
+      \field{year}{2021}
+    \endentry
+    \entry{Fuente2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09963fe52159f29572555a2151995413}{%
+           family={Matijak},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           suffix={E.\bibnamedelimi \&\bibnamedelima Pelinski},
+           suffixi={E\bibinitperiod\bibinitdelim \\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{09963fe52159f29572555a2151995413}
+      \strng{fullhash}{09963fe52159f29572555a2151995413}
+      \strng{bibnamehash}{09963fe52159f29572555a2151995413}
+      \strng{authorbibnamehash}{09963fe52159f29572555a2151995413}
+      \strng{authornamehash}{09963fe52159f29572555a2151995413}
+      \strng{authorfullhash}{09963fe52159f29572555a2151995413}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Facultad de Ingeniería, UNaM}
+      \field{title}{Diseño y construcción de una fuente de alimentación DC lineal con control digital de tensión y corriente}
+      \field{year}{2023}
+    \endentry
+    \entry{ISO1540}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{ISO154X Low-Power Bidirectional I2C Isolators}
       \verb{urlraw}
-      \verb https://www.jabref.org/
+      \verb https://www.ti.com/lit/ds/symlink/iso1541.pdf
       \endverb
       \verb{url}
-      \verb https://www.jabref.org/
+      \verb https://www.ti.com/lit/ds/symlink/iso1541.pdf
       \endverb
+    \endentry
+    \entry{2N2222}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{2N2222A Amplifier Transistor NPN Silicon}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf
+      \endverb
+    \endentry
+    \entry{TL084}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{TL084xx}
+      \verb{urlraw}
+      \verb https://www.st.com/resource/en/datasheet/tl084ac.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/tl084ac.pdf
+      \endverb
+    \endentry
+    \entry{BotteronSC1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=36018ce0c58229f622b009913cd6235d}{%
+           family={Botterón},
+           familyi={B\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{36018ce0c58229f622b009913cd6235d}
+      \strng{fullhash}{36018ce0c58229f622b009913cd6235d}
+      \strng{bibnamehash}{36018ce0c58229f622b009913cd6235d}
+      \strng{authorbibnamehash}{36018ce0c58229f622b009913cd6235d}
+      \strng{authornamehash}{36018ce0c58229f622b009913cd6235d}
+      \strng{authorfullhash}{36018ce0c58229f622b009913cd6235d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sistemas de Control 2, Facultad de Ingeniería UNaM}
+      \field{title}{Diseño de controladores en el dominio de tiempo discreto}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

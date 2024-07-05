@@ -2366,16 +2366,19 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">plantilla_universidad_de_costa_rica</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">zhang2013</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">palmour2019</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">brown2020</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">kumar2017</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">hoffmann2021</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Instruments1978</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">tutorial_latex</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">tablas_latex_online</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">plantilla_universidad_de_costa_rica</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">jabref</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">agilent2000</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">agilent2000</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">zhang2013</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">palmour2019</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">brown2020</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">kumar2017</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">hoffmann2021</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Fuente2023</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">ISO1540</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">2N2222</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">TL084</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">BotteronSC1</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">ISO1540</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
