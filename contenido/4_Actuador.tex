@@ -12,16 +12,16 @@ Para la alimentación de los amplificadores operacionales que se utilizarán par
 	\caption{Fuente de alimentación de los componentes}
 	\label{F:alimentacion_analogica}
 \end{figure} \par 
-Se cuenta con un transformador de $220V/(15+15)V$. Por lo que definiendo los capacitores $C_5 =C_6 =1000\mu F/25V$ y una corriente máxima supuesta de $500mA$ por lo que se tiene una tensión eficaz de ripple de:
+Se cuenta con un transformador de $220V/(15+15)V$. Por lo que definiendo los capacitores $C_5 =C_6 =1000\mu F/25V$ y una corriente máxima supuesta de $500mA$ se tiene una tensión eficaz de \textit{ripple} de:
 \begin{equation}
 	V_{ripple} =\frac{0,5A}{4\cdot \sqrt{2}\cdot (50Hz)\cdot (1000\mu F)}=1,7677V
 \end{equation} \par
-Considerando la caida de tensión de un diodo como $V_D =0,7V$ obtenemos la expresión del valor medio de la tensión rectificada:
+Considerando la caída de tensión de un diodo como $V_D =0,7V$ obtenemos la expresión del valor medio de la tensión rectificada:
 \begin{equation}
 V_{alim} =V_{trafo} \cdot \sqrt{2}-2\cdot V_D -V_{ripple} \cdot \sqrt{2}=(15\cdot \sqrt{2})-(2\cdot 0,7V)-(1,77V\cdot \sqrt{2})=17,31V
 \end{equation} \par
 En paralelo a los capacitores $C_5$ y $C_6$ se agregan los capacitores $C_7$ y $C_8$ de $0,33\mu F/25V$ para eliminar los ruidos de alta frecuencia según la aplicación recomendada en la hoja de datos del LM78XX [INSERTAR REFERENCIA]. Para los diodos rectificadores se emplean 1N4007.\par
-Para fijar el valor de voltaje de salida se emplean los integrados LM7812 y LM7912 de +12V y -12V respectivamente. A continuación se colocan capacitores de desacoplo con el fin de mejorar la estabilidad y reducir el ruido. Asegurando un suministro de tensión estable y confiable para los demás componentes electrónicos conectados al sistema. \par 
+Para fijar el valor de voltaje de salida se emplean los integrados LM7812 y LM7912 de +12V y -12V respectivamente. A continuación se colocan capacitores de desacople con el fin de mejorar la estabilidad y reducir el ruido. Asegurando un suministro de tensión estable y confiable para los demás componentes electrónicos conectados al sistema. \par 
 A la salida de la fuente de alimentación de +12V se conecta el regulador, LM7805, para obtener +5V regulados con su correspondiente capacitor de salida de $C_{sal} =1\mu F$. Por ultimo se conecta un LED, en conjunto con una resistencia limitadora, para indicar el correcto funcionamiento de la etapa de alimentación. \par 
 \begin{equation}
 R_{lim} =\frac{(+5V)-V_{LED} }{I_{LED} }=\frac{(+5V)-(2V)}{10mA}=300\Omega \to 330\Omega
@@ -41,12 +41,12 @@ Para la etapa de potencia se hace uso de un transformador de 220V / 33V siendo e
 	\label{F:rectificador_potencia}
 \end{figure} \par 
 
-Se diseña esta etapa para obtener un bajo valor de tensión de ripple y que pueda entregar una corriente de 3 A. Para dimensionar el valor del capacitor a utilizar se hace uso de la siguiente expresión:
+Se diseña esta etapa para obtener un bajo valor de tensión de \textit{ripple} y que pueda entregar una corriente de 3 A. Para dimensionar el valor del capacitor a utilizar se hace uso de la siguiente expresión:
 \begin{equation}
 C=\frac{3A}{4\sqrt{2}(50Hz)(\frac{3V/2}{\sqrt{2}})}=1000\mu F
 \end{equation} \par 
 
-A partir de este cálculo adoptamos 2 capacitores en paralelo: $C_1 =C_2 =4700~\mu F~/~63~V$, con lo cual la tensión pico a pico de ripple resulta de  $V_{r(pp)} =3,1915~V$. \par 
+A partir de este cálculo adoptamos 2 capacitores en paralelo: $C_1 =C_2 =4700~\mu F~/~63~V$, con lo cual la tensión pico a pico de \textit{ripple} resulta de  $V_{r(pp)} =3,1915~V$. \par 
 
 Esto nos da como resultado un valor medio de tensión rectificada y filtrada para una carga de 3 A de: 
 \begin{equation}
@@ -69,7 +69,7 @@ R_{LED} =\frac{V_{rec} -V_{LED} }{I_{LED} }=\frac{43,67V-2V}{10mA}=4167,33\Omega
 \end{equation} \par 
 
 \section{Sensado de corriente}
-En esta etapa se emplea una resistencia de Shunt $R_{sh1} =0,15~\Omega$ para obtener un voltaje proporcional a la corriente que está circulando por la misma. Luego para elevar el valor del mismo en torno a los 5 V cuando estén circulando 3 A por la misma se utiliza un amplificador operacional en una configuración de amplificador no inversor, dada por la siguiente expresión:
+En esta etapa se emplea una resistencia de \textit{Shunt} $R_{sh1} =0,15~\Omega$ para obtener un voltaje proporcional a la corriente que está circulando por la misma. Luego para elevar el valor del mismo en torno a los 5 V cuando estén circulando 3 A por la misma se utiliza un amplificador operacional en una configuración de amplificador no inversor, dada por la siguiente expresión:
 \begin{equation}
 V_{o1} =V_{NI} \times (1+\frac{R_{V4} }{R_{14} })=(I_L \times R_{sh1} )\times (1+\frac{R_{V4} }{R_{14} })
 \end{equation}\par 
@@ -133,7 +133,7 @@ Considerando el caso de máxima carga $V_L =30V$ y $I_L =3A$ en la base de los t
 \begin{equation}
 \begin{split}
 V_{B1}&=V_L+I_L\cdot Rsh1+\frac{I_L}{3}\cdot R1+V_{BE1(on)}= \\
-&=(30V)+(3A)\cdot (0,15\Omega)+(1A)\cdot (0,33\Omega)(+1,5V)=32,28V
+&=(30V)+(3A)\cdot (0,15\Omega)+(1A)\cdot (0,33\Omega)+(1,5V)=32,28V
 \end{split}
 \end{equation} \par 
 
@@ -189,7 +189,7 @@ Suponiendo que la corriente de emisor de Q5 es igual a la corriente de base de Q
 V_{B4}=V_{B1}+I_{C4}\cdot R_6+V_{BE4}=32,28V+(0,15A\cdot 2,2\Omega)+1V=33,61V
 \end{equation}\par
 
-Debido a que el punto de referencia ($GND=0V$) de la fuente de $\pm 12V$ coincide con el borne positivo de $V_{L+}$ de la fuente de salida de $V_L=30V$, entonces el nivel de tensión de $V_cc1$ respecto al borne negativo $V_{L-}$ es de $V'_{cc1}=V_{cc1}+V_L=12V+30V=42V$. Por lo que la resitencia R7 puede calcularse como:
+Debido a que el punto de referencia ($GND=0V$) de la fuente de $\pm 12V$ coincide con el borne positivo de $V_{L+}$ de la fuente de salida de $V_L=30V$, entonces el nivel de tensión de $V_cc1$ respecto al borne negativo $V_{L-}$ es de $V'_{cc1}=V_{cc1}+V_L=12V+30V=42V$. Por lo que la resistencia R7 puede calcularse como:
 \begin{equation}
 R7=\frac{V_{cc1}-V_{B4}}{I_{R7}}=\frac{42V-33,61V}{7,5 mA}=1118 \Omega \to 1200\Omega
 \end{equation}\par 
@@ -203,7 +203,7 @@ El transistor Q5 es un BC559 y tiene una ganancia $hfe5=110$ y una tensión emis
 R8=\frac{V_{B4}-V_{EB5}}{(\frac{I_{R7}}{hfe5})}=\frac{0,8V-0,7V}{(\frac{9,33 mA}{110})}=1178,57\Omega \to 1200\Omega
 \end{equation}\par 
 
-La resistencia R9 es una resistencia de pull-down que tiene la utilidad de dejar establecido un valor de tensión a la base de Q5 en caso que se desconecte el controlador. Por lo tanto, podemos calcular su valor suponiendo que por la misma no va a circular más que unos $I_{R9}=2,5 mA$ cuando el voltaje en el punto superior se encuentre a $0V$.
+La resistencia R9 es una resistencia de \textit{pull-down} que tiene la utilidad de dejar establecido un valor de tensión a la base de Q5 en caso que se desconecte el controlador. Por lo tanto, podemos calcular su valor suponiendo que por la misma no va a circular más que unos $I_{R9}=2,5 mA$ cuando el voltaje en el punto superior se encuentre a $0V$.
 \begin{equation}
 R9=\frac{V_C-(-V_{cc1})}{I_R9}=\frac{0V-(-12V)}{2,5 mA}=4800\Omega \to 4700\Omega 
 \end{equation}\par 
