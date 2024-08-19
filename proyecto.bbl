@@ -33,6 +33,53 @@
       \verb https://es.overleaf.com/latex/templates/plantilla-proyecto-electrico/thtnrybqfsbf
       \endverb
     \endentry
+    \entry{agilent2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5966618f12acd286726d0eaec59ee557}{%
+           family={Technologies},
+           familyi={T\bibinitperiod},
+           given={Agilent},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5966618f12acd286726d0eaec59ee557}
+      \strng{fullhash}{5966618f12acd286726d0eaec59ee557}
+      \strng{bibnamehash}{5966618f12acd286726d0eaec59ee557}
+      \strng{authorbibnamehash}{5966618f12acd286726d0eaec59ee557}
+      \strng{authornamehash}{5966618f12acd286726d0eaec59ee557}
+      \strng{authorfullhash}{5966618f12acd286726d0eaec59ee557}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Application Note 90B}
+      \field{title}{DC Power Supply Handbook}
+      \field{year}{2000}
+    \endentry
+    \entry{tektronix_pws4305}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5b7cebd92f48f197e31d10ea605e9ba4}{%
+           family={Tektronix},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \strng{fullhash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \strng{bibnamehash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \strng{authorbibnamehash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \strng{authornamehash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \strng{authorfullhash}{5b7cebd92f48f197e31d10ea605e9ba4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 13/11/2022)}
+      \field{title}{PWS4000 Series Programmable DC Power Supplies}
+      \verb{urlraw}
+      \verb https://www.tek.com/product-series/pws4000-programmable-dc-power-supplies
+      \endverb
+      \verb{url}
+      \verb https://www.tek.com/product-series/pws4000-programmable-dc-power-supplies
+      \endverb
+    \endentry
     \entry{zhang2013}{article}{}
       \name{author}{2}{}{%
         {{hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
@@ -52,8 +99,8 @@
       \strng{authorbibnamehash}{8b1b92c4ef5258def4745c59dcc995a6}
       \strng{authornamehash}{8b1b92c4ef5258def4745c59dcc995a6}
       \strng{authorfullhash}{8b1b92c4ef5258def4745c59dcc995a6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Power Electronics}
@@ -79,8 +126,8 @@
       \strng{authorbibnamehash}{972ec0a6bdd35b19b047368243724443}
       \strng{authornamehash}{972ec0a6bdd35b19b047368243724443}
       \strng{authorfullhash}{972ec0a6bdd35b19b047368243724443}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Journal of Emerging and Selected Topics in Power Electronics}
@@ -101,8 +148,8 @@
       \strng{authorbibnamehash}{7a615fcd84b64c00118a825d89bd325c}
       \strng{authornamehash}{7a615fcd84b64c00118a825d89bd325c}
       \strng{authorfullhash}{7a615fcd84b64c00118a825d89bd325c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics Weekly}
@@ -128,8 +175,8 @@
       \strng{authorbibnamehash}{c09321b90bc9db928b9719a851ce7fd6}
       \strng{authornamehash}{c09321b90bc9db928b9719a851ce7fd6}
       \strng{authorfullhash}{c09321b90bc9db928b9719a851ce7fd6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering}
@@ -155,8 +202,8 @@
       \strng{authorbibnamehash}{1548060f8c377e6c0b6baa1c9808a748}
       \strng{authornamehash}{1548060f8c377e6c0b6baa1c9808a748}
       \strng{authorfullhash}{1548060f8c377e6c0b6baa1c9808a748}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Renewable and Sustainable Energy Reviews}
@@ -179,8 +226,8 @@
       \strng{authorbibnamehash}{09963fe52159f29572555a2151995413}
       \strng{authornamehash}{09963fe52159f29572555a2151995413}
       \strng{authorfullhash}{09963fe52159f29572555a2151995413}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Facultad de Ingeniería, UNaM}
@@ -188,8 +235,8 @@
       \field{year}{2023}
     \endentry
     \entry{ISO1540}{online}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{addendum}{(Accedido: 02/07/2024)}
       \field{title}{ISO154X Low-Power Bidirectional I2C Isolators}
@@ -201,8 +248,8 @@
       \endverb
     \endentry
     \entry{2N2222}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{addendum}{(Accedido: 02/07/2024)}
       \field{title}{2N2222A Amplifier Transistor NPN Silicon}
@@ -247,6 +294,32 @@
       \field{journaltitle}{Sistemas de Control 2, Facultad de Ingeniería UNaM}
       \field{title}{Diseño de controladores en el dominio de tiempo discreto}
       \field{year}{2020}
+    \endentry
+    \entry{kicad}{online}{}
+      \name{author}{1}{}{%
+        {{hash=65a497b7130fb0033c9aa6850ba3aedb}{%
+           family={KiCad},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{fullhash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{bibnamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{authorbibnamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{authornamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{authorfullhash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Versión 6.0.8}
+      \field{title}{KiCad EDA}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://kicad.org/
+      \endverb
+      \verb{url}
+      \verb https://kicad.org/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

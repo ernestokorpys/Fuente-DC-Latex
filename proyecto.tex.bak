@@ -18,6 +18,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{adjustbox}
 \usepackage{array}
+\usepackage{amsmath}
 \renewcommand*{\ttdefault}{cmtt}
 \newcommand{\entreComillas}[1]{“#1”} % para que esté entre comillas
 \newcommand{\listaVacio}{Varios} % celda vacia de la lista de componentes 
@@ -38,7 +39,7 @@
 \carneuno{K-3290/5} % legajo
 \emailuno{ernesto.korpys@gmail.com}
 
-\autordos{Fernando Natanael Krindgester}
+\autordos{Fernando Natanael Krindges}
 \carnedos{K-3296/4} % legajo
 \emaildos{krindgesfer@gmail.com}
 

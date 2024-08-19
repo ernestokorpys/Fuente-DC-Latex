@@ -10,7 +10,7 @@ Las fuentes de alimentación electrónicas se definen como circuitos que transfo
     \item CA de entrada, CA de salida regulada por línea o cambiadores de frecuencia.
     \item CC de entrada, CC de salida convertida o regulada.
     \item CC de entrada, CA de salida de corriente alterna, conocidas como inversores.
-    \item CA de entrada, CC de salida. Conocidas como rectificadores.
+    \item CA de entrada, CC de salida. conocidas como rectificadores.
 \end{enumerate}
 
 Esta última categoría es, con mucho, la más común de las cuatro y generalmente es a la que se hace referencia cuando se habla de una "fuente de alimentación". Las fuentes de alimentación de CC de salida pueden proporcionar cuatro salidas básicas o modos de operación:
@@ -52,8 +52,8 @@ Las fuentes de alimentación lineales son un elemento fundamental en la mayoría
 Una fuente de alimentación lineal consta de varios componentes básicos, como el transformador, el rectificador, el filtro y el regulador de voltaje. Cada uno de estos elementos juega un papel fundamental en garantizar que la energía suministrada sea constante y adecuada para los dispositivos electrónicos, asegurando su correcto funcionamiento.
 
 \section{Funcionamiento básico.} \par 
-El tipo más simple y común de fuentes de alimentación de corriente continua (CC) es un sistema ''lineal'' , mostrado esquemáticamente en la Figura \ref{F:componentesFL}. Primero, se utiliza un transformador para ''reducir'' la tensión de línea de CA a un voltaje pico más pequeño, que generalmente es aproximadamente 3 voltios superior que el voltaje de salida de CC deseado. Luego, un circuito de diodos rectifica la señal de CA, produciendo una forma de onda con una gran componente de CC. Seguidamente, se utiliza un banco de filtros de condensadores para "suavizar" o "filtrar" la sinusoidal rectificada. \par 
-Bajo condiciones de carga normales, siempre hay alguna variación periódica residual o "ripple" en la señal filtrada. Si la aplicación requiere un ripple muy bajo y una salida de CC constante sobre un amplio rango de condiciones de carga, entonces se requiere regulación activa para reducir o eliminar aún más este ripple residual. [2]\cite{}
+El tipo más simple y común de fuentes de alimentación de corriente continua (CC) es un sistema \entreComillas{lineal} , mostrado esquemáticamente en la Figura \ref{F:componentesFL}. Primero, se utiliza un transformador para \entreComillas{reducir} la tensión de línea de CA a un voltaje pico más pequeño, que generalmente es aproximadamente 3 voltios superior que el voltaje de salida de CC deseado. Luego, un circuito de diodos rectifica la señal de CA, produciendo una forma de onda con una gran componente de CC. Seguidamente, se utiliza un banco de filtros de condensadores para \entreComillas{suavizar} o \entreComillas{filtrar} la sinusoidal rectificada. \par 
+Bajo condiciones de carga normales, siempre hay alguna variación periódica residual o \entreComillas{ripple} en la señal filtrada. Si la aplicación requiere un ripple muy bajo y una salida de CC constante sobre un amplio rango de condiciones de carga, entonces se requiere regulación activa para reducir o eliminar aún más este ripple residual. \cite{tektronix_pws4305}
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{./imagenes/componentesFL.jpg}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.22)  15 JUL 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.22)  19 AUG 2024 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2197,50 +2197,50 @@ LaTeX Info: Redefining \% on input line 13.
 )
 \openout1 = `proyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input lin
-e 74.
+e 75.
 LaTeX Font Info:    Trying to load font information for LS1+libertinust1math on
- input line 74.
+ input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls1libert
 inust1math.fd
 File: ls1libertinust1math.fd 2016/03/23 Fontinst v1.933 font definitions for LS
 1/libertinust1math.
 )
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input 
-line 74.
+line 75.
 LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathsym
- on input line 74.
+ on input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls2libert
 inust1mathsym.fd
 File: ls2libertinust1mathsym.fd 2015/04/17 v1.1.2-latex LibertinusT1Mathsym LS2
  font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
-LaTeX Info: Command `\dddot' is already robust on input line 74.
-LaTeX Info: Command `\ddddot' is already robust on input line 74.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Command `\dddot' is already robust on input line 75.
+LaTeX Info: Command `\ddddot' is already robust on input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2279,7 +2279,7 @@ Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
 Package newfloat Info: `sidecap' package detected.
 \c@lstlisting=\count626
-Package tocbasic Info: setting babel extension for `lol' on input line 74.
+Package tocbasic Info: setting babel extension for `lol' on input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\transla
 tions-basic-dictionary-spanish.trsl
@@ -2287,7 +2287,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 74.
+or `spanish'. on input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\transla
 tions-basic-dictionary-english.trsl
@@ -2295,8 +2295,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 74.
-Package hyperref Info: Link coloring ON on input line 74.
+or `english'. on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
  (proyecto.out) (proyecto.out)
 \@outlinefile=\write8
 \openout8 = `proyecto.out'.
@@ -2340,8 +2340,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'proyecto.bbl' found.
 
 (proyecto.bbl)
-Package biblatex Info: Reference section=0 on input line 74.
-Package biblatex Info: Reference segment=0 on input line 74.
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -2359,27 +2359,27 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@mv@tabular=\count627
 \c@mv@boldtabular=\count628
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex 
-on input line 80.
+on input line 81.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls2libert
 inust1mathex.fd
@@ -2387,25 +2387,25 @@ File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extension
 s LS2 font definitions
 )
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
 
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
 
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb 
-on input line 80.
+on input line 81.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls1libert
 inust1mathbb.fd
@@ -2413,34 +2413,34 @@ File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font def
 initions
 )
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 7.0pt on input line 80.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 5.0pt on input line 80.
+(Font)              scaled to size 5.0pt on input line 81.
 Package epstopdf Info: Source file: <imagenes/imagenes_caratula/izquierda.eps>
-(epstopdf)                    date: 2024-04-16 21:46:40
+(epstopdf)                    date: 2024-07-22 17:09:39
 (epstopdf)                    size: 41942 bytes
 (epstopdf)             Output file: <imagenes/imagenes_caratula/izquierda-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2024-04-16 21:46:40
+(epstopdf)                    date: 2024-07-22 17:09:39
 (epstopdf)                    size: 15489 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=imagenes/imagenes_ca
 ratula/izquierda-eps-converted-to.pdf imagenes/imagenes_caratula/izquierda.eps>
 
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 <imagenes/imagenes_caratula/izquierda-eps-converted-to.pdf, id=314, 136.51pt x 
 49.18375pt>
@@ -2448,18 +2448,18 @@ File: imagenes/imagenes_caratula/izquierda-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use imagenes/imagenes_caratula/izquierda-eps-converted-to.pdf>
 Package pdftex.def Info: imagenes/imagenes_caratula/izquierda-eps-converted-to.
-pdf  used on input line 80.
+pdf  used on input line 81.
 (pdftex.def)             Requested size: 163.81117pt x 59.02017pt.
 Package epstopdf Info: Source file: <imagenes/imagenes_caratula/derecha.eps>
-(epstopdf)                    date: 2024-04-16 21:46:40
+(epstopdf)                    date: 2024-07-22 17:09:39
 (epstopdf)                    size: 48082 bytes
 (epstopdf)             Output file: <imagenes/imagenes_caratula/derecha-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2024-04-16 21:46:40
+(epstopdf)                    date: 2024-07-22 17:09:39
 (epstopdf)                    size: 16164 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=imagenes/imagenes_ca
 ratula/derecha-eps-converted-to.pdf imagenes/imagenes_caratula/derecha.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 <imagenes/imagenes_caratula/derecha-eps-converted-to.pdf, id=315, 101.37875pt x
  47.17625pt>
@@ -2467,26 +2467,26 @@ File: imagenes/imagenes_caratula/derecha-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use imagenes/imagenes_caratula/derecha-eps-converted-to.pdf>
 Package pdftex.def Info: imagenes/imagenes_caratula/derecha-eps-converted-to.pd
-f  used on input line 80.
+f  used on input line 81.
 (pdftex.def)             Requested size: 121.65387pt x 56.61119pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 80.
+(Font)              scaled to size 20.74pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 80.
+(Font)              scaled to size 20.74pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 80.
+(Font)              scaled to size 20.74pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 80.
+(Font)              scaled to size 17.28pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 80.
+(Font)              scaled to size 17.28pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 80.
+(Font)              scaled to size 14.4pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 80.
+(Font)              scaled to size 14.4pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
+(Font)              scaled to size 12.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
+(Font)              scaled to size 12.0pt on input line 81.
  [1
 
 
@@ -2499,49 +2499,49 @@ genes_caratula/derecha-eps-converted-to.pdf>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 85.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
  [3{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7g
 rukw.enc}]
 [4
@@ -2587,9 +2587,9 @@ tine/lbtn_ki75ao.enc}] [6
 
 ])
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 98.
+(Font)              scaled to size 24.88pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 98.
+(Font)              scaled to size 24.88pt on input line 99.
  (proyecto.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
@@ -2623,9 +2623,21 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [13] [14
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (contenido/1_introduccion.tex
+ [13{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math
+/libusMI.enc}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/liberti
+nust1math/libusMR.enc}]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <10.95> no
+t available
+(Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
+nput line 109.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 109.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [14] (contenido/1_introduccion.tex
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
@@ -2637,51 +2649,33 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 )
 (contenido/2_IntroduccionTeorica.tex [1
 
+
 ] [2
 
 ]
-
-LaTeX Warning: Citation 'agilent2000' on page 3 undefined on input line 24.
-
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 27.
-
-LaTeX Warning: Citation 'agilent2000' on page 3 undefined on input line 29.
-
-[3]
-<./imagenes/salidaidealfuentedc.jpg, id=549, 334.24875pt x 222.8325pt>
+ [3]
+<./imagenes/salidaidealfuentedc.jpg, id=564, 334.24875pt x 222.8325pt>
 File: ./imagenes/salidaidealfuentedc.jpg Graphic file (type jpg)
 <use ./imagenes/salidaidealfuentedc.jpg>
 Package pdftex.def Info: ./imagenes/salidaidealfuentedc.jpg  used on input line
  33.
 (pdftex.def)             Requested size: 167.12396pt x 111.41597pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 55.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 56.
-
-<./imagenes/componentesFL.jpg, id=551, 726.46407pt x 350.81062pt>
+<./imagenes/componentesFL.jpg, id=567, 726.46407pt x 350.81062pt>
 File: ./imagenes/componentesFL.jpg Graphic file (type jpg)
 <use ./imagenes/componentesFL.jpg>
 Package pdftex.def Info: ./imagenes/componentesFL.jpg  used on input line 59.
 (pdftex.def)             Requested size: 363.23114pt x 175.40488pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <10.95> no
-t available
-(Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
-nput line 63.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 63.
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
-[4 <./imagenes/salidaidealfuentedc.jpg>]
+ [4 <./imagenes/salidaidealfuentedc.jpg>]
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
  [5 <./imagenes/componentesFL.jpg>]
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
-
-[6]
+ [6]
 Underfull \hbox (badness 1997) in paragraph at lines 113--113
 []|\T1/LinuxLibertineT-TLF/m/n/10.95 Agilent (Key-sight)
  []
@@ -2717,169 +2711,193 @@ LaTeX Info: Redefining \% on input line 1.
  [7] [8
 
 ]
-<./imagenes/Eliminada1.jpg, id=584, 933.4875pt x 643.6547pt>
-File: ./imagenes/Eliminada1.jpg Graphic file (type jpg)
-<use ./imagenes/Eliminada1.jpg>
-Package pdftex.def Info: ./imagenes/Eliminada1.jpg  used on input line 15.
-(pdftex.def)             Requested size: 280.04842pt x 193.0979pt.
-<./imagenes/potenciometro_digital.jpg, id=586, 972.63374pt x 585.68813pt>
-File: ./imagenes/potenciometro_digital.jpg Graphic file (type jpg)
-<use ./imagenes/potenciometro_digital.jpg>
-Package pdftex.def Info: ./imagenes/potenciometro_digital.jpg  used on input li
-ne 25.
-(pdftex.def)             Requested size: 194.5233pt x 117.13554pt.
- [9 <./imagenes/Eliminada1.jpg>]
-<./imagenes/voltimetro_amperimetro.jpg, id=593, 1574.88374pt x 641.39626pt>
-File: ./imagenes/voltimetro_amperimetro.jpg Graphic file (type jpg)
-<use ./imagenes/voltimetro_amperimetro.jpg>
-Package pdftex.def Info: ./imagenes/voltimetro_amperimetro.jpg  used on input l
-ine 35.
-(pdftex.def)             Requested size: 314.97118pt x 128.27698pt.
+<./imagenes/Eliminada1.PNG, id=601, 1038.88126pt x 686.565pt>
+File: ./imagenes/Eliminada1.PNG Graphic file (type png)
+<use ./imagenes/Eliminada1.PNG>
+Package pdftex.def Info: ./imagenes/Eliminada1.PNG  used on input line 14.
+(pdftex.def)             Requested size: 364.00139pt x 240.55278pt.
+<./imagenes/potenciometro_digital.png, id=604, 972.63374pt x 585.68813pt>
+File: ./imagenes/potenciometro_digital.png Graphic file (type png)
+<use ./imagenes/potenciometro_digital.png>
+Package pdftex.def Info: ./imagenes/potenciometro_digital.png  used on input li
+ne 24.
+(pdftex.def)             Requested size: 227.5pt x 136.99327pt.
+ [9 <./imagenes/Eliminada1.PNG>]
+<./imagenes/voltimetro_amperimetro.png, id=612, 1574.88374pt x 641.39626pt>
+File: ./imagenes/voltimetro_amperimetro.png Graphic file (type png)
+<use ./imagenes/voltimetro_amperimetro.png>
+Package pdftex.def Info: ./imagenes/voltimetro_amperimetro.png  used on input l
+ine 34.
+(pdftex.def)             Requested size: 364.00139pt x 148.24226pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 42.
-<./imagenes/conexion_carga.jpg, id=595, 1326.45563pt x 665.48625pt>
-File: ./imagenes/conexion_carga.jpg Graphic file (type jpg)
-<use ./imagenes/conexion_carga.jpg>
-Package pdftex.def Info: ./imagenes/conexion_carga.jpg  used on input line 45.
-(pdftex.def)             Requested size: 397.93976pt x 199.64742pt.
+(Font)              scaled to size 6.0pt on input line 41.
+<./imagenes/conexion_carga.PNG, id=614, 1326.45563pt x 665.48625pt>
+File: ./imagenes/conexion_carga.PNG Graphic file (type png)
+<use ./imagenes/conexion_carga.PNG>
+Package pdftex.def Info: ./imagenes/conexion_carga.PNG  used on input line 44.
+(pdftex.def)             Requested size: 409.49722pt x 205.44562pt.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 
-Underfull \vbox (badness 1242) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [10 <./imagenes/potenciometro_digital.jpg> <./imagenes/voltimetro_amperimetro.
-jpg>]
-<./imagenes/modo_operacion.jpg, id=601, 669.2503pt x 362.10281pt>
-File: ./imagenes/modo_operacion.jpg Graphic file (type jpg)
-<use ./imagenes/modo_operacion.jpg>
-Package pdftex.def Info: ./imagenes/modo_operacion.jpg  used on input line 55.
-(pdftex.def)             Requested size: 334.62433pt x 181.05095pt.
-<./imagenes/ESP_32S.jpg, id=604, 615.80063pt x 352.31625pt>
-File: ./imagenes/ESP_32S.jpg Graphic file (type jpg)
-<use ./imagenes/ESP_32S.jpg>
-Package pdftex.def Info: ./imagenes/ESP_32S.jpg  used on input line 64.
-(pdftex.def)             Requested size: 307.89955pt x 176.15768pt.
-
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
- [11 <./imagenes/conexion_carga.jpg> <./imagenes/modo_operacion.jpg>]
-<./imagenes/encoder_rotativo.jpg, id=611, 499.8675pt x 237.88875pt>
+[10 <./imagenes/potenciometro_digital.png> <./imagenes/voltimetro_amperimetro.p
+ng>]
+<./imagenes/modo_operacion.PNG, id=622, 751.30687pt x 405.76593pt>
+File: ./imagenes/modo_operacion.PNG Graphic file (type png)
+<use ./imagenes/modo_operacion.PNG>
+Package pdftex.def Info: ./imagenes/modo_operacion.PNG  used on input line 54.
+(pdftex.def)             Requested size: 409.49722pt x 221.16591pt.
+<./imagenes/ESP_32S.png, id=625, 2343.50531pt x 1328.71407pt>
+File: ./imagenes/ESP_32S.png Graphic file (type png)
+<use ./imagenes/ESP_32S.png>
+Package pdftex.def Info: ./imagenes/ESP_32S.png  used on input line 63.
+(pdftex.def)             Requested size: 364.00139pt x 206.37431pt.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [11 <./imagenes/conexion_carga.PNG> <./imagenes/modo_operacion.PNG>]
+<./imagenes/encoder_rotativo.jpg, id=634, 499.8675pt x 237.88875pt>
 File: ./imagenes/encoder_rotativo.jpg Graphic file (type jpg)
 <use ./imagenes/encoder_rotativo.jpg>
-Package pdftex.def Info: ./imagenes/encoder_rotativo.jpg  used on input line 73
+Package pdftex.def Info: ./imagenes/encoder_rotativo.jpg  used on input line 72
 .
 (pdftex.def)             Requested size: 249.93314pt x 118.94408pt.
 )
 (contenido/4_Actuador.tex
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [12 <./imagenes/ESP_32S.jpg> <./imagenes/encoder_rotativo.jpg>]
-<./imagenes/Alimentacion_analogica.png, id=616, 1348.28719pt x 414.79968pt>
+ [12 <./imagenes/ESP_32S.png> <./imagenes/encoder_rotativo.jpg>]
+<./imagenes/Alimentacion_analogica.png, id=639, 1335.48938pt x 411.03563pt>
 File: ./imagenes/Alimentacion_analogica.png Graphic file (type png)
 <use ./imagenes/Alimentacion_analogica.png>
 Package pdftex.def Info: ./imagenes/Alimentacion_analogica.png  used on input l
 ine 11.
-(pdftex.def)             Requested size: 455.0pt x 139.97935pt.
-<./imagenes/Rectificador_potencia.png, id=617, 1075.76906pt x 288.3272pt>
+(pdftex.def)             Requested size: 455.0pt x 140.03877pt.
+<./imagenes/Rectificador_potencia.png, id=640, 1075.76906pt x 283.81032pt>
 File: ./imagenes/Rectificador_potencia.png Graphic file (type png)
 <use ./imagenes/Rectificador_potencia.png>
 Package pdftex.def Info: ./imagenes/Rectificador_potencia.png  used on input li
 ne 39.
-(pdftex.def)             Requested size: 455.0pt x 121.95009pt.
+(pdftex.def)             Requested size: 455.0pt x 120.03964pt.
  [13
 
 {C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/lib
-usMR.enc}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust
-1math/libusMI.enc}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/li
-bertinust1math/libusSYM.enc}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/en
-c/dvips/libertinust1math/libusEX.enc} <./imagenes/Alimentacion_analogica.png>]
-<./imagenes/Sensor_corriente.png, id=630, 429.10312pt x 335.75438pt>
-File: ./imagenes/Sensor_corriente.png Graphic file (type png)
-<use ./imagenes/Sensor_corriente.png>
-Package pdftex.def Info: ./imagenes/Sensor_corriente.png  used on input line 79
-.
-(pdftex.def)             Requested size: 273.00278pt x 213.61664pt.
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
- [14 <./imagenes/Rectificador_potencia.png>]
-<./imagenes/Sensor_tension.png, id=641, 503.63156pt x 389.20406pt>
-File: ./imagenes/Sensor_tension.png Graphic file (type png)
-<use ./imagenes/Sensor_tension.png>
-Package pdftex.def Info: ./imagenes/Sensor_tension.png  used on input line 101.
-
-(pdftex.def)             Requested size: 273.00278pt x 210.97473pt.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
- [15 <./imagenes/Sensor_corriente.png> <./imagenes/Sensor_tension.png>]
-<./imagenes/Circuito_actuador.png, id=650, 907.13907pt x 702.37407pt>
+usSYM.enc}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinus
+t1math/libusEX.enc} <./imagenes/Alimentacion_analogica.png>]
+<./imagenes/Circuito_actuador.png, id=653, 1273.00594pt x 684.30656pt>
 File: ./imagenes/Circuito_actuador.png Graphic file (type png)
 <use ./imagenes/Circuito_actuador.png>
-Package pdftex.def Info: ./imagenes/Circuito_actuador.png  used on input line 1
-26.
-(pdftex.def)             Requested size: 455.0pt x 352.29005pt.
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
- [16 <./imagenes/Circuito_actuador.png>]
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
- [17]
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
- [18]
-<./imagenes/Acople_carga.png, id=688, 1218.80344pt x 703.87968pt>
+Package pdftex.def Info: ./imagenes/Circuito_actuador.png  used on input line 7
+7.
+(pdftex.def)             Requested size: 455.0pt x 244.58553pt.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+
+[14 <./imagenes/Rectificador_potencia.png>]
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
+ [15 <./imagenes/Circuito_actuador.png>]
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
+ [16]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 186.
+<./imagenes/Sensor_corriente.png, id=689, 412.54124pt x 335.75438pt>
+File: ./imagenes/Sensor_corriente.png Graphic file (type png)
+<use ./imagenes/Sensor_corriente.png>
+Package pdftex.def Info: ./imagenes/Sensor_corriente.png  used on input line 20
+3.
+(pdftex.def)             Requested size: 273.00278pt x 222.19286pt.
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [17 <./imagenes/Sensor_corriente.png>]
+<./imagenes/Sensor_tension.png, id=703, 508.90125pt x 393.72093pt>
+File: ./imagenes/Sensor_tension.png Graphic file (type png)
+<use ./imagenes/Sensor_tension.png>
+Package pdftex.def Info: ./imagenes/Sensor_tension.png  used on input line 225.
+
+(pdftex.def)             Requested size: 273.00278pt x 211.21835pt.
+<./imagenes/Acople_carga.png, id=705, 1218.05063pt x 703.12688pt>
 File: ./imagenes/Acople_carga.png Graphic file (type png)
 <use ./imagenes/Acople_carga.png>
-Package pdftex.def Info: ./imagenes/Acople_carga.png  used on input line 248.
-(pdftex.def)             Requested size: 455.0pt x 262.7728pt.
-LaTeX Info: Redefining \. on input line 276.
-LaTeX Info: Redefining \% on input line 276.
- [19 <./imagenes/Acople_carga.png>])
-(contenido/5_estrategia_de_control.tex
+Package pdftex.def Info: ./imagenes/Acople_carga.png  used on input line 251.
+(pdftex.def)             Requested size: 455.0pt x 262.65268pt.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
+ [18 <./imagenes/Sensor_tension.png>]) (contenido/5_estrategia_de_control.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [20]
-<./imagenes/Esquema_Control.jpg, id=710, 1192.455pt x 363.3575pt>
+ [19 <./imagenes/Acople_carga.png>] [20
+
+] [21]
+<./imagenes/Esquema_Control.jpg, id=742, 2055.68pt x 625.33624pt>
 File: ./imagenes/Esquema_Control.jpg Graphic file (type jpg)
 <use ./imagenes/Esquema_Control.jpg>
-Package pdftex.def Info: ./imagenes/Esquema_Control.jpg  used on input line 45.
+Package pdftex.def Info: ./imagenes/Esquema_Control.jpg  used on input line 47.
 
-(pdftex.def)             Requested size: 455.0pt x 138.6428pt.
- [21
-
-]
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+(pdftex.def)             Requested size: 455.0pt x 138.40454pt.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
  [22 <./imagenes/Esquema_Control.jpg>]
-<./imagenes/CircuitoRC.png, id=728, 363.60844pt x 199.49532pt>
+<./imagenes/Recta_de_carga_corriente.png, id=756, 569.87906pt x 349.305pt>
+File: ./imagenes/Recta_de_carga_corriente.png Graphic file (type png)
+<use ./imagenes/Recta_de_carga_corriente.png>
+Package pdftex.def Info: ./imagenes/Recta_de_carga_corriente.png  used on input
+ line 86.
+(pdftex.def)             Requested size: 364.00139pt x 223.11205pt.
+<./imagenes/Resp_lazo_corriente.jpg, id=758, 682.55pt x 455.7025pt>
+File: ./imagenes/Resp_lazo_corriente.jpg Graphic file (type jpg)
+<use ./imagenes/Resp_lazo_corriente.jpg>
+Package pdftex.def Info: ./imagenes/Resp_lazo_corriente.jpg  used on input line
+ 115.
+(pdftex.def)             Requested size: 364.00139pt x 243.03006pt.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+ [23 <./imagenes/Recta_de_carga_corriente.png>]
+<./imagenes/CircuitoRC.png, id=768, 377.15906pt x 195.73125pt>
 File: ./imagenes/CircuitoRC.png Graphic file (type png)
 <use ./imagenes/CircuitoRC.png>
-Package pdftex.def Info: ./imagenes/CircuitoRC.png  used on input line 97.
-(pdftex.def)             Requested size: 218.16673pt x 119.69809pt.
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
- [23 <./imagenes/CircuitoRC.png>]) (contenido/6_control_digital.tex
+Package pdftex.def Info: ./imagenes/CircuitoRC.png  used on input line 135.
+(pdftex.def)             Requested size: 226.29718pt x 117.43964pt.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ [24 <./imagenes/Resp_lazo_corriente.jpg> <./imagenes/CircuitoRC.png>]
+<./imagenes/Resp_lazo_tension_vacio.jpg, id=779, 682.55pt x 455.7025pt>
+File: ./imagenes/Resp_lazo_tension_vacio.jpg Graphic file (type jpg)
+<use ./imagenes/Resp_lazo_tension_vacio.jpg>
+Package pdftex.def Info: ./imagenes/Resp_lazo_tension_vacio.jpg  used on input 
+line 170.
+(pdftex.def)             Requested size: 364.00139pt x 243.03006pt.
+<./imagenes/Resp_lazo_tension_carga.jpg, id=781, 682.55pt x 455.7025pt>
+File: ./imagenes/Resp_lazo_tension_carga.jpg Graphic file (type jpg)
+<use ./imagenes/Resp_lazo_tension_carga.jpg>
+Package pdftex.def Info: ./imagenes/Resp_lazo_tension_carga.jpg  used on input 
+line 178.
+(pdftex.def)             Requested size: 364.00139pt x 243.03006pt.
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
+ [25 <./imagenes/Resp_lazo_tension_vacio.jpg>]
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+ [26 <./imagenes/Resp_lazo_tension_carga.jpg>]) (contenido/6_control_digital.te
+x
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+ [27] [28
 
-[24]
-<./imagenes/diagrama_digital.jpg, id=750, 836.12375pt x 244.915pt>
+]
+<./imagenes/diagrama_digital.jpg, id=808, 836.12375pt x 244.915pt>
 File: ./imagenes/diagrama_digital.jpg Graphic file (type jpg)
 <use ./imagenes/diagrama_digital.jpg>
 Package pdftex.def Info: ./imagenes/diagrama_digital.jpg  used on input line 11
 .
 (pdftex.def)             Requested size: 418.06085pt x 122.45718pt.
- [25
-
- <./imagenes/diagrama_digital.jpg>]
-<./imagenes/Teclado Matricial 4x4_2.jpg, id=756, 552.0625pt x 255.95625pt>
+ [29 <./imagenes/diagrama_digital.jpg>]
+<./imagenes/Teclado Matricial 4x4_2.jpg, id=815, 552.0625pt x 255.95625pt>
 File: ./imagenes/Teclado Matricial 4x4_2.jpg Graphic file (type jpg)
 <use ./imagenes/Teclado Matricial 4x4_2.jpg>
 Package pdftex.def Info: ./imagenes/Teclado Matricial 4x4_2.jpg  used on input 
 line 33.
 (pdftex.def)             Requested size: 276.03056pt x 127.9778pt.
-<./imagenes/display.jpg, id=758, 602.25pt x 602.25pt>
+<./imagenes/display.jpg, id=817, 602.25pt x 602.25pt>
 File: ./imagenes/display.jpg Graphic file (type jpg)
 <use ./imagenes/display.jpg>
 Package pdftex.def Info: ./imagenes/display.jpg  used on input line 43.
@@ -2889,13 +2907,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
- [26 <./imagenes/Teclado Matricial 4x4_2.jpg>]
-<./imagenes/optoi2c.jpg, id=764, 477.28313pt x 201.75375pt>
+ [30 <./imagenes/Teclado Matricial 4x4_2.jpg>]
+<./imagenes/optoi2c.jpg, id=823, 477.28313pt x 201.75375pt>
 File: ./imagenes/optoi2c.jpg Graphic file (type jpg)
 <use ./imagenes/optoi2c.jpg>
 Package pdftex.def Info: ./imagenes/optoi2c.jpg  used on input line 53.
 (pdftex.def)             Requested size: 238.64098pt x 100.87662pt.
-<./imagenes/ads1115.jpg, id=765, 321.45094pt x 316.93407pt>
+<./imagenes/ads1115.jpg, id=824, 321.45094pt x 316.93407pt>
 File: ./imagenes/ads1115.jpg Graphic file (type jpg)
 <use ./imagenes/ads1115.jpg>
 Package pdftex.def Info: ./imagenes/ads1115.jpg  used on input line 63.
@@ -2905,55 +2923,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
- [27 <./imagenes/display.jpg> <./imagenes/optoi2c.jpg>]
-<./imagenes/mcp4725.jpg, id=770, 523.9575pt x 302.63063pt>
+ [31 <./imagenes/display.jpg> <./imagenes/optoi2c.jpg>]
+<./imagenes/mcp4725.jpg, id=829, 523.9575pt x 302.63063pt>
 File: ./imagenes/mcp4725.jpg Graphic file (type jpg)
 <use ./imagenes/mcp4725.jpg>
 Package pdftex.def Info: ./imagenes/mcp4725.jpg  used on input line 77.
 (pdftex.def)             Requested size: 157.18846pt x 90.78989pt.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [28 <./imagenes/ads1115.jpg> <./imagenes/mcp4725.jpg>]) (contenido/7_software_
+ [32 <./imagenes/ads1115.jpg> <./imagenes/mcp4725.jpg>]) (contenido/7_software_
 y_diseño.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [29] [30
+ [33] [34
 
 ]
-<./imagenes/arduino_nano.jpg, id=785, 898.10532pt x 438.8897pt>
+<./imagenes/arduino_nano.jpg, id=843, 898.10532pt x 438.8897pt>
 File: ./imagenes/arduino_nano.jpg Graphic file (type jpg)
 <use ./imagenes/arduino_nano.jpg>
 Package pdftex.def Info: ./imagenes/arduino_nano.jpg  used on input line 29.
-(pdftex.def)             Requested size: 449.05156pt x 219.4443pt.
- [31]
-<./imagenes/i2cprotocol.jpg, id=795, 813.0375pt x 346.29375pt>
+(pdftex.def)             Requested size: 455.0pt x 222.35077pt.
+ [35]
+<./imagenes/i2cprotocol.jpg, id=854, 813.0375pt x 346.29375pt>
 File: ./imagenes/i2cprotocol.jpg Graphic file (type jpg)
 <use ./imagenes/i2cprotocol.jpg>
 Package pdftex.def Info: ./imagenes/i2cprotocol.jpg  used on input line 57.
-(pdftex.def)             Requested size: 406.51776pt x 173.14644pt.
+(pdftex.def)             Requested size: 364.00139pt x 155.03813pt.
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 
-[32 <./imagenes/arduino_nano.jpg>]
+[36 <./imagenes/arduino_nano.jpg>]
 
-LaTeX Warning: Reference `F:proteus_logo' on page 33 undefined on input line 85
+LaTeX Warning: Reference `F:proteus_logo' on page 37 undefined on input line 85
 .
 
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
-[33 <./imagenes/i2cprotocol.jpg>]
-<./imagenes/proteus_esquema2.jpg, id=805, 1141.26375pt x 722.7pt>
+[37 <./imagenes/i2cprotocol.jpg>]
+<./imagenes/proteus_esquema2.jpg, id=864, 1141.26375pt x 722.7pt>
 File: ./imagenes/proteus_esquema2.jpg Graphic file (type jpg)
 <use ./imagenes/proteus_esquema2.jpg>
 Package pdftex.def Info: ./imagenes/proteus_esquema2.jpg  used on input line 91
 .
-(pdftex.def)             Requested size: 456.49742pt x 289.07487pt.
-
-Overfull \hbox (1.49742pt too wide) in paragraph at lines 91--92
- [][] 
- []
-
-<./imagenes/ensayo_digital.jpg, id=807, 4015.0pt x 1806.75pt>
+(pdftex.def)             Requested size: 455.0pt x 288.12651pt.
+<./imagenes/ensayo_digital.jpg, id=866, 4015.0pt x 1806.75pt>
 File: ./imagenes/ensayo_digital.jpg Graphic file (type jpg)
 <use ./imagenes/ensayo_digital.jpg>
 Package pdftex.def Info: ./imagenes/ensayo_digital.jpg  used on input line 100.
@@ -2964,75 +2977,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [34 <./imagenes/proteus_esquema2.jpg>]
+ [38 <./imagenes/proteus_esquema2.jpg>]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [35 <./imagenes/ensayo_digital.jpg>] [36
+ [39 <./imagenes/ensayo_digital.jpg>] [40
 
 ]
-
-LaTeX Warning: Citation 'kicad' on page 37 undefined on input line 9.
-
-<./imagenes/fotos/placa_original.jpg, id=823, 2367.84625pt x 1947.275pt>
+<./imagenes/fotos/placa_original.jpg, id=882, 2367.84625pt x 1947.275pt>
 File: ./imagenes/fotos/placa_original.jpg Graphic file (type jpg)
 <use ./imagenes/fotos/placa_original.jpg>
 Package pdftex.def Info: ./imagenes/fotos/placa_original.jpg  used on input lin
 e 18.
-(pdftex.def)             Requested size: 236.7985pt x 194.7389pt.
+(pdftex.def)             Requested size: 364.00139pt x 299.32861pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-<./imagenes/fotos/desmontada.jpg, id=828, 2517.405pt x 1947.275pt>
+ [41]
+<./imagenes/fotos/desmontada.jpg, id=889, 2517.405pt x 1947.275pt>
 File: ./imagenes/fotos/desmontada.jpg Graphic file (type jpg)
 <use ./imagenes/fotos/desmontada.jpg>
 Package pdftex.def Info: ./imagenes/fotos/desmontada.jpg  used on input line 25
 .
-(pdftex.def)             Requested size: 251.75525pt x 194.7389pt.
-<./imagenes/pcb_v1.jpg, id=830, 577.6782pt x 432.1746pt>
+(pdftex.def)             Requested size: 364.00139pt x 281.56026pt.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+
+[42 <./imagenes/fotos/placa_original.jpg> <./imagenes/fotos/desmontada.jpg>]
+<./imagenes/pcb_v1.jpg, id=895, 577.6782pt x 432.1746pt>
 File: ./imagenes/pcb_v1.jpg Graphic file (type jpg)
 <use ./imagenes/pcb_v1.jpg>
 Package pdftex.def Info: ./imagenes/pcb_v1.jpg  used on input line 34.
-(pdftex.def)             Requested size: 288.8384pt x 216.08678pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [38 <./imagenes/fotos/placa_original.jpg> <./imagenes/fotos/desmontada.jpg>]
-<./imagenes/prototipo1.jpg, id=836, 493.845pt x 385.44pt>
+(pdftex.def)             Requested size: 455.0pt x 340.40524pt.
+<./imagenes/prototipo1.jpg, id=897, 493.845pt x 385.44pt>
 File: ./imagenes/prototipo1.jpg Graphic file (type jpg)
 <use ./imagenes/prototipo1.jpg>
 Package pdftex.def Info: ./imagenes/prototipo1.jpg  used on input line 41.
-(pdftex.def)             Requested size: 345.68913pt x 269.80615pt.
-<./imagenes/fotos/montaje.jpg, id=837, 4015.0pt x 2260.445pt>
-File: ./imagenes/fotos/montaje.jpg Graphic file (type jpg)
-<use ./imagenes/fotos/montaje.jpg>
-Package pdftex.def Info: ./imagenes/fotos/montaje.jpg  used on input line 47.
-(pdftex.def)             Requested size: 401.52353pt x 226.05774pt.
+(pdftex.def)             Requested size: 455.0pt x 355.12077pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
- [39 <./imagenes/pcb_v1.jpg> <./imagenes/prototipo1.jpg>]
-<./imagenes/fotos/osciloscopio.jpg, id=843, 4015.0pt x 2260.445pt>
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [43 <./imagenes/pcb_v1.jpg>]
+<./imagenes/fotos/montaje.jpg, id=902, 4015.0pt x 2260.445pt>
+File: ./imagenes/fotos/montaje.jpg Graphic file (type jpg)
+<use ./imagenes/fotos/montaje.jpg>
+Package pdftex.def Info: ./imagenes/fotos/montaje.jpg  used on input line 47.
+(pdftex.def)             Requested size: 455.0pt x 256.13438pt.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+ [44 <./imagenes/prototipo1.jpg> <./imagenes/fotos/montaje.jpg>]
+<./imagenes/fotos/osciloscopio.jpg, id=908, 4015.0pt x 2260.445pt>
 File: ./imagenes/fotos/osciloscopio.jpg Graphic file (type jpg)
 <use ./imagenes/fotos/osciloscopio.jpg>
 Package pdftex.def Info: ./imagenes/fotos/osciloscopio.jpg  used on input line 
 59.
-(pdftex.def)             Requested size: 401.52353pt x 226.05774pt.
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
- [40 <./imagenes/fotos/montaje.jpg> <./imagenes/fotos/osciloscopio.jpg>]) (cont
-enido/9_Instrucciones_uso.tex
+(pdftex.def)             Requested size: 455.0pt x 256.13438pt.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+ [45 <./imagenes/fotos/osciloscopio.jpg>])
+(contenido/9_Instrucciones_uso.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-[41] [42
-
-]
-<./imagenes/funcionamiento_normal.jpg, id=859, 227.85126pt x 798.985pt>
+ [46]
+<./imagenes/funcionamiento_normal.jpg, id=919, 227.85126pt x 798.985pt>
 File: ./imagenes/funcionamiento_normal.jpg Graphic file (type jpg)
 <use ./imagenes/funcionamiento_normal.jpg>
 Package pdftex.def Info: ./imagenes/funcionamiento_normal.jpg  used on input li
@@ -3041,16 +3049,18 @@ ne 29.
 
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
- [43]
+ [47
+
+]
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
 
-[44 <./imagenes/funcionamiento_normal.jpg>])
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
- [45] [46
+[48 <./imagenes/funcionamiento_normal.jpg>])
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
+ [49] [50
 
-] [47] [48
+] [51] [52
 
 ]
 \tf@toc=\write9
@@ -3077,26 +3087,18 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `proyecto.out' has not changed.
-(rerunfilecheck)             Checksum: 2CD924AF003AD4B38576E0F49207CFA3;15031.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                proyecto
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: D0C4EC615634302F4F702EAAA86747FD;15133.
 Package logreq Info: Writing requests to 'proyecto.run.xml'.
 \openout1 = `proyecto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 77661 strings out of 474423
- 1825290 string characters out of 5743134
- 2983573 words of memory out of 5000000
- 98757 multiletter control sequences out of 15000+600000
- 725993 words of font info for 151 fonts, out of 8000000 for 9000
+ 77716 strings out of 474423
+ 1827207 string characters out of 5743134
+ 2983331 words of memory out of 5000000
+ 98795 multiletter control sequences out of 15000+600000
+ 725582 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,16n,147p,1612b,2831s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1mat
@@ -3108,9 +3110,9 @@ al/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/HP
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTBI.pfb
 ><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLib
 ertineTI.pfb>
-Output written on proyecto.pdf (62 pages, 13464835 bytes).
+Output written on proyecto.pdf (66 pages, 13778633 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 275 named destinations out of 1000 (max. 500000)
- 809 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 293 named destinations out of 1000 (max. 500000)
+ 829 words of extra memory for PDF output out of 10000 (max. 10000000)
 

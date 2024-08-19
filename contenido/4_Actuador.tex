@@ -68,55 +68,6 @@ Adicionalmente se coloca un LED indicativo de encendido con un resistor limitado
 R_{LED} =\frac{V_{rec} -V_{LED} }{I_{LED} }=\frac{43,67V-2V}{10mA}=4167,33\Omega \to 3900\Omega
 \end{equation} \par 
 
-\section{Sensado de corriente}
-En esta etapa se emplea una resistencia de \textit{Shunt} $R_{sh1} =0,15~\Omega$ para obtener un voltaje proporcional a la corriente que está circulando por la misma. Luego para elevar el valor del mismo en torno a los 5 V cuando estén circulando 3 A por la misma se utiliza un amplificador operacional en una configuración de amplificador no inversor, dada por la siguiente expresión:
-\begin{equation}
-V_{o1} =V_{NI} \times (1+\frac{R_{V4} }{R_{14} })=(I_L \times R_{sh1} )\times (1+\frac{R_{V4} }{R_{14} })
-\end{equation}\par 
-
-\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{./imagenes/Sensor_corriente.png}
-	\caption{Circuito de sensado de la corriente de salida}
-	\label{F:Sensor_corriente}
-\end{figure} \par 
-
-Cuando circule $I_L =3A$ por $R_{sh1}$ obtendríamos un voltaje en la entrada no inversora de $V_{NI} =3A\cdot 0,15\Omega =0,45V$ por lo que adoptando el resistor $R_{14} =1k\Omega$ y calibrando el potenciómetro $R_{V4} $ a $10k\Omega$ obtenemos como resultado para fondo de escala una tensión de:
-\begin{equation}
-V_{o1} =(0,45V)\cdot (1+\frac{10k\Omega }{1k\Omega })=4,95V
-\end{equation} \par 
-
-Se coloca el preset RV4 con el fin de poder calibrar el voltaje de salida $V_{o1}=5V$ para una corriente $I_L=3A$. Las potencias de las resistencias se obtienen como:
-\begin{equation}
-P_{Rsh1}\geq I_L^2\cdot Rsh1\cdot 1,5=(3 A)^2\cdot (0,15 \Omega)\cdot 1,5\cong 2 W \to P_{Rsh1}=2W
-\end{equation}
-\begin{equation}
-P_{R14}\geq \frac{V_I^2}{R_{14}}\cdot 1,5=\frac{(0,45 V)^2}{1000\Omega}\cdot 1,5 \cong 0,3 mW \to P_{R14}=1/8W
-\end{equation} \par
-
-\section{Sensado de tensión}
-Se requiere un circuito que convierta los niveles de tensión de la salida. Para ello se presenta el circuito a continuación, en el cual se puede variar la ganancia del sistema ajustando el potenciómetro RV1.
-\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{./imagenes/Sensor_tension.png}
-	\caption{Circuito de sensado de la tensión de salida}
-	\label{F:Sensor_tension}
-\end{figure} \par 
-
-Debido a que el punto común de referencia ($0 V$) de las fuentes de $\pm 12V$ coincide con el borne positivo $V_{L+}$ de salida de la fuente lineal, el borne opuesto respecto a GND será de hasta $V_{L-}=-30V$. Como el valor leído desde el cursor de RV1 es negativo, para poder ser comparado con la referencia es necesario invertir su signo mediante un amplificador inversor con ganancia unitaria. \par 
-
-Estableciendo el valor de las resistencias $R_{12}=R_{13}=22k\Omega$ y despreciando la corriente que fluye a través del cursor del preset RV1 hacia la entrada de alta impedancia del amplificador operacional, la corriente a través de $R_{12}$, $R_{13}$ y $RV1$ para $V_L=30V$ será de:
-\begin{equation}
-I_{R12}=\frac{V_L}{R12+RV1+R13}=\frac{30 V}{(2\cdot 22000+20000)\Omega}\cong 469\mu A
-\end{equation} \par 
-
-Por lo tanto, las potencias resultan de
-\begin{equation}
-P_{R12}\geq (I_{R12})^2\cdot R12\cdot fs=(469\mu F)^2\cdot (22000 \Omega)\cdot 1,5 \cong 7,6 mW \to P_{R12}=P_{R13}=P_{RV3}=1/8W
-\end{equation} \par 
-
-Mientras que se definen las resistencias $R10=R11=10 k\Omega \ 1/8W$ debido a que la corriente que circulan por ellas es despreciable.\par 
-
 \section{Actuador de potencia} \par 
 
 El circuito observado en la Figura \ref{F:Circuito_Actuador} tiene la finalidad de controlar la tensión y corriente de salida. Se denota que se conecta el punto de referencia (GND) a la salida de tensión positiva con el fin de poder utilizar los amplificadores operacionales en torno a este punto de mayor potencial, requiriendo fuentes sencillas de $\pm12V$.
@@ -189,7 +140,7 @@ Suponiendo que la corriente de emisor de Q5 es igual a la corriente de base de Q
 V_{B4}=V_{B1}+I_{C4}\cdot R_6+V_{BE4}=32,28V+(0,15A\cdot 2,2\Omega)+1V=33,61V
 \end{equation}\par
 
-Debido a que el punto de referencia ($GND=0V$) de la fuente de $\pm 12V$ coincide con el borne positivo de $V_{L+}$ de la fuente de salida de $V_L=30V$, entonces el nivel de tensión de $V_cc1$ respecto al borne negativo $V_{L-}$ es de $V'_{cc1}=V_{cc1}+V_L=12V+30V=42V$. Por lo que la resistencia R7 puede calcularse como:
+Debido a que el punto de referencia ($GND=0V$) de la fuente de $\pm 12V$ coincide con el borne positivo de $V_{L+}$ de la fuente de salida de $V_L=30V$, entonces el nivel de tensión de $V_{cc1}$ respecto al borne negativo $V_{L-}$ es de $V'_{cc1}=V_{cc1}+V_L=12V+30V=42V$. Por lo que la resistencia R7 puede calcularse como:
 \begin{equation}
 R7=\frac{V_{cc1}-V_{B4}}{I_{R7}}=\frac{42V-33,61V}{7,5 mA}=1118 \Omega \to 1200\Omega
 \end{equation}\par 
@@ -239,6 +190,58 @@ Se dimensiona el disipador conociendo que la resistencia térmica juntura-carcas
 \theta_{DA1}=\frac{(200-50)^\circ C}{40,82 W}-(10^\circ C/W)-(0,5^\circ C/W)=1,655^\circ C/W
 \end{equation}
 Por lo que se requiere un disipador con una resistencia térmica igual o menor que $\theta_{DA1}=1,655^\circ C/W$.
+
+
+\section{Sensado de corriente}
+En esta etapa se emplea una resistencia de \textit{Shunt} $R_{sh1} =0,15~\Omega$ para obtener un voltaje proporcional a la corriente que está circulando por la misma. Luego para elevar el valor del mismo en torno a los 5 V cuando estén circulando 3 A por la misma se utiliza un amplificador operacional en una configuración de amplificador no inversor, dada por la siguiente expresión:
+\begin{equation}
+V_{o1} =V_{NI} \times (1+\frac{R_{V4} }{R_{14} })=(I_L \times R_{sh1} )\times (1+\frac{R_{V4} }{R_{14} })
+\end{equation}\par 
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./imagenes/Sensor_corriente.png}
+	\caption{Circuito de sensado de la corriente de salida}
+	\label{F:Sensor_corriente}
+\end{figure} \par 
+
+Cuando circule $I_L =3A$ por $R_{sh1}$ obtendríamos un voltaje en la entrada no inversora de $V_{NI} =3A\cdot 0,15\Omega =0,45V$ por lo que adoptando el resistor $R_{14} =1k\Omega$ y calibrando el potenciómetro $R_{V4} $ a $10k\Omega$ obtenemos como resultado para fondo de escala una tensión de:
+\begin{equation}
+V_{o1} =(0,45V)\cdot (1+\frac{10k\Omega }{1k\Omega })=4,95V
+\end{equation} \par 
+
+Se coloca el preset RV4 con el fin de poder calibrar el voltaje de salida $V_{o1}=5V$ para una corriente $I_L=3A$. Las potencias de las resistencias se obtienen como:
+\begin{equation}
+P_{Rsh1}\geq I_L^2\cdot Rsh1\cdot 1,5=(3 A)^2\cdot (0,15 \Omega)\cdot 1,5\cong 2 W \to P_{Rsh1}=2W
+\end{equation}
+\begin{equation}
+P_{R14}\geq \frac{V_I^2}{R_{14}}\cdot 1,5=\frac{(0,45 V)^2}{1000\Omega}\cdot 1,5 \cong 0,3 mW \to P_{R14}=1/8W
+\end{equation} \par
+
+\section{Sensado de tensión}
+Se requiere un circuito que convierta los niveles de tensión de la salida. Para ello se presenta el circuito a continuación, en el cual se puede variar la ganancia del sistema ajustando el potenciómetro RV1.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./imagenes/Sensor_tension.png}
+	\caption{Circuito de sensado de la tensión de salida}
+	\label{F:Sensor_tension}
+\end{figure} \par 
+
+Debido a que el punto común de referencia ($0 V$) de las fuentes de $\pm 12V$ coincide con el borne positivo $V_{L+}$ de salida de la fuente lineal, el borne opuesto respecto a GND será de hasta $V_{L-}=-30V$. Como el valor leído desde el cursor de RV1 es negativo, para poder ser comparado con la referencia es necesario invertir su signo mediante un amplificador inversor con ganancia unitaria. \par 
+
+Estableciendo el valor de las resistencias $R_{12}=R_{13}=22k\Omega$ y despreciando la corriente que fluye a través del cursor del preset RV1 hacia la entrada de alta impedancia del amplificador operacional, la corriente a través de $R_{12}$, $R_{13}$ y $RV1$ para $V_L=30V$ será de:
+\begin{equation}
+I_{R12}=\frac{V_L}{R12+RV1+R13}=\frac{30 V}{(2\cdot 22000+20000)\Omega}\cong 469\mu A
+\end{equation} \par 
+
+Por lo tanto, las potencias resultan de
+\begin{equation}
+P_{R12}\geq (I_{R12})^2\cdot R12\cdot fs=(469\mu F)^2\cdot (22000 \Omega)\cdot 1,5 \cong 7,6 mW \to P_{R12}=P_{R13}=P_{RV3}=1/8W
+\end{equation} \par 
+
+Mientras que se definen las resistencias $R10=R11=10 k\Omega \ 1/8W$ debido a que la corriente que circulan por ellas es despreciable.\par 
+
+
 
 \section{Acople y desacople de carga}
 Para conectar y desconectar la carga se utiliza un relé de salida. El mismo será accionado cuando el usuario lo determine luego de establecer los valores deseados de tensión y/o corriente de salida. El circuito puede apreciarse en la Figura \ref{F:Circuito_Acople_carga}.

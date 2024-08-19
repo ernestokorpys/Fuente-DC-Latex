@@ -1,0 +1,103 @@
+\chapter{Software de programación y ensayo del control digital}
+% ----------------------
+
+\label{C:Software de programación y ensayo del control digital}
+
+\section{Características físicas del microcontrolador}
+En esta sección se explorará de manera breve pero sustancial la lógica interna que gobierna el funcionamiento del Arduino Nano y las diversas tareas que este microcontrolador es capaz de realizar. El Arduino Nano, conocido por su versatilidad y eficiencia en proyectos de electrónica y automatización, que al igual que cualquier otro dispositivo programable, requiere un software bien planificado para ejecutar sus funciones de manera óptima.
+
+\subsection{Lógica Interna del Arduino Nano}
+El Arduino Nano, como todos los microcontroladores de la familia Arduino, opera mediante la ejecución de un conjunto de instrucciones programadas en su memoria flash. Estas instrucciones, escritas en el lenguaje de programación C/C++ utilizando el entorno de desarrollo integrado (IDE) de Arduino, dictan cómo el microcontrolador debe responder a diferentes señales y entradas. En esta sección, se abordarán los conceptos básicos de esta lógica interna, incluyendo el ciclo de procesamiento del Arduino, la gestión de interrupciones, y la manipulación de puertos y registros.
+
+\subsection{Procesamiento de tareas}
+El diseño cuenta con 4 funciones básicas.
+\begin{enumerate}
+    \item Sensado de valores entregados por el ADC.\\
+    De manera constante se estará encuestando al ADC vinculado por la línea I2C qué valor está censando en sus puertos de modo de tener un seguimiento apropiado de los valores presentados registrados en la fuente.    
+    \item Procesamiento de tecla por interrupción.\\
+    Al momento de presionar una tecla, el microprocesador se tomará unos segundos para procesar qué acción se ha solicitado en el menú que se verá reflejada de alguna manera en el display.
+    \item Actualización de display.\\
+    Vinculado directamente al teclado y al sensado de corriente este mantendrá la actualización del display que nos permitirá ver y obtener un seguimiento acorde de lo que está ocurriendo en la fuente.
+    \item Cálculo y actualización de la acción de control.\\
+    Implica la serie de cálculos que determinarán los parámetros de salida que se colocarán en el terminal del DAC para que este pueda ser convertido en un valor de tensión. Esta tarea se llevará a cabo luego de cada finalización de conversión del ADC.
+\end{enumerate}
+
+\subsection{Pinout de arduino nano}
+Se presenta a continuación en la Figura \ref{F:arduino_nano} un \textit{pinout} del Arduino Nano indicando la funcionalidad que presenta en cada una de sus conexiones.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{./imagenes/arduino_nano.jpg}
+    \caption{Arduino Nano.}
+    \label{F:arduino_nano}
+\end{figure}\par 
+\underline{Entradas}:
+\begin{itemize}
+    \item Teclado: 8 pines. 
+    \item Sensado de las variables mediante el ADC (SCL; SDA).
+\end{itemize}\par 
+\underline{Salidas}:
+\begin{itemize}
+    \item Display. Aislador I2C. DAC.  (SCL; SDA).
+    \item Acople Desacople de carga. 1 PIN.
+\end{itemize}\par 
+
+\subsection{Protocolo de comunicación.}
+El protocolo de comunicación es fundamental en el diseño y desarrollo de sistemas embebidos, ya que define la manera en que los dispositivos intercambian información entre sí. En el caso del Arduino Nano, se cuenta con diversas opciones de protocolos de comunicación, cada uno con sus propias características y aplicaciones específicas. \par 
+Entre los protocolos de comunicación compatibles con el Arduino nano se encuentran:
+\begin{itemize}
+    \item SPI™ (Serial Peripheral Interface): Permite la comunicación síncrona entre dispositivos mediante una línea de reloj común y líneas separadas para datos de entrada y salida.
+    \item I2C™ (Inter-Integrated Circuit): Proporciona una interfaz de comunicación de bus de dos cables que permite la comunicación entre múltiples dispositivos conectados al mismo bus.
+    \item Universal Asynchronous Receiver Transmitter (UART): Permite la comunicación serial asíncrona entre el microcontrolador y otros dispositivos periféricos.
+\end{itemize}\par 
+Para este proyecto en particular, se optará por emplear el protocolo I2C debido a su compatibilidad con los componentes utilizados en la fuente disponibles en el mercado Argentino. La elección de este protocolo se fundamenta en su eficiencia y versatilidad, lo que lo hace idóneo para satisfacer los requisitos de comunicación de este sistema embebido.
+La forma en que interactuan y se conectan los dispositivos entre sí en base al protocolo se indica en la Figura \ref{F:diagrama_protocolo_i2c}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./imagenes/i2cprotocol.jpg}
+    \caption{Conexionado típico de protocolo I2C.}
+    \label{F:diagrama_protocolo_i2c}
+\end{figure}
+
+Durante la comunicación con los demás dispositivos mediante el canal I2C el Arduino Nano toma el rol de único maestro. Debido a que todos se encuentran conectados en una misma línea la forma de acceder a cada dispositivo independientemente de los demás es mediante el uso de direcciones de 7 bits. En este caso estas serán las que se encuentran a continuación. Sin embargo se recuerda que estas en algunos casos son determinadas por la conexión del pin ADDRESS de los componentes, así que ante cualquier duda debe consultarse la hoja de datos del elemento correspondiente.
+\begin{itemize}
+    \item ADC ADS1115 ADDRESS: 0x48
+    \item DAC MCP4725 ADDRESS: 0x60
+    \item Display OLED ADDRESS: 0x3C
+    \item Potenciómetro MCP4661 ADDRESS: 0x28
+\end{itemize}
+
+\subsection{Dependencias y Librerías Empleadas}
+
+Una de las ventajas más destacadas de trabajar con Arduino es su activa y extensa comunidad, que ha desarrollado una vasta colección de librerías para simplificar la escritura de código y la implementación de funcionalidades avanzadas. Estas librerías permiten a los desarrolladores enfocarse en la lógica central de sus proyectos, sin tener que reinventar la rueda para tareas comunes. A continuación, se presentan las principales librerías utilizadas en este proyecto:
+
+\begin{itemize}
+    \item \textbf{Key.h}: Esta librería facilita la gestión de entradas de teclado, permitiendo la detección y el procesamiento eficiente de pulsaciones de teclas.
+    \item \textbf{Keypad.h}: Utilizada para manejar teclados matriciales, esta librería simplifica la lectura de teclas y la interpretación de entradas de usuario.
+    \item \textbf{Wire.h}: Esencial para la comunicación I2C, esta librería permite la interacción con una variedad de dispositivos periféricos compatibles con este protocolo, como sensores y expansores de E/S.
+    \item \textbf{Adafruit\_ADS1X15.h}: Proporciona soporte para la familia de convertidores analógico-digital (ADC) ADS1X15 de Adafruit, permitiendo lecturas precisas de señales analógicas.
+    \item \textbf{Adafruit\_GFX.h}: Una librería gráfica que proporciona primitivas de dibujo básicas, tales como líneas, círculos y texto, utilizada comúnmente en pantallas gráficas.
+    \item \textbf{Adafruit\_SSD1306.h}: Especializada en el control de pantallas OLED basadas en el controlador SSD1306, esta librería facilita la visualización de información en pantallas compactas y de alta resolución.
+    \item \textbf{Adafruit\_MCP4725.h}: Proporciona una interfaz sencilla para controlar el DAC MCP4725, permitiendo la generación de señales analógicas de manera precisa.
+\end{itemize}
+
+\section{Ensayos y simulación}
+Para los ensayos de los modelos constructivos, se utilizó el software simulador de circuitos electrónicos Proteus 8 Professional cuyo logo se observa en la Figura \ref{F:proteus_logo}. Este software proporciona una serie de herramientas que permiten evaluar el funcionamiento de los componentes implementados en el control digital de manera eficiente. \par 
+Una de las características más destacadas de Proteus 8 Professional, y la razón principal por la que se prefiere frente a otras alternativas, es su comunidad activa. Esta comunidad ha desarrollado librerías extensivas de componentes, incluidos microcontroladores Arduino. Estas librerías no solo incluyen las huellas (footprints) de los componentes, sino que también permiten programarlos de manera similar a como se haría con los dispositivos reales. Esta funcionalidad es particularmente valiosa, ya que permite al diseñador observar una simulación precisa de la interacción entre todos los elementos, sirviendo como base para la implementación con componentes físicos en etapas posteriores del desarrollo.
+
+En la Figura \ref{F:esquematico_proteus} se presenta resumidamente la etapa digital del proyecto, indicando la interconexión de los distintos módulos al microcontrolador.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{./imagenes/proteus_esquema2.jpg}
+    \caption{Esquemático de conexión de los componentes digitales para un primer ensayo.}
+    \label{F:esquematico_proteus}
+\end{figure}
+
+\section{Resultados Experimentales}
+Basado en el desarrollo descrito en la sección anterior, se obtuvo un modelo funcional de circuito y código que cumplía con los objetivos propuestos del sistema de control. Esto culminó en el ensayo físico de los componentes utilizando una base \textit{protoboard}, donde se comprobó que todos los elementos funcionaron, siguiendo el esquema provisto en la Figura \ref{F:ensayo_digital}. Así, se concluyó exitosamente el ensayo de esta sección, validando el diseño y su implementación práctica.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.08]{./imagenes/ensayo_digital.jpg}
+    \caption{Ensayo en protoboard de los componentes correspondientes a la etapa digital.}
+    \label{F:ensayo_digital}
+\end{figure}
