@@ -12,7 +12,7 @@
 \providecommand \oddpage@label [2]{}
 \babel@aux{spanish}{}
 \@writefile{toc}{\contentsline {chapter}{\'{I}ndice general}{xi}{section*.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\'{I}ndice de figuras}{xii}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\'{I}ndice de figuras}{xiii}{section*.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{Índice de fotografías}{xiv}{section*.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{\'{I}ndice de tablas}{xiv}{section*.6}\protected@file@percent }
 \abx@aux@cite{0}{plantilla_universidad_de_costa_rica}
@@ -146,92 +146,129 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{los}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {6}Interfaz de datos de entrada y salida}{29}{chapter.6}\protected@file@percent }
-\newlabel{C:Interfaz de datos de entrada y salida}{{6}{29}{Interfaz de datos de entrada y salida}{chapter.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Diagrama de bloques de la interfaz de datos}{29}{section.6.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de bloques de la interfaz de datos.}}{29}{figure.caption.29}\protected@file@percent }
-\newlabel{F:diagrama_digital}{{6.1}{29}{Diagrama de bloques de la interfaz de datos}{figure.caption.29}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Componentes de la etapa digital.}{29}{section.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Microcontrolador Arduino Nano.}{29}{subsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Teclado de membrana 4x4.}{30}{subsection.6.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{30}{figure.caption.30}\protected@file@percent }
-\newlabel{F:teclado4x4}{{6.2}{30}{Ilustración del teclado de membrana, indicando sus filas y columnas}{figure.caption.30}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Display OLED SSD1306.}{30}{subsection.6.2.3}\protected@file@percent }
-\abx@aux@cite{0}{ISO1540}
-\abx@aux@segm{0}{0}{ISO1540}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Display OLED SSD1306.}}{31}{figure.caption.31}\protected@file@percent }
-\newlabel{F:display}{{6.3}{31}{Display OLED SSD1306}{figure.caption.31}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Aislador I2C capacitivo.}{31}{subsection.6.2.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{31}{figure.caption.32}\protected@file@percent }
-\newlabel{F:optoi2c}{{6.4}{31}{Aislador capacitivo I2C ISO1540}{figure.caption.32}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Convertidor analógico digital. ADC.}{31}{subsection.6.2.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Convertidor AD ADS1115.}}{32}{figure.caption.33}\protected@file@percent }
-\newlabel{F:ADC}{{6.5}{32}{Convertidor AD ADS1115}{figure.caption.33}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.6}Convertidor digital analógico. DAC.}{32}{subsection.6.2.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Convertidor digital analógico MCP4725.}}{32}{figure.caption.34}\protected@file@percent }
-\newlabel{F:DAC}{{6.6}{32}{Convertidor digital analógico MCP4725}{figure.caption.34}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Modos de operación de la fuente.}{32}{section.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Modo Tensión}{32}{subsection.6.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Modo Corriente}{32}{subsection.6.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Modo Rampa}{33}{subsection.6.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {6}Implementación del controlador.}{29}{chapter.6}\protected@file@percent }
+\newlabel{C:Implementación del algoritmo de control}{{6}{29}{Implementación del controlador}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Implementación Física del Algoritmo de Control}{29}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Condiciones de Funcionamiento}{29}{subsection.6.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Rangos de Funcionamiento}{29}{subsection.6.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}Determinación de Escenarios}{29}{subsection.6.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Estrategia Empleada en el Algoritmo}{30}{section.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriz de constantes de controlador.}}{30}{figure.caption.29}\protected@file@percent }
+\newlabel{F:matriz_control}{{6.1}{30}{Matriz de constantes de controlador}{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Soft Reset}{30}{subsection.6.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Protección Ante Sobretensiones y Falso Contacto}{30}{subsection.6.2.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{los}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Software de programación y ensayo del control digital}{35}{chapter.7}\protected@file@percent }
-\newlabel{C:Software de programación y ensayo del control digital}{{7}{35}{Software de programación y ensayo del control digital}{chapter.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Características físicas del microcontrolador}{35}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Lógica Interna del Arduino Nano}{35}{subsection.7.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Procesamiento de tareas}{35}{subsection.7.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Pinout de arduino nano}{36}{subsection.7.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Arduino Nano.}}{36}{figure.caption.35}\protected@file@percent }
-\newlabel{F:arduino_nano}{{7.1}{36}{Arduino Nano}{figure.caption.35}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.4}Protocolo de comunicación.}{36}{subsection.7.1.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Conexionado típico de protocolo I2C.}}{37}{figure.caption.36}\protected@file@percent }
-\newlabel{F:diagrama_protocolo_i2c}{{7.2}{37}{Conexionado típico de protocolo I2C}{figure.caption.36}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.5}Dependencias y Librerías Empleadas}{37}{subsection.7.1.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Ensayos y simulación}{38}{section.7.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Esquemático de conexión de los componentes digitales para un primer ensayo.}}{38}{figure.caption.37}\protected@file@percent }
-\newlabel{F:esquematico_proteus}{{7.3}{38}{Esquemático de conexión de los componentes digitales para un primer ensayo}{figure.caption.37}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Resultados Experimentales}{38}{section.7.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Ensayo en protoboard de los componentes correspondientes a la etapa digital.}}{39}{figure.caption.38}\protected@file@percent }
-\newlabel{F:ensayo_digital}{{7.4}{39}{Ensayo en protoboard de los componentes correspondientes a la etapa digital}{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Interfaz de datos de entrada y salida}{31}{chapter.7}\protected@file@percent }
+\newlabel{C:Interfaz de datos de entrada y salida}{{7}{31}{Interfaz de datos de entrada y salida}{chapter.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Diagrama de bloques de la interfaz de datos}{31}{section.7.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de bloques de la interfaz de datos.}}{31}{figure.caption.30}\protected@file@percent }
+\newlabel{F:diagrama_digital}{{7.1}{31}{Diagrama de bloques de la interfaz de datos}{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Componentes de la etapa digital.}{31}{section.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Microcontrolador Arduino Nano.}{31}{subsection.7.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Teclado de membrana 4x4.}{32}{subsection.7.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{32}{figure.caption.31}\protected@file@percent }
+\newlabel{F:teclado4x4}{{7.2}{32}{Ilustración del teclado de membrana, indicando sus filas y columnas}{figure.caption.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Display OLED SSD1306.}{32}{subsection.7.2.3}\protected@file@percent }
+\abx@aux@cite{0}{ISO1540}
+\abx@aux@segm{0}{0}{ISO1540}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Display OLED SSD1306.}}{33}{figure.caption.32}\protected@file@percent }
+\newlabel{F:display}{{7.3}{33}{Display OLED SSD1306}{figure.caption.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Aislador I2C capacitivo.}{33}{subsection.7.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{33}{figure.caption.33}\protected@file@percent }
+\newlabel{F:optoi2c}{{7.4}{33}{Aislador capacitivo I2C ISO1540}{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.5}Convertidor analógico digital. ADC.}{33}{subsection.7.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Convertidor AD ADS1115.}}{33}{figure.caption.34}\protected@file@percent }
+\newlabel{F:ADC}{{7.5}{33}{Convertidor AD ADS1115}{figure.caption.34}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.6}Convertidor digital analógico. DAC.}{34}{subsection.7.2.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Convertidor digital analógico MCP4725.}}{34}{figure.caption.35}\protected@file@percent }
+\newlabel{F:DAC}{{7.6}{34}{Convertidor digital analógico MCP4725}{figure.caption.35}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Modos de operación de la fuente.}{34}{section.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Modo Tensión}{34}{subsection.7.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Modo Corriente}{34}{subsection.7.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Modo Rampa}{34}{subsection.7.3.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{los}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {8}Software de programación y ensayo del control digital}{35}{chapter.8}\protected@file@percent }
+\newlabel{C:Software de programación y ensayo del control digital}{{8}{35}{Software de programación y ensayo del control digital}{chapter.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Características físicas del microcontrolador}{35}{section.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Lógica Interna del Arduino Nano}{35}{subsection.8.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Pinout de arduino nano}{35}{subsection.8.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Arduino Nano.}}{35}{figure.caption.36}\protected@file@percent }
+\newlabel{F:arduino_nano}{{8.1}{35}{Arduino Nano}{figure.caption.36}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Protocolo de comunicación.}{36}{subsection.8.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Conexionado típico de protocolo I2C.}}{36}{figure.caption.37}\protected@file@percent }
+\newlabel{F:diagrama_protocolo_i2c}{{8.2}{36}{Conexionado típico de protocolo I2C}{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.4}Dependencias y Librerías Empleadas}{37}{subsection.8.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Ensayos y simulación}{37}{section.8.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Esquemático de conexión de los componentes digitales para un primer ensayo.}}{38}{figure.caption.38}\protected@file@percent }
+\newlabel{F:esquematico_proteus}{{8.3}{38}{Esquemático de conexión de los componentes digitales para un primer ensayo}{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Resultados Experimentales}{38}{section.8.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Ensayo en protoboard de los componentes correspondientes a la etapa digital.}}{38}{figure.caption.39}\protected@file@percent }
+\newlabel{F:ensayo_digital}{{8.4}{38}{Ensayo en protoboard de los componentes correspondientes a la etapa digital}{figure.caption.39}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Diagrama de Control del Software}{38}{section.8.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Diagrama de procesos en el Arduino Nano.}}{39}{figure.caption.40}\protected@file@percent }
+\newlabel{F:diagrama_de_procesos}{{8.5}{39}{Diagrama de procesos en el Arduino Nano}{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}Detalles y Optimización del Código}{40}{subsection.8.4.1}\protected@file@percent }
 \abx@aux@cite{0}{kicad}
 \abx@aux@segm{0}{0}{kicad}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{los}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {8}Modelado y construcción del PCB.}{41}{chapter.8}\protected@file@percent }
-\newlabel{C:EModelado y construcción del PCB.}{{8}{41}{Modelado y construcción del PCB}{chapter.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Software y herramientas de diseño empleadas.}{41}{section.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Construcción del primer prototipo.}{41}{section.8.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Antes del desmontaje de la placa de control analógica.}}{42}{figure.caption.39}\protected@file@percent }
-\newlabel{F:placa_original}{{8.1}{42}{Antes del desmontaje de la placa de control analógica}{figure.caption.39}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Después del desmontaje de la placa de control analógica.}}{42}{figure.caption.40}\protected@file@percent }
-\newlabel{F:desmontaje_de_la_placa}{{8.2}{42}{Después del desmontaje de la placa de control analógica}{figure.caption.40}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Primer prototipo de PCB.}}{43}{figure.caption.41}\protected@file@percent }
-\newlabel{F:PCB_V1}{{8.3}{43}{Primer prototipo de PCB}{figure.caption.41}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Vista 3D del primer prototipo.}}{44}{figure.caption.42}\protected@file@percent }
-\newlabel{F:PCB_3D}{{8.4}{44}{Vista 3D del primer prototipo}{figure.caption.42}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces Montaje de los componentes en la placa.}}{44}{figure.caption.43}\protected@file@percent }
-\newlabel{F:montaje_componentes}{{8.5}{44}{Montaje de los componentes en la placa}{figure.caption.43}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Ensayo de laboratorio y pruebas prácticas.}{44}{section.8.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces Ensayo con osciloscopio de la placa.}}{45}{figure.caption.44}\protected@file@percent }
-\newlabel{F:esayos_y_pruebas}{{8.6}{45}{Ensayo con osciloscopio de la placa}{figure.caption.44}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Implementación de mejoras.}{46}{section.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {9}Modelado y construcción del PCB.}{41}{chapter.9}\protected@file@percent }
+\newlabel{C:EModelado y construcción del PCB.}{{9}{41}{Modelado y construcción del PCB}{chapter.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}Software y herramientas de diseño empleadas.}{41}{section.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}Construcción del primer prototipo.}{41}{section.9.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Antes del desmontaje de la placa de control analógica.}}{42}{figure.caption.41}\protected@file@percent }
+\newlabel{F:placa_original}{{9.1}{42}{Antes del desmontaje de la placa de control analógica}{figure.caption.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces Después del desmontaje de la placa de control analógica.}}{42}{figure.caption.42}\protected@file@percent }
+\newlabel{F:desmontaje_de_la_placa}{{9.2}{42}{Después del desmontaje de la placa de control analógica}{figure.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.3}{\ignorespaces Primer prototipo de PCB.}}{43}{figure.caption.43}\protected@file@percent }
+\newlabel{F:PCB_V1}{{9.3}{43}{Primer prototipo de PCB}{figure.caption.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.4}{\ignorespaces Vista 3D del primer prototipo.}}{44}{figure.caption.44}\protected@file@percent }
+\newlabel{F:PCB_3D}{{9.4}{44}{Vista 3D del primer prototipo}{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.5}{\ignorespaces Montaje de los componentes en la placa.}}{44}{figure.caption.45}\protected@file@percent }
+\newlabel{F:montaje_componentes}{{9.5}{44}{Montaje de los componentes en la placa}{figure.caption.45}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.3}Ensayo de laboratorio y pruebas prácticas.}{44}{section.9.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9.6}{\ignorespaces Ensayo con osciloscopio de la placa.}}{45}{figure.caption.46}\protected@file@percent }
+\newlabel{F:esayos_y_pruebas}{{9.6}{45}{Ensayo con osciloscopio de la placa}{figure.caption.46}{}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{los}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {9}Instrucciones de uso.}{47}{chapter.9}\protected@file@percent }
-\newlabel{C:Forma de operar la fuente DC}{{9}{47}{Instrucciones de uso}{chapter.9}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}Procedimiento de utilización de la fuente}{47}{section.9.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.1}Diagrama de control de funcionamiento.}{47}{subsection.9.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Diagrama de bloques del funcionamiento estándar.}}{48}{figure.caption.47}\protected@file@percent }
-\newlabel{F:funcionamiento_normal}{{9.1}{48}{Diagrama de bloques del funcionamiento estándar}{figure.caption.47}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}Uso de teclado}{48}{section.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {9.3}Pantallas Disponibles}{49}{section.9.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Bibliografía}{51}{section*.49}\protected@file@percent }
-\memsetcounter{lastsheet}{66}
-\memsetcounter{lastpage}{52}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {10}Segundo prototipo.}{47}{chapter.10}\protected@file@percent }
+\newlabel{C:Construcción de modelo final}{{10}{47}{Segundo prototipo}{chapter.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.1}Construcción de la fuente definitiva}{47}{section.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10.2}Presentación Física.}{47}{section.10.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.1}{\ignorespaces Antes y después de realizada la modernización de la fuente.}}{48}{figure.caption.49}\protected@file@percent }
+\newlabel{F:fuente_anterior}{{10.1}{48}{Antes y después de realizada la modernización de la fuente}{figure.caption.49}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.1}Gabinete contenedor.}{48}{subsection.10.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.2}{\ignorespaces Caja plástica grande - 220×150×90 mm.}}{48}{figure.caption.50}\protected@file@percent }
+\newlabel{F:gabinete_contenedor}{{10.2}{48}{Caja plástica grande - 220×150×90 mm}{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10.3}{\ignorespaces Distribución de secciones en el gabinete contenedor.}}{49}{figure.caption.51}\protected@file@percent }
+\newlabel{F:distibucion_gabinete_contenedor}{{10.3}{49}{Distribución de secciones en el gabinete contenedor}{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.2}Superficie de Montaje Interna}{49}{subsection.10.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.4}{\ignorespaces Base plástica 3D para el montaje de la placa de la fuente.}}{49}{figure.caption.52}\protected@file@percent }
+\newlabel{F:base3d_fuente}{{10.4}{49}{Base plástica 3D para el montaje de la placa de la fuente}{figure.caption.52}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.3}Sección de interfaz con el usuario}{49}{subsection.10.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.5}{\ignorespaces Vista superior del panel de control del usuario.}}{50}{figure.caption.53}\protected@file@percent }
+\newlabel{F:caja_usuario}{{10.5}{50}{Vista superior del panel de control del usuario}{figure.caption.53}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.4}Correcciones Adicionales}{50}{subsection.10.2.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{los}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {11}Instrucciones de uso.}{51}{chapter.11}\protected@file@percent }
+\newlabel{C:Forma de operar la fuente DC}{{11}{51}{Instrucciones de uso}{chapter.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.1}Procedimiento de utilización de la fuente}{51}{section.11.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{51}{subsection.11.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.1}{\ignorespaces Diagrama de bloques del funcionamiento estándar.}}{52}{figure.caption.54}\protected@file@percent }
+\newlabel{F:funcionamiento_normal}{{11.1}{52}{Diagrama de bloques del funcionamiento estándar}{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Uso de teclado}{52}{section.11.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}Pantallas Disponibles}{53}{section.11.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Bibliografía}{55}{section*.56}\protected@file@percent }
+\memsetcounter{lastsheet}{70}
+\memsetcounter{lastpage}{56}
 \gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{\m@ne }}
 \abx@aux@read@bbl@mdfivesum{281CDD38CCAE15477800603195706E62}
 \abx@aux@defaultrefcontext{0}{plantilla_universidad_de_costa_rica}{none/global//global/global}
@@ -248,4 +285,4 @@
 \abx@aux@defaultrefcontext{0}{TL084}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{BotteronSC1}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{kicad}{none/global//global/global}
-\gdef \@abspage@last{66}
+\gdef \@abspage@last{70}

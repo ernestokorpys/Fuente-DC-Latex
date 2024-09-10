@@ -26,23 +26,32 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Comparación de las respuestas al escalón del lazo externo de tensión diseñado frente a los ajustados propiamente para la condición de vacío $R=2700\Omega $.}}{25}{figure.caption.27}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Comparación de las respuestas al escalón del lazo externo de tensión ante una condición de carga $R=10\Omega $.}}{26}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de bloques de la interfaz de datos.}}{29}{figure.caption.29}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{30}{figure.caption.30}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Display OLED SSD1306.}}{31}{figure.caption.31}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{31}{figure.caption.32}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Convertidor AD ADS1115.}}{32}{figure.caption.33}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Convertidor digital analógico MCP4725.}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriz de constantes de controlador.}}{30}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Arduino Nano.}}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Conexionado típico de protocolo I2C.}}{37}{figure.caption.36}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Esquemático de conexión de los componentes digitales para un primer ensayo.}}{38}{figure.caption.37}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Ensayo en protoboard de los componentes correspondientes a la etapa digital.}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de bloques de la interfaz de datos.}}{31}{figure.caption.30}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Display OLED SSD1306.}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Aislador capacitivo I2C ISO1540.}}{33}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Convertidor AD ADS1115.}}{33}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Convertidor digital analógico MCP4725.}}{34}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Antes del desmontaje de la placa de control analógica.}}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Después del desmontaje de la placa de control analógica.}}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Primer prototipo de PCB.}}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Vista 3D del primer prototipo.}}{44}{figure.caption.42}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Montaje de los componentes en la placa.}}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Ensayo con osciloscopio de la placa.}}{45}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Arduino Nano.}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Conexionado típico de protocolo I2C.}}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Esquemático de conexión de los componentes digitales para un primer ensayo.}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Ensayo en protoboard de los componentes correspondientes a la etapa digital.}}{38}{figure.caption.39}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Diagrama de procesos en el Arduino Nano.}}{39}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Diagrama de bloques del funcionamiento estándar.}}{48}{figure.caption.47}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Antes del desmontaje de la placa de control analógica.}}{42}{figure.caption.41}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Después del desmontaje de la placa de control analógica.}}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Primer prototipo de PCB.}}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Vista 3D del primer prototipo.}}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Montaje de los componentes en la placa.}}{44}{figure.caption.45}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Ensayo con osciloscopio de la placa.}}{45}{figure.caption.46}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Antes y después de realizada la modernización de la fuente.}}{48}{figure.caption.49}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Caja plástica grande - 220×150×90 mm.}}{48}{figure.caption.50}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Distribución de secciones en el gabinete contenedor.}}{49}{figure.caption.51}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Base plástica 3D para el montaje de la placa de la fuente.}}{49}{figure.caption.52}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Vista superior del panel de control del usuario.}}{50}{figure.caption.53}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Diagrama de bloques del funcionamiento estándar.}}{52}{figure.caption.54}%

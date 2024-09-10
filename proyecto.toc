@@ -1,7 +1,7 @@
 \changetocdepth {2}
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\'{I}ndice general}{xi}{section*.3}%
-\contentsline {chapter}{\'{I}ndice de figuras}{xii}{section*.4}%
+\contentsline {chapter}{\'{I}ndice de figuras}{xiii}{section*.4}%
 \contentsline {chapter}{Índice de fotografías}{xiv}{section*.5}%
 \contentsline {chapter}{\'{I}ndice de tablas}{xiv}{section*.6}%
 \contentsline {chapter}{\chapternumberline {1}Introducción}{1}{chapter.1}%
@@ -39,36 +39,51 @@
 \contentsline {section}{\numberline {5.2}Lazo de corriente}{23}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Lazo de tensión}{24}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Algoritmo Anti-Windup}{26}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}Interfaz de datos de entrada y salida}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Diagrama de bloques de la interfaz de datos}{29}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Componentes de la etapa digital.}{29}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Microcontrolador Arduino Nano.}{29}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Teclado de membrana 4x4.}{30}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Display OLED SSD1306.}{30}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Aislador I2C capacitivo.}{31}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Convertidor analógico digital. ADC.}{31}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}Convertidor digital analógico. DAC.}{32}{subsection.6.2.6}%
-\contentsline {section}{\numberline {6.3}Modos de operación de la fuente.}{32}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Modo Tensión}{32}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Modo Corriente}{32}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Modo Rampa}{33}{subsection.6.3.3}%
-\contentsline {chapter}{\chapternumberline {7}Software de programación y ensayo del control digital}{35}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Características físicas del microcontrolador}{35}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Lógica Interna del Arduino Nano}{35}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Procesamiento de tareas}{35}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Pinout de arduino nano}{36}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Protocolo de comunicación.}{36}{subsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.1.5}Dependencias y Librerías Empleadas}{37}{subsection.7.1.5}%
-\contentsline {section}{\numberline {7.2}Ensayos y simulación}{38}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Resultados Experimentales}{38}{section.7.3}%
-\contentsline {chapter}{\chapternumberline {8}Modelado y construcción del PCB.}{41}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Software y herramientas de diseño empleadas.}{41}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Construcción del primer prototipo.}{41}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Ensayo de laboratorio y pruebas prácticas.}{44}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Implementación de mejoras.}{46}{section.8.4}%
-\contentsline {chapter}{\chapternumberline {9}Instrucciones de uso.}{47}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Procedimiento de utilización de la fuente}{47}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Diagrama de control de funcionamiento.}{47}{subsection.9.1.1}%
-\contentsline {section}{\numberline {9.2}Uso de teclado}{48}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Pantallas Disponibles}{49}{section.9.3}%
-\contentsline {chapter}{Bibliografía}{51}{section*.49}%
+\contentsline {chapter}{\chapternumberline {6}Implementación del controlador.}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Implementación Física del Algoritmo de Control}{29}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Condiciones de Funcionamiento}{29}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Rangos de Funcionamiento}{29}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Determinación de Escenarios}{29}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Estrategia Empleada en el Algoritmo}{30}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Soft Reset}{30}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Protección Ante Sobretensiones y Falso Contacto}{30}{subsection.6.2.2}%
+\contentsline {chapter}{\chapternumberline {7}Interfaz de datos de entrada y salida}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Diagrama de bloques de la interfaz de datos}{31}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Componentes de la etapa digital.}{31}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Microcontrolador Arduino Nano.}{31}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Teclado de membrana 4x4.}{32}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Display OLED SSD1306.}{32}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Aislador I2C capacitivo.}{33}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Convertidor analógico digital. ADC.}{33}{subsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.2.6}Convertidor digital analógico. DAC.}{34}{subsection.7.2.6}%
+\contentsline {section}{\numberline {7.3}Modos de operación de la fuente.}{34}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Modo Tensión}{34}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Modo Corriente}{34}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Modo Rampa}{34}{subsection.7.3.3}%
+\contentsline {chapter}{\chapternumberline {8}Software de programación y ensayo del control digital}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Características físicas del microcontrolador}{35}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Lógica Interna del Arduino Nano}{35}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Pinout de arduino nano}{35}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Protocolo de comunicación.}{36}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Dependencias y Librerías Empleadas}{37}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Ensayos y simulación}{37}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resultados Experimentales}{38}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Diagrama de Control del Software}{38}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Detalles y Optimización del Código}{40}{subsection.8.4.1}%
+\contentsline {chapter}{\chapternumberline {9}Modelado y construcción del PCB.}{41}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Software y herramientas de diseño empleadas.}{41}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Construcción del primer prototipo.}{41}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Ensayo de laboratorio y pruebas prácticas.}{44}{section.9.3}%
+\contentsline {chapter}{\chapternumberline {10}Segundo prototipo.}{47}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Construcción de la fuente definitiva}{47}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Presentación Física.}{47}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Gabinete contenedor.}{48}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Superficie de Montaje Interna}{49}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Sección de interfaz con el usuario}{49}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Correcciones Adicionales}{50}{subsection.10.2.4}%
+\contentsline {chapter}{\chapternumberline {11}Instrucciones de uso.}{51}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Procedimiento de utilización de la fuente}{51}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{51}{subsection.11.1.1}%
+\contentsline {section}{\numberline {11.2}Uso de teclado}{52}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Pantallas Disponibles}{53}{section.11.3}%
+\contentsline {chapter}{Bibliografía}{55}{section*.56}%
