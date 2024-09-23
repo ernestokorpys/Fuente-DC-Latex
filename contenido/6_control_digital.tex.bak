@@ -8,7 +8,7 @@ Para la adquisición de las variables a controlar y el ingreso de datos de confi
 
 \begin{figure} [H]
     \centering
-    \includegraphics[scale=0.5]{./imagenes/diagrama_digital.jpg}
+    \includegraphics[width=\textwidth]{./imagenes/diagrama_digital.jpg}
     \caption{Diagrama de bloques de la interfaz de datos.}
     \label{F:diagrama_digital}
 \end{figure}
@@ -22,7 +22,7 @@ El Arduino Nano es un microcontrolador compacto y versátil ampliamente reconoci
 Con su arquitectura avanzada y un conjunto completo de características, el Arduino Nano es ideal para proyectos que requieren control preciso y eficiente, así como para la interacción con diversos sensores y actuadores. Su capacidad para manejar operaciones en tiempo real lo hace adecuado para aplicaciones que van desde sistemas de automatización del hogar hasta dispositivos portátiles y gadgets interactivos.
 
 \underline{Programación}: \par 
-La programación del Arduino Nano se realiza utilizando el entorno de desarrollo integrado (IDE) de Arduino, que proporciona una interfaz intuitiva para escribir, cargar y depurar código. Compatible con una amplia variedad de bibliotecas y herramientas, el IDE de Arduino simplifica el proceso de desarrollo, permitiendo a los usuarios concentrarse en la lógica de su proyecto sin preocuparse por los detalles de bajo nivel del hardware.
+La programación del Arduino Nano se realiza utilizando el entorno de desarrollo integrado (IDE) de Arduino, que proporciona una interfaz intuitiva para escribir, cargar y depurar código basado en el lenguaje de programación C++. Compatible con una amplia variedad de bibliotecas y herramientas, el IDE de Arduino simplifica el proceso de desarrollo, permitiendo a los usuarios concentrarse en la lógica de su proyecto sin preocuparse por los detalles de bajo nivel del hardware.
 
 \subsection{Teclado de membrana 4x4.}
 El teclado de membrana matricial 4x4 autoadhesivo es un dispositivo de entrada que se utiliza comúnmente en aplicaciones electrónicas donde se requiere una interfaz de usuario simple y compacta. Consiste en una delgada lámina de material flexible que contiene una matriz de botones dispuestos en filas y columnas, con un total de 16 botones en este caso particular como se observa en la Figura \ref{F:teclado4x4} (4 filas x 4 columnas). \par 

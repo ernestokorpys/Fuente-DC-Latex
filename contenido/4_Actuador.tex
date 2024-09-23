@@ -20,7 +20,7 @@ Considerando la caída de tensión de un diodo como $V_D =0,7V$ obtenemos la exp
 \begin{equation}
 V_{alim} =V_{trafo} \cdot \sqrt{2}-2\cdot V_D -V_{ripple} \cdot \sqrt{2}=(15\cdot \sqrt{2})-(2\cdot 0,7V)-(1,77V\cdot \sqrt{2})=17,31V
 \end{equation} \par
-En paralelo a los capacitores $C_5$ y $C_6$ se agregan los capacitores $C_7$ y $C_8$ de $0,33\mu F/25V$ para eliminar los ruidos de alta frecuencia según la aplicación recomendada en la hoja de datos del LM78XX [INSERTAR REFERENCIA]. Para los diodos rectificadores se emplean 1N4007.\par
+En paralelo a los capacitores $C_5$ y $C_6$ se agregan los capacitores $C_7$ y $C_8$ de $0,33\mu F/25V$ para eliminar los ruidos de alta frecuencia según la aplicación recomendada en la hoja de datos del LM78XX \cite{LM78xx}. Para los diodos rectificadores se emplean 1N4007.\par
 Para fijar el valor de voltaje de salida se emplean los integrados LM7812 y LM7912 de +12V y -12V respectivamente. A continuación se colocan capacitores de desacople con el fin de mejorar la estabilidad y reducir el ruido. Asegurando un suministro de tensión estable y confiable para los demás componentes electrónicos conectados al sistema. \par 
 A la salida de la fuente de alimentación de +12V se conecta el regulador, LM7805, para obtener +5V regulados con su correspondiente capacitor de salida de $C_{sal} =1\mu F$. Por ultimo se conecta un LED, en conjunto con una resistencia limitadora, para indicar el correcto funcionamiento de la etapa de alimentación. \par 
 \begin{equation}

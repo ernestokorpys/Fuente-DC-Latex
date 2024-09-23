@@ -13,7 +13,7 @@ Las fuentes de alimentación electrónicas se definen como circuitos que transfo
     \item CA de entrada, CC de salida. conocidas como rectificadores.
 \end{enumerate}
 
-Esta última categoría es, con mucho, la más común de las cuatro y generalmente es a la que se hace referencia cuando se habla de una "fuente de alimentación". Las fuentes de alimentación de CC de salida pueden proporcionar cuatro salidas básicas o modos de operación:
+Esta última categoría es, con mucho, la más común de las cuatro y generalmente es a la que se hace referencia cuando se habla de una "fuente de alimentación". Las fuentes de alimentación con salida de CC pueden proporcionar cuatro salidas básicas o modos de operación:
 
 \begin{itemize}
     \item Voltaje Constante: El voltaje de salida se mantiene constante a pesar de los cambios en la carga, la línea o la temperatura.
@@ -102,7 +102,7 @@ Algunas de estas mejoras son:
     \item \textbf{Energía Renovable y Almacenamiento}: Las fuentes de CC han evolucionado para integrarse de manera más efectiva con sistemas de energía renovable y almacenamiento de energía. Las mejoras en la gestión de energía y la capacidad de interactuar con baterías avanzadas y sistemas de almacenamiento han sido vitales para aplicaciones en redes inteligentes y micro-redes \cite{hoffmann2021}.
 \end{itemize}\par 
 \section{Fuentes comerciales}\par 
-Para aquellos lectores que deseen profundizar más allá del contenido de este informe, los invitamos a explorar diversos tipos de fuentes comerciales disponibles en el mercado. A continuación, presentamos una lista de modelos que consideramos apropiados para realizar comparaciones y análisis detallados. Esta selección servirá no solo para satisfacer la curiosidad académica, sino también para proporcionar una base sólida para el estudio de las diferentes opciones comerciales, permitiendo así una comprensión más amplia y crítica de las mismas. Recordemos que no existe un producto perfecto además de que si existiera no sería de un costo accesible para todo público por lo que en lo que respecta a  preferencias todo es relativo. \par 
+Para aquellos lectores interesados en profundizar en el tema abordado en este informe, se sugiere explorar una variedad de fuentes comerciales disponibles en el mercado. A continuación, se presenta una lista de modelos seleccionados que consideramos pertinentes para realizar comparaciones y análisis exhaustivos. Esta selección no solo busca satisfacer el interés académico, sino también proporcionar una base sólida para el estudio y evaluación crítica de las distintas opciones comerciales. Cabe destacar que no existe un producto que sea universalmente perfecto, y, en caso de existir, su costo probablemente no sería accesible para todo tipo de usuario. En este sentido, la elección de una opción sobre otra dependerá en gran medida de las necesidades y preferencias particulares de cada caso. \par 
 \begin{table}[h!]
     \centering
     \caption{Características de diversos modelos de fuentes de alimentación.}

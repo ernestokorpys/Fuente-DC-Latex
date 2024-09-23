@@ -56,7 +56,7 @@ Durante la comunicación con los demás dispositivos mediante el canal I2C el Ar
 
 \subsection{Dependencias y Librerías Empleadas}
 
-Una de las ventajas más destacadas de trabajar con Arduino es su activa y extensa comunidad, que ha desarrollado una vasta colección de librerías para simplificar la escritura de código y la implementación de funcionalidades avanzadas. Estas librerías permiten a los desarrolladores enfocarse en la lógica central de sus proyectos, sin tener que reinventar la rueda para tareas comunes. A continuación, se presentan las principales librerías utilizadas en este proyecto:
+Una de las ventajas más destacadas de trabajar con Arduino es su activa y extensa comunidad, que ha desarrollado una vasta colección de librerías para simplificar la escritura de código y la implementación de funcionalidades avanzadas. Estas librerías permiten a los desarrolladores enfocarse en la lógica central de sus proyectos, sin tener que preocuparse por programar desde cero cada tarea sencilla. A continuación, se presentan las principales librerías utilizadas en este proyecto:
 
 \begin{itemize}
     \item \textbf{Key.h}: Esta librería facilita la gestión de entradas de teclado, permitiendo la detección y el procesamiento eficiente de pulsaciones de teclas.
@@ -95,7 +95,7 @@ El código del sistema se ha estructurado en cuatro secciones principales, cada 
 \begin{itemize}
     \item \textbf{Manejo de Presión de Teclas:} Esta sección se encarga de detectar la pulsación de alguna de las teclas del panel de control por parte del usuario. En función de la tecla presionada, se ejecuta la acción correspondiente, como ajustar los valores de referencia de la tensión o corriente de salida, modificar configuraciones, o activar/desactivar la fuente.
     \item \textbf{Manejo de la Interacción con el Encoder:} El encoder rotativo es un dispositivo crucial para la manipulación de las referencias en lazo de control. Esta sección del código capta los movimientos de rotación del encoder, ya sea en sentido horario o antihorario, y actualiza en tiempo real las referencias de tensión y corriente que el sistema debe alcanzar. Gracias a esta implementación, el usuario puede ajustar de manera precisa los valores de salida.
-    \item \textbf{Algoritmo de Cálculo de la Acción de Control:} En esta sección se llevan a cabo los cálculos algorítmicos que determinan la acción de control óptima que se enviará al actuador. El algoritmo implementado aplica las ecuaciones correspondientes para calcular las señales de control de corriente y tensión, basándose en los errores detectados entre los valores de referencia y los valores actuales.
+    \item \textbf{Algoritmo de Cálculo de la Acción de Control:} En esta sección se llevan a cabo los cálculos que determinan la acción de control óptima que se enviará al actuador. El algoritmo implementado aplica las ecuaciones correspondientes para calcular las señales de control de corriente y tensión, basándose en los errores detectados entre los valores de referencia y los valores actuales.
     \item \textbf{Actualización del Display:} Esta sección maneja la comunicación con la pantalla de visualización, determinando el momento adecuado para su actualización y los datos que se deben mostrar. Se optimiza para que la pantalla se actualice con una frecuencia controlada, lo que permite al usuario monitorear el estado de la fuente de manera eficiente sin consumir recursos excesivos del sistema.
 \end{itemize}
 

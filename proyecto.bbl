@@ -247,6 +247,19 @@
       \verb https://www.ti.com/lit/ds/symlink/iso1541.pdf
       \endverb
     \endentry
+    \entry{LM78xx}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{uA7800 Series Positive-Voltage Regulators}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/datasheets/Components/LM7805.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/datasheets/Components/LM7805.pdf
+      \endverb
+    \endentry
     \entry{2N2222}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}

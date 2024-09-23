@@ -56,7 +56,7 @@ Durante estas pruebas, se monitorizaron diversos parámetros, tales como la tens
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{./imagenes/fotos/osciloscopio.jpg}
+    \includegraphics[width=0.9\textwidth]{./imagenes/fotos/osciloscopio.jpg}
     \caption{Ensayo con osciloscopio de la placa.}
     \label{F:esayos_y_pruebas}
 \end{figure}
@@ -77,4 +77,3 @@ El resultado de estos ensayos fue satisfactorio, evidenciando que el diseño y l
     \item Arreglar la huella y el \textit{ruteo} de las pistas relacionadas al DAC.
 \end{itemize}
 
-\section{Implementación de mejoras.}

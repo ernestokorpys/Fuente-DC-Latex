@@ -2376,11 +2376,12 @@
     <bcf:citekey order="9" intorder="1">hoffmann2021</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Fuente2023</bcf:citekey>
     <bcf:citekey order="11" intorder="1">ISO1540</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">2N2222</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">TL084</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">BotteronSC1</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">ISO1540</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">kicad</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">LM78xx</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">2N2222</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">TL084</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">BotteronSC1</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">ISO1540</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">kicad</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
