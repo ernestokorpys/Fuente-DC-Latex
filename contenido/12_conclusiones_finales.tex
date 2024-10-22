@@ -1,0 +1,37 @@
+\chapter{Conclusiones y resultados finales.}
+% ----------------------
+
+\label{C:Conclusiones y resultados finales.}
+
+\section{Rendimiento de la fuente} 
+En primer lugar, la fuente de alimentación diseñada ha demostrado un rendimiento satisfactorio, logrando mantener un nivel de tensión y corriente estable dentro del rango establecido. Los resultados obtenidos muestran que la fuente es capaz de operar en tres modos programables: tensión constante, corriente constante y un modo rampa, lo que permite un mayor control y flexibilidad en su funcionamiento. Estos modos de operación brindan un amplio espectro de aplicaciones, desde pruebas de dispositivos electrónicos hasta la alimentación controlada de cargas críticas.\par
+El sistema implementado ha superado con éxito las pruebas de estabilidad y precisión, asegurando un comportamiento confiable bajo diversas condiciones de carga. Además, se destaca que el sistema de control digital permite ajustar los parámetros de salida con gran precisión, lo que es una ventaja significativa frente a sistemas analógicos de características similares.\par
+Sin embargo,
+
+\section{Mejoras y limitaciones} 
+Recordemos que el proyecto comenzó como una iniciativa de modernización de una fuente de alimentación de naturaleza completamente analógica. Desde esta perspectiva, resulta pertinente realizar algunas comparaciones que permiten visualizar las mejoras obtenidas respecto al modelo anterior como también algunos de los puntos débiles que la limitan en algún sentido.\par
+
+\subsection{Mejoras} 
+la implementación de un teclado y encoders, lo que ha simplificado enormemente la programación y el ajuste de parámetros. Esta mejora no solo facilita la interacción con el dispositivo, sino que también contribuye a una mayor precisión en los ajustes de salida. 
+Asimismo, se rediseñó la interfaz física de la fuente, logrando una presentación más amigable e intuitiva para el usuario. 
+La carcasa de la fuente no solo protege los componentes internos de factores ambientales adversos, sino que también permite una manipulación más segura y eficiente por parte del usuario.\par
+
+\subsection{Limitaciones} 
+Sin embargo, a pesar de los avances, se han identificado ciertas limitaciones inherentes al diseño actual. 
+Un aspecto que afecta negativamente el rendimiento es el tiempo de estabilización requerido debido a la presencia de un capacitor en la salida. Este componente tiende a provocar un incremento rápido en los valores de tensión, superando la capacidad de respuesta del algoritmo de control, lo que puede ocasionar inestabilidades temporales. 
+Otra limitación relevante es la velocidad de muestreo del ADC, que impone restricciones en la capacidad del sistema para responder rápidamente a variaciones de carga o a cambios en los parámetros de salida.
+
+\section{Conclusiones} 
+A partir de los resultados obtenidos y del análisis del rendimiento de la fuente, se concluye que un sistema de control totalmente digital, si bien ofrece ciertas ventajas en términos de flexibilidad y precisión, no siempre es la opción más eficiente para la construcción de fuentes de alimentación. Al compararse con fuentes analógicas tradicionales o con fuentes conmutadas (switching), el rendimiento de la fuente digital desarrollada muestra ciertas deficiencias, principalmente en términos de respuesta dinámica y control de estabilidad en situaciones críticas.\par
+No obstante, el diseño ha permitido explorar las capacidades de los sistemas de control digital y ha ofrecido una plataforma para futuras mejoras o implementaciones, lo que representa una valiosa experiencia en la integración de tecnologías digitales en el campo del control de potencia.
+
+\section{Retoma del proyecto en un futuro} 
+Este informe ha cubierto de manera exhaustiva todas las etapas del desarrollo del proyecto, desde su conceptualización inicial hasta la construcción final del dispositivo. En base a los resultados obtenidos, se puede afirmar que el proyecto ha sido exitoso en términos de cumplir con los objetivos propuestos. Sin embargo, en caso de que se desee retomar este proyecto en el futuro, se presentan a continuación algunos puntos que facilitarán la comprensión y el avance sobre lo ya construido:
+
+\begin{itemize}
+    \item El código fuente principal utilizado para el control del sistema, que ha sido cargado en el microcontrolador Arduino Nano, se encuentra disponible en un repositorio de GitHub, lo que asegura la accesibilidad y preservación del software para futuras modificaciones o actualizaciones.
+    \item La placa de circuito impreso (PCB) cuenta con múltiples puntos de prueba estratégicamente ubicados. Estos puntos permiten la conexión directa de un osciloscopio, lo que es esencial para realizar ensayos y pruebas de diagnóstico sin necesidad de modificar el diseño original.
+    \item En caso de que sea necesario desensamblar la placa o modificar el valor de los potenciómetros, será indispensable recalibrar el sistema de conversión analógico-digital (ADC) para asegurar que los valores medidos coincidan con los valores reales de operación.
+\end{itemize}
+
+De esta manera, el proyecto está preparado para ser mejorado o expandido en futuras iteraciones, proporcionando una base sólida sobre la cual desarrollar nuevas funcionalidades o resolver las limitaciones actualmente presentes.

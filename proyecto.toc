@@ -88,4 +88,9 @@
 \contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{57}{subsection.11.1.1}%
 \contentsline {section}{\numberline {11.2}Uso de teclado}{58}{section.11.2}%
 \contentsline {section}{\numberline {11.3}Pantallas Disponibles}{59}{section.11.3}%
-\contentsline {chapter}{Bibliografía}{61}{section*.60}%
+\contentsline {chapter}{\chapternumberline {12}Conclusiones y resultados finales.}{61}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Rendimiento de la fuente}{61}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Mejoras y limitaciones}{61}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Conclusiones}{61}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Retoma del proyecto en un futuro}{62}{section.12.4}%
+\contentsline {chapter}{Bibliografía}{63}{section*.60}%
