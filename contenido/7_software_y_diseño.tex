@@ -37,7 +37,7 @@ Entre los protocolos de comunicación compatibles con el Arduino nano se encuent
     \item Universal Asynchronous Receiver Transmitter (UART): Permite la comunicación serial asíncrona entre el microcontrolador y otros dispositivos periféricos.
 \end{itemize}\par 
 Para este proyecto en particular, se optará por emplear el protocolo I2C debido a su compatibilidad con los componentes utilizados en la fuente disponibles en el mercado Argentino. La elección de este protocolo se fundamenta en su eficiencia y versatilidad, lo que lo hace idóneo para satisfacer los requisitos de comunicación de este sistema embebido.
-La forma en que interactuan y se conectan los dispositivos entre sí en base al protocolo se indica en la Figura \ref{F:diagrama_protocolo_i2c}.
+La forma en que interactúan y se conectan los dispositivos entre sí en base al protocolo se indica en la Figura \ref{F:diagrama_protocolo_i2c}.
 
 \begin{figure}[H]
     \centering
@@ -69,8 +69,8 @@ Una de las ventajas más destacadas de trabajar con Arduino es su activa y exten
 \end{itemize}
 
 \section{Ensayos y simulación}
-Para los ensayos de los modelos constructivos, se utilizó el software simulador de circuitos electrónicos Proteus 8 Professional. Este software proporciona una serie de herramientas que permiten evaluar el funcionamiento de los componentes implementados en el control digital de manera eficiente. \par 
-Una de las características más destacadas de Proteus 8 Professional, y la razón principal por la que se prefiere frente a otras alternativas, es su comunidad activa. Esta comunidad ha desarrollado librerías extensivas de componentes, incluidos microcontroladores Arduino. Estas librerías no solo incluyen las huellas (footprints) de los componentes, sino que también permiten programarlos de manera similar a como se haría con los dispositivos reales. Esta funcionalidad es particularmente valiosa, ya que permite al diseñador observar una simulación precisa de la interacción entre todos los elementos, sirviendo como base para la implementación con componentes físicos en etapas posteriores del desarrollo.
+Para los ensayos de los modelos constructivos, se utilizó el software simulador de circuitos electrónicos \entreComillas{Proteus 8 Professional}. Este software proporciona una serie de herramientas que permiten evaluar el funcionamiento de los componentes implementados en el control digital de manera eficiente. \par 
+Una de las características más destacadas de \entreComillas{Proteus 8 Professional}, y la razón principal por la que se prefiere frente a otras alternativas, es su comunidad activa. Esta comunidad ha desarrollado librerías extensivas de componentes, incluidos microcontroladores Arduino. Estas librerías no solo incluyen las huellas (footprints) de los componentes, sino que también permiten programarlos de manera similar a como se haría con los dispositivos reales. Esta funcionalidad es particularmente valiosa, ya que permite al diseñador observar una simulación precisa de la interacción entre todos los elementos, sirviendo como base para la implementación con componentes físicos en etapas posteriores del desarrollo.
 
 En la Figura \ref{F:esquematico_proteus} se presenta resumidamente la etapa digital del proyecto, indicando la interconexión de los distintos módulos al microcontrolador.
 \begin{figure}[H]
@@ -85,7 +85,7 @@ Basado en el desarrollo descrito en la sección anterior, se obtuvo un modelo fu
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.08]{./imagenes/ensayo_digital.jpg}
-    \caption{Ensayo en protoboard de los componentes correspondientes a la etapa digital.}
+    \caption{Ensayo en \textit{protoboard} de los componentes correspondientes a la etapa digital.}
     \label{F:ensayo_digital}
 \end{figure}
 
@@ -94,7 +94,7 @@ El software implementado en el microcontrolador para el control de la fuente de 
 El código del sistema se ha estructurado en cuatro secciones principales, cada una de las cuales cumple una función clave en la operación global:\par
 \begin{itemize}
     \item \textbf{Manejo de Presión de Teclas:} Esta sección se encarga de detectar la pulsación de alguna de las teclas del panel de control por parte del usuario. En función de la tecla presionada, se ejecuta la acción correspondiente, como ajustar los valores de referencia de la tensión o corriente de salida, modificar configuraciones, o activar/desactivar la fuente.
-    \item \textbf{Manejo de la Interacción con el Encoder:} El encoder rotativo es un dispositivo crucial para la manipulación de las referencias en lazo de control. Esta sección del código capta los movimientos de rotación del encoder, ya sea en sentido horario o antihorario, y actualiza en tiempo real las referencias de tensión y corriente que el sistema debe alcanzar. Gracias a esta implementación, el usuario puede ajustar de manera precisa los valores de salida.
+    \item \textbf{Manejo de la Interacción con el Encoder:} El \textit{encoder} rotativo es un dispositivo crucial para la manipulación de las referencias en lazo de control. Esta sección del código capta los movimientos de rotación del \textit{encoder}, ya sea en sentido horario o antihorario, y actualiza en tiempo real las referencias de tensión y corriente que el sistema debe alcanzar. Gracias a esta implementación, el usuario puede ajustar de manera precisa los valores de salida.
     \item \textbf{Algoritmo de Cálculo de la Acción de Control:} En esta sección se llevan a cabo los cálculos que determinan la acción de control óptima que se enviará al actuador. El algoritmo implementado aplica las ecuaciones correspondientes para calcular las señales de control de corriente y tensión, basándose en los errores detectados entre los valores de referencia y los valores actuales.
     \item \textbf{Actualización del Display:} Esta sección maneja la comunicación con la pantalla de visualización, determinando el momento adecuado para su actualización y los datos que se deben mostrar. Se optimiza para que la pantalla se actualice con una frecuencia controlada, lo que permite al usuario monitorear el estado de la fuente de manera eficiente sin consumir recursos excesivos del sistema.
 \end{itemize}

@@ -18,7 +18,7 @@ El uso de KiCad facilitó la creación de un diseño detallado y eficiente, perm
 
 \section{Construcción del primer prototipo.}
 La fase de construcción se inició con el desmontaje de la placa analógica de la fuente utilizada en un proyecto anterior, la cual se caracterizaba por sus atributos de control predominantemente analógicos. Este proceso permitió la recuperación de una variedad de materiales que, en su mayoría, se emplearían en el desarrollo del nuevo prototipo de fuente digital. Entre los componentes rescatados se encuentran resistencias, capacitores, disipadores de calor y borneras, entre otros. La reutilización de estos elementos fue posible gracias a la topología de la nueva fuente digital, que permitía su integración sin comprometer el diseño ni la funcionalidad del prototipo. 
-El proceso de desmontaje y reutilización de componentes se llevó a cabo meticulosamente, asegurando que cada pieza recuperada estuviera en condiciones óptimas para su reimplementación. Este esfuerzo contribuyó a la eficiencia del proyecto y a la racionalización de recursos, destacando la importancia de la sostenibilidad y la economía circular en el ámbito del diseño y construcción de dispositivos electrónicos.
+El proceso de desmontaje y reutilización de componentes se llevó a cabo meticulosamente, asegurando que cada pieza recuperada estuviera en condiciones óptimas para su apropiada colocación en la nueva placa. Este esfuerzo contribuyó a la eficiencia del proyecto y a la racionalización de recursos, destacando la importancia de la sostenibilidad y la economía circular en el ámbito del diseño y construcción de dispositivos electrónicos.
 
 \begin{figure}[H]
     \centering
@@ -52,7 +52,7 @@ El diseño resultante, que se muestra en la imagen adjunta, incluye también una
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.1]{./imagenes/fotos/montaje.jpg}
-    \caption{Montaje de los compoenntes en la placa.}
+    \caption{Montaje de los componentes en la placa.}
     \label{F:montaje_componentes}
 \end{figure}
 
@@ -71,8 +71,8 @@ El resultado de estos ensayos fue satisfactorio, evidenciando que el diseño y l
 \section*{Observaciones}
 \begin{itemize}
     \item Los transistores comienzan a operar con una acción de control mínima de 0.3V.
-    \item El capacitor de salida se carga y dispara su voltaje en cuestión de unos milisegundos, por lo que es necesario un aproximamiento y control especial para contemplar este detalle.
-    \item Cuando el ADC no tiene nada este pone su voltaje de salida en 2.5V.
+    \item Al desconectarse una carga el capacitor de salida incrementa su voltaje en cuestión de unos milisegundos debido a que la acción de control no disminuye de forma tan instantánea. Por lo que luego de esto, es necesario un tiempo extra para que el capacitor se descargue y se estabilicen nuevamente los niveles de tensión. Que además, como no tiene carga conectada deberá ser más lenta la descarga del capacitor.
+    \item Cuando el ADC no tiene ningún valor como referencia proveniente desde el Arduino este pone su voltaje de salida en 2.5V.
 \end{itemize}
 
 \section*{Mejoras a realizar}
