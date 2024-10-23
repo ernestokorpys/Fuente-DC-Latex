@@ -2382,6 +2382,7 @@
     <bcf:citekey order="15" intorder="1">BotteronSC1</bcf:citekey>
     <bcf:citekey order="16" intorder="1">ISO1540</bcf:citekey>
     <bcf:citekey order="17" intorder="1">kicad</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Fuente2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

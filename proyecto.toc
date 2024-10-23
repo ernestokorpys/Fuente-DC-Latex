@@ -91,6 +91,8 @@
 \contentsline {chapter}{\chapternumberline {12}Conclusiones y resultados finales.}{61}{chapter.12}%
 \contentsline {section}{\numberline {12.1}Rendimiento de la fuente}{61}{section.12.1}%
 \contentsline {section}{\numberline {12.2}Mejoras y limitaciones}{61}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Conclusiones}{61}{section.12.3}%
+\contentsline {subsection}{\numberline {12.2.1}Mejoras}{61}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Limitaciones}{62}{subsection.12.2.2}%
+\contentsline {section}{\numberline {12.3}Conclusiones}{62}{section.12.3}%
 \contentsline {section}{\numberline {12.4}Retoma del proyecto en un futuro}{62}{section.12.4}%
 \contentsline {chapter}{Bibliografía}{63}{section*.60}%

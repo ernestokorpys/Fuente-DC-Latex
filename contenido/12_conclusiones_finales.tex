@@ -4,26 +4,39 @@
 \label{C:Conclusiones y resultados finales.}
 
 \section{Rendimiento de la fuente} 
-En primer lugar, la fuente de alimentación diseñada ha demostrado un rendimiento satisfactorio, logrando mantener un nivel de tensión y corriente estable dentro del rango establecido. Los resultados obtenidos muestran que la fuente es capaz de operar en tres modos programables: tensión constante, corriente constante y un modo rampa, lo que permite un mayor control y flexibilidad en su funcionamiento. Estos modos de operación brindan un amplio espectro de aplicaciones, desde pruebas de dispositivos electrónicos hasta la alimentación controlada de cargas críticas.\par
+La fuente de alimentación diseñada ha demostrado un rendimiento satisfactorio, logrando mantener un nivel de tensión y corriente estable dentro del rango establecido con estados transitorios de un punto de funcionamiento a otro buenos. \par
+Los resultados obtenidos muestran que la fuente es capaz de operar en tres modos programables: tensión constante, corriente constante y un modo rampa, lo que permite un mayor control y flexibilidad en su funcionamiento. Estos modos de operación brindan un amplio espectro de aplicaciones, desde pruebas de dispositivos electrónicos hasta la alimentación controlada de cargas críticas. \par
 El sistema implementado ha superado con éxito las pruebas de estabilidad y precisión, asegurando un comportamiento confiable bajo diversas condiciones de carga. Además, se destaca que el sistema de control digital permite ajustar los parámetros de salida con gran precisión, lo que es una ventaja significativa frente a sistemas analógicos de características similares.\par
-Sin embargo,
+Sin embargo, como se explica en diversas zonas del informe y la sección de limitaciones REVISAAAAR!!!\ref{S:limitaciones} los resultados alcanzados aún están lejos de ser ideales dado a limitaciones tecnológicas, de recursos y tiempo. Por lo que se deja abierta la posibilidad de realizar mejoras en un futuro. \par
 
 \section{Mejoras y limitaciones} 
-Recordemos que el proyecto comenzó como una iniciativa de modernización de una fuente de alimentación de naturaleza completamente analógica. Desde esta perspectiva, resulta pertinente realizar algunas comparaciones que permiten visualizar las mejoras obtenidas respecto al modelo anterior como también algunos de los puntos débiles que la limitan en algún sentido.\par
+Recordemos que el proyecto comenzó como una iniciativa de modernización de una fuente de alimentación de naturaleza completamente analógica. Desde esta perspectiva, resulta pertinente realizar algunas comparaciones que permiten visualizar las mejoras obtenidas respecto al modelo anterior, el cual se puede consultar en \cite{Fuente2023}, como también algunos de los puntos débiles que la limitan en algún sentido.\par
 
 \subsection{Mejoras} 
-la implementación de un teclado y encoders, lo que ha simplificado enormemente la programación y el ajuste de parámetros. Esta mejora no solo facilita la interacción con el dispositivo, sino que también contribuye a una mayor precisión en los ajustes de salida. 
-Asimismo, se rediseñó la interfaz física de la fuente, logrando una presentación más amigable e intuitiva para el usuario. 
-La carcasa de la fuente no solo protege los componentes internos de factores ambientales adversos, sino que también permite una manipulación más segura y eficiente por parte del usuario.\par
+Los siguientes so 
+\begin{itemize}
+    \item La implementación de un teclado y \textit{encoders}, lo que ha simplificado enormemente la programación y el ajuste de parámetros. Esta mejora no solo facilita la interacción con el dispositivo, sino que también contribuye a una mayor precisión en los ajustes de salida. \par
+    \item Se rediseñó la interfaz usuario-maquina de la fuente, logrando una presentación más amigable e intuitiva para el usuario. Que es un añadido sumamente importante y valorado en la industria moderna ya que facilita la interacción con nuevos usuarios. \par 
+    \item La inclusión y montaje de la fuente en una carcasa no solo protege los componentes internos de factores ambientales adversos, sino que también permite una manipulación más segura y eficiente por parte del usuario a la hora de transportar la misma de un lugar a otro.\par
+    \item El uso de medios para logar la protección de carga, alertas de riesgo, limitadores analógicos y digitales de corriente entre otros, es otra mejora significativa respecto el modelo anterior. Ya que en esto permitirá en muchos casos resguardar la carga de algún desperfecto o fluctuación peligrosa en las magnitudes de la fuente. O en su defecto, identificar que ocurrió una situación extraña vinculada a la carga conectada.   
+\end{itemize}
 
-\subsection{Limitaciones} 
-Sin embargo, a pesar de los avances, se han identificado ciertas limitaciones inherentes al diseño actual. 
-Un aspecto que afecta negativamente el rendimiento es el tiempo de estabilización requerido debido a la presencia de un capacitor en la salida. Este componente tiende a provocar un incremento rápido en los valores de tensión, superando la capacidad de respuesta del algoritmo de control, lo que puede ocasionar inestabilidades temporales. 
-Otra limitación relevante es la velocidad de muestreo del ADC, que impone restricciones en la capacidad del sistema para responder rápidamente a variaciones de carga o a cambios en los parámetros de salida.
+\subsection{Limitaciones} \label{S:limitaciones} 
+A pesar de los avances respecto al modelo anterior, se han identificado ciertas limitaciones inherentes al diseño actual los cuales se resumen en los siguientes items:  
+\begin{itemize}
+    \item Un aspecto que afecta negativamente el rendimiento es el tiempo de estabilización requerido debido a la presencia de un capacitor en la salida. Este componente tiende a provocar una retención considerable en los valores de tensión al cargarse, lo que produce que al pasarse del valor de referencia configurado este necesite un tiempo un poco más extenso para descargarse de no existir ninguna carga conectada a la salida, lo que puede ocasionar inestabilidades temporales. 
+    \item Otra limitación relevante es la velocidad de muestreo del ADC, que impone restricciones en la capacidad del sistema para responder rápidamente a variaciones de carga o a cambios en los parámetros de salida.
+    \item El espacio de memoria limitado del microcontrolador \entreComillas{Arduino NANO} y el uso de librerías varias para el control de periféricos contribuye a descartar el uso de ciertas estrategias de control que requieran el almacenamiento de un numero elevado de variables flotantes.   
+    \item 
+\end{itemize}
 
 \section{Conclusiones} 
-A partir de los resultados obtenidos y del análisis del rendimiento de la fuente, se concluye que un sistema de control totalmente digital, si bien ofrece ciertas ventajas en términos de flexibilidad y precisión, no siempre es la opción más eficiente para la construcción de fuentes de alimentación. Al compararse con fuentes analógicas tradicionales o con fuentes conmutadas (switching), el rendimiento de la fuente digital desarrollada muestra ciertas deficiencias, principalmente en términos de respuesta dinámica y control de estabilidad en situaciones críticas.\par
-No obstante, el diseño ha permitido explorar las capacidades de los sistemas de control digital y ha ofrecido una plataforma para futuras mejoras o implementaciones, lo que representa una valiosa experiencia en la integración de tecnologías digitales en el campo del control de potencia.
+A modo de cerrar apropiadamente con este proyecto se listarán de forma concisa los conocimientos más significativos adquiridos luego de todo el diseño, pruebas y resultados de él proyecto. Los mismos son los siguientes:\par 
+\begin{itemize}
+    \item A partir de los resultados obtenidos y del análisis del rendimiento de la fuente, se concluye que un sistema de control totalmente digital, si bien ofrece ciertas ventajas en términos de flexibilidad y precisión, no siempre es la opción más eficiente para la construcción de fuentes de alimentación. Al compararse con fuentes analógicas tradicionales o con fuentes conmutadas (switching), el rendimiento de la fuente digital desarrollada muestra ciertas deficiencias, principalmente en términos de respuesta dinámica y control de estabilidad en situaciones críticas.\par
+    \item El diseño ha permitido explorar las capacidades de los sistemas de control digital y ha ofrecido una plataforma para futuras mejoras o implementaciones, lo que representa una valiosa experiencia en la integración de tecnologías digitales en el campo del control de potencia.
+    \item Al tratarse de una fuente de un rango amplio de valores disponible con infinitas condiciones de carga y configuraciones disponibles fue todo un desafío la construcción de un algoritmo de control que cubriera este gran abanico de situaciones. Por lo que se puede decir sin miedo a equivocarse que el uso de una matriz con múltiples constantes de controlador para los diferentes rangos de funcionamiento es totalmente necesario. Ya que el uno de los mismos valores para todo el espectro no generará una buena respuesta.
+\end{itemize}
 
 \section{Retoma del proyecto en un futuro} 
 Este informe ha cubierto de manera exhaustiva todas las etapas del desarrollo del proyecto, desde su conceptualización inicial hasta la construcción final del dispositivo. En base a los resultados obtenidos, se puede afirmar que el proyecto ha sido exitoso en términos de cumplir con los objetivos propuestos. Sin embargo, en caso de que se desee retomar este proyecto en el futuro, se presentan a continuación algunos puntos que facilitarán la comprensión y el avance sobre lo ya construido:
