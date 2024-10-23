@@ -2,8 +2,8 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\'{I}ndice general}{xi}{section*.3}%
 \contentsline {chapter}{\'{I}ndice de figuras}{xiii}{section*.4}%
-\contentsline {chapter}{Índice de fotografías}{xiv}{section*.5}%
-\contentsline {chapter}{\'{I}ndice de tablas}{xiv}{section*.6}%
+\contentsline {chapter}{Índice de fotografías}{xv}{section*.5}%
+\contentsline {chapter}{\'{I}ndice de tablas}{xv}{section*.6}%
 \contentsline {chapter}{\chapternumberline {1}Introducción}{1}{chapter.1}%
 \contentsline {chapter}{\chapternumberline {2}Introducción teórica a fuentes CC}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sobre las fuentes de alimentación.}{3}{section.2.1}%
@@ -88,11 +88,20 @@
 \contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{57}{subsection.11.1.1}%
 \contentsline {section}{\numberline {11.2}Uso de teclado}{58}{section.11.2}%
 \contentsline {section}{\numberline {11.3}Pantallas Disponibles}{59}{section.11.3}%
-\contentsline {chapter}{\chapternumberline {12}Conclusiones y resultados finales.}{61}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Rendimiento de la fuente}{61}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Mejoras y limitaciones}{61}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Mejoras}{61}{subsection.12.2.1}%
-\contentsline {subsection}{\numberline {12.2.2}Limitaciones}{62}{subsection.12.2.2}%
-\contentsline {section}{\numberline {12.3}Conclusiones}{62}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Retoma del proyecto en un futuro}{62}{section.12.4}%
-\contentsline {chapter}{Bibliografía}{63}{section*.60}%
+\contentsline {chapter}{\chapternumberline {12}Resultados experimentales.}{61}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Resultados para el modo de tensión}{61}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Valor de carga fijo al energizar}{61}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}Conexión de carga}{62}{subsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.1.3}Desconexión de carga}{63}{subsection.12.1.3}%
+\contentsline {subsection}{\numberline {12.1.4}Prueba con motor de 12 V}{64}{subsection.12.1.4}%
+\contentsline {subsection}{\numberline {12.1.5}Protección por sobrecorriente}{65}{subsection.12.1.5}%
+\contentsline {section}{\numberline {12.2}Resultados para el modo de corriente}{66}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Resultados para el modo rampa}{67}{section.12.3}%
+\contentsline {chapter}{\chapternumberline {13}Conclusiones y resultados finales.}{69}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Rendimiento de la fuente}{69}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Mejoras y limitaciones}{69}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Mejoras}{69}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Limitaciones}{70}{subsection.13.2.2}%
+\contentsline {section}{\numberline {13.3}Conclusiones}{70}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Retoma del proyecto en un futuro}{70}{section.13.4}%
+\contentsline {chapter}{Bibliografía}{73}{section*.72}%
