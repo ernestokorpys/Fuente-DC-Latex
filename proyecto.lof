@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Fuente de alimentación de los componentes}}{15}{figure.caption.18}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Circuito de rectificación y filtrado de la etapa de potencia}}{16}{figure.caption.19}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Regulador de tensión con transistores de paso.}}{17}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Circuito de sensado de la corriente de salida}}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Circuito de medición de la corriente de salida}}{19}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Circuito de sensado de la tensión de salida}}{20}{figure.caption.22}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Circuito de acople y desacople de carga.}}{21}{figure.caption.23}%
 \addvspace {10\p@ }
@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Comparación de las respuestas al escalón del lazo externo de tensión diseñado frente a los ajustados propiamente para la condición de vacío $R=2700\Omega $.}}{27}{figure.caption.28}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Comparación de las respuestas al escalón del lazo externo de tensión ante una condición de carga $R=10\Omega $.}}{28}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Matriz de constantes de controlador.}}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Mapeo del rango de funcionamiento de la fuente.}}{32}{figure.caption.30}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de bloques de la interfaz de datos.}}{35}{figure.caption.31}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Ilustración del teclado de membrana, indicando sus filas y columnas.}}{36}{figure.caption.32}%
@@ -39,37 +39,30 @@
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Arduino Nano.}}{39}{figure.caption.37}%
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Conexionado típico de protocolo I2C.}}{40}{figure.caption.38}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Esquemático de conexión de los componentes digitales para un primer ensayo.}}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Ensayo en \textit {protoboard} de los componentes correspondientes a la etapa digital.}}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Diagrama de procesos en el Arduino Nano.}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Diagrama de procesos en el Arduino Nano.}}{43}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Antes del desmontaje de la placa de control analógica.}}{46}{figure.caption.42}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Después del desmontaje de la placa de control analógica.}}{46}{figure.caption.43}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Primer prototipo de PCB.}}{47}{figure.caption.44}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Vista 3D del primer prototipo.}}{48}{figure.caption.45}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Montaje de los componentes en la placa.}}{48}{figure.caption.46}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Ensayo con osciloscopio de la placa.}}{49}{figure.caption.47}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Primer prototipo de PCB.}}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Vista 3D del primer prototipo.}}{48}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Antes y después de realizada la modernización de la fuente.}}{51}{figure.caption.50}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Caja plástica grande - 220×150×90 mm.}}{52}{figure.caption.51}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Distribución de secciones en el gabinete contenedor.}}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Base plástica 3D para el montaje de la placa de la fuente.}}{53}{figure.caption.53}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Vista superior del panel de control del usuario.}}{53}{figure.caption.54}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Diseño en 3D de la tapa de la interfaz donde irán montados los módulos.}}{53}{figure.caption.55}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces PCB de la fuente de tensión diseñada y de la interfaz de usuario}}{54}{figure.caption.56}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Vista en 3D de la versión final del PCB}}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Distribución de secciones en el gabinete contenedor.}}{52}{figure.caption.52}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Base plástica 3D para el montaje de la placa de la fuente.}}{53}{figure.caption.53}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Vista superior del panel de control del usuario.}}{53}{figure.caption.54}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Diseño en 3D de la tapa de la interfaz donde irán montados los módulos.}}{53}{figure.caption.55}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces PCB de la fuente de tensión diseñada y de la interfaz de usuario}}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Vista en 3D de la versión final del PCB}}{55}{figure.caption.57}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Diagrama de bloques del funcionamiento estándar.}}{58}{figure.caption.58}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Respuesta obtenida al energizar la fuente configurada en 15V con una carga conectada.}}{61}{figure.caption.59}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Respuesta obtenida al energizar la fuente configurada en 25V con una carga conectada.}}{62}{figure.caption.60}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Respuesta obtenida al pasar del estado de vacío al de carga con Vout=15V.}}{62}{figure.caption.61}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Respuesta obtenida al pasar del estado de vacío al de carga con Vout=25V.}}{63}{figure.caption.62}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Respuesta obtenida al pasar del estado de carga al de vacío con Vout=15V.}}{63}{figure.caption.63}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Respuesta obtenida al pasar del estado de carga al de vacío con Vout=25V.}}{64}{figure.caption.64}%
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Prueba de funcionamiento con motor de 12V.}}{65}{figure.caption.65}%
-\contentsline {figure}{\numberline {12.8}{\ignorespaces Respuesta obtenida de la protección por sobrecorriente.}}{66}{figure.caption.66}%
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Respuesta obtenida de la protección por sobrecorriente ante la conexión abrupta de una carga.}}{66}{figure.caption.67}%
-\contentsline {figure}{\numberline {12.10}{\ignorespaces Respuesta obtenida del modo corriente para una referencia de 1A.}}{67}{figure.caption.68}%
-\contentsline {figure}{\numberline {12.11}{\ignorespaces Respuesta obtenida del modo rampa para una configuración de 24 V y 16segundos.}}{68}{figure.caption.69}%
-\contentsline {figure}{\numberline {12.12}{\ignorespaces Respuesta obtenida del modo rampa para una configuración de 24 V y 30segundos.}}{68}{figure.caption.70}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Respuesta obtenida al energizar la fuente configurada en 15V con una carga conectada.}}{61}{figure.caption.60}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Respuesta obtenida al energizar la fuente configurada en 25V con una carga conectada.}}{62}{figure.caption.61}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Respuesta obtenida al pasar del estado de vacío al de carga con Vout=15V.}}{62}{figure.caption.62}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Respuesta obtenida al pasar del estado de vacío al de carga con Vout=25V.}}{63}{figure.caption.63}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Respuesta obtenida al pasar del estado de carga al de vacío con Vout=15V.}}{63}{figure.caption.64}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Respuesta obtenida al pasar del estado de carga al de vacío con Vout=25V.}}{64}{figure.caption.65}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Prueba de funcionamiento con motor de 12V.}}{65}{figure.caption.66}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Respuesta obtenida de la protección por sobrecorriente.}}{65}{figure.caption.67}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Respuesta obtenida de la protección por sobrecorriente ante la conexión abrupta de una carga.}}{66}{figure.caption.68}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Respuesta obtenida del modo corriente para una referencia de 1A.}}{66}{figure.caption.69}%
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Respuesta obtenida del modo rampa para una configuración de 24 V y 16segundos.}}{67}{figure.caption.70}%
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Respuesta obtenida del modo rampa para una configuración de 24 V y 30segundos.}}{67}{figure.caption.71}%
 \addvspace {10\p@ }

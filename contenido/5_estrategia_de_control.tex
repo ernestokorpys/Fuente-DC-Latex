@@ -58,7 +58,7 @@ Siendo su expresión en el dominio de Laplace:
 \begin{equation}
 U(s)=(K_p+\frac{K_i}{s}+sK_d)E(s)
 \end{equation}\par 
-Donde considerando una aproximación rectangular backward, la acción de control resultante en función de la variable 'z' resulta:
+Donde considerando una aproximación rectangular \textit{backward}, la acción de control resultante en función de la variable 'z' resulta:
 \begin{equation}
 s\approx\frac{(z-1)}{zT} \quad \to \quad U(z)=[K_p+K_iT\frac{z}{z-1}+\frac{K_d}{T}\frac{(z-1)}{z}]E(z)
 \end{equation}\par 
@@ -208,3 +208,17 @@ Además, a cada periodo de muestreo, ya sea que la acción de control resulte li
 \begin{equation}
 	e[(k-2)T_s]=e[(k-1)T_s] \qquad	e[(k-1)T_s]=e(kT_s)
 \end{equation}
+
+\section{Modos de operación de la fuente.}
+En base a las simulaciónes, cálculos y estrategias de control se plantearon los tres modos de funcionamiento disponibles para adaptarse a las diversas necesidades de aplicación. A continuación, se describen brevemente los principales modos de operación que estarán disponibles en el menú, su principio de funcionamiento, y qué parámetros serán configurables. \par 
+\subsection{Modo Tensión}
+En este modo, la fuente de alimentación establece inicialmente el valor máximo de tensión deseado. Posteriormente, limita la corriente máxima de umbral que la carga podrá obtener. Este modo es especialmente útil cuando se requiere controlar la tensión suministrada a la carga de manera precisa y garantizar la seguridad del sistema al limitar la corriente máxima.\par
+Para lograr este control se utiliza el lazo completo de la Figura \ref{F:Esquema_Control} encerrado en violeta, en donde el mismo consta de un lazo interno de corriente y uno externo de tensión con ambas referencias externas de valores constantes. \par
+
+\subsection{Modo Corriente}
+En el modo de corriente, la fuente de alimentación establece y controla la corriente suministrada a la carga. Este modo es útil en situaciones donde es crítico mantener la corriente dentro de ciertos límites para proteger los componentes de la carga y garantizar su correcto funcionamiento.\par 
+Aquí solamente corresponde utilizar una parte interna del lazo de control que corresponde a la zona encerrada en rojo de la Figura \ref{F:Esquema_Control} que es el que se vincula con la corriente, de modo que la cantidad de operaciones necesarias para definir la acción de control será menor y mejora gradualmente la velocidad de actualización de la acción de control. \par
+
+\subsection{Modo Rampa}
+El modo de rampa tiene como objetivo generar un aumento gradual y lineal de la tensión suministrada a la carga durante un período de tiempo determinado. Los parámetros configurables en este modo incluyen la tensión final deseada para la carga y el tiempo en el cual se alcanzará esta tensión desde un valor inicial de 0V. Este modo es útil en aplicaciones donde se requiere un inicio suave del sistema para evitar sobrecargas o picos de corriente al iniciar la energización de componentes. Especialmente útil en cargas como lo podrían ser por ejemplo motores.\par 
+Para la implementación del mismo, como para el modo de tensión, corresponde utilizar el lazo de control completo que engloba tensión y corriente. La diferencia unicamente radicará en que si bien la corriente máxima limitante se mantendrá fija, la tensión de referencia verá un aumento gradual escalonado en base al tiempo o duración de la rampa configurado. \par
