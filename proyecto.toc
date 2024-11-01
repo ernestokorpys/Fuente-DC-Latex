@@ -2,20 +2,20 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\'{I}ndice general}{xi}{section*.3}%
 \contentsline {chapter}{\'{I}ndice de figuras}{xiii}{section*.4}%
-\contentsline {chapter}{Índice de fotografías}{xiv}{section*.5}%
+\contentsline {chapter}{Índice de fotografías}{xv}{section*.5}%
 \contentsline {chapter}{\'{I}ndice de tablas}{xv}{section*.6}%
 \contentsline {chapter}{\chapternumberline {1}Introducción}{1}{chapter.1}%
-\contentsline {chapter}{\chapternumberline {2}Introducción teórica a fuentes CC}{3}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}Introducción a las Fuentes de Alimentación de Corriente Continua}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sobre las fuentes de alimentación.}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Fuente ideal de tensión.}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fuente ideal de tensión.}{4}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Técnicas de Regulación}{4}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Fuentes de alimentación lineales.}{4}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Funcionamiento básico.}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Funcionamiento básico.}{5}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Transformador}{5}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Rectificador}{5}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Filtro}{5}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Regulador}{5}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Ventajas y desventajas}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Ventajas y desventajas}{6}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Evolución y mejoras con el pasar de los años}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Fuentes comerciales}{7}{section.2.5}%
 \contentsline {chapter}{\chapternumberline {3}Modificación de la Fuente CC anterior}{9}{chapter.3}%
@@ -74,35 +74,37 @@
 \contentsline {chapter}{\chapternumberline {9}Modelado y construcción del PCB.}{45}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Software y herramientas de diseño empleadas.}{45}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Construcción del primer prototipo.}{45}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Ensayo de laboratorio y pruebas prácticas.}{47}{section.9.3}%
-\contentsline {chapter}{\chapternumberline {10}Segundo prototipo.}{51}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Construcción de la fuente definitiva}{51}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Presentación Física.}{51}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Gabinete contenedor.}{52}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Superficie de Montaje Interna}{52}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Sección de interfaz con el usuario}{53}{subsection.10.2.3}%
-\contentsline {subsection}{\numberline {10.2.4}Correcciones Adicionales}{54}{subsection.10.2.4}%
-\contentsline {section}{\numberline {10.3}Versión final del PCB}{54}{section.10.3}%
-\contentsline {chapter}{\chapternumberline {11}Instrucciones de uso.}{57}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Procedimiento de utilización de la fuente}{57}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{57}{subsection.11.1.1}%
-\contentsline {section}{\numberline {11.2}Uso de teclado}{58}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Pantallas Disponibles}{59}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Rangos límite y zonas de operación}{59}{section.11.4}%
-\contentsline {chapter}{\chapternumberline {12}Resultados experimentales.}{61}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Resultados para el modo de tensión}{61}{section.12.1}%
-\contentsline {subsection}{\numberline {12.1.1}Valor de carga fijo al energizar}{61}{subsection.12.1.1}%
-\contentsline {subsection}{\numberline {12.1.2}Conexión de carga}{62}{subsection.12.1.2}%
-\contentsline {subsection}{\numberline {12.1.3}Desconexión de carga}{63}{subsection.12.1.3}%
-\contentsline {subsection}{\numberline {12.1.4}Prueba con motor de 12 V}{64}{subsection.12.1.4}%
-\contentsline {subsection}{\numberline {12.1.5}Protección por sobrecorriente}{64}{subsection.12.1.5}%
-\contentsline {section}{\numberline {12.2}Resultados para el modo de corriente}{66}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Resultados para el modo rampa}{67}{section.12.3}%
-\contentsline {chapter}{\chapternumberline {13}Conclusiones y resultados finales.}{69}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Rendimiento de la fuente}{69}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Mejoras y limitaciones}{69}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}Mejoras}{69}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}Limitaciones}{70}{subsection.13.2.2}%
-\contentsline {section}{\numberline {13.3}Conclusiones}{70}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Retoma del proyecto en un futuro}{70}{section.13.4}%
-\contentsline {chapter}{Bibliografía}{73}{section*.73}%
+\contentsline {section}{\numberline {9.3}Primeras pruebas prácticas.}{47}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Resultados experimentales}{49}{section.9.4}%
+\contentsline {chapter}{\chapternumberline {10}Segundo prototipo.}{53}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Construcción de la fuente definitiva}{53}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Presentación Física.}{53}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Gabinete contenedor.}{54}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Superficie de Montaje Interna}{54}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Sección de interfaz con el usuario}{55}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Correcciones Adicionales}{56}{subsection.10.2.4}%
+\contentsline {section}{\numberline {10.3}Versión final del PCB}{56}{section.10.3}%
+\contentsline {chapter}{\chapternumberline {11}Instrucciones de uso.}{59}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Procedimiento de utilización de la fuente}{59}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Diagrama de control de funcionamiento.}{59}{subsection.11.1.1}%
+\contentsline {section}{\numberline {11.2}Uso de teclado}{60}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Pantallas Disponibles}{61}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Rangos límite y zonas de operación}{61}{section.11.4}%
+\contentsline {chapter}{\chapternumberline {12}Resultados experimentales.}{63}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Resultados para el modo de tensión}{63}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Valor de carga fijo al energizar}{63}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}Conexión de carga}{64}{subsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.1.3}Desconexión de carga}{65}{subsection.12.1.3}%
+\contentsline {subsection}{\numberline {12.1.4}Prueba con motor de 12 V}{66}{subsection.12.1.4}%
+\contentsline {subsection}{\numberline {12.1.5}Protección por sobrecorriente}{66}{subsection.12.1.5}%
+\contentsline {section}{\numberline {12.2}Resultados para el modo de corriente}{68}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Resultados para el modo rampa}{69}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Análisis de la tensión de entrada}{70}{section.12.4}%
+\contentsline {chapter}{\chapternumberline {13}Conclusiones y resultados finales.}{73}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Rendimiento de la fuente}{73}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Mejoras y limitaciones}{73}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Mejoras}{73}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Limitaciones}{74}{subsection.13.2.2}%
+\contentsline {section}{\numberline {13.3}Conclusiones}{74}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Retoma del proyecto en un futuro}{74}{section.13.4}%
+\contentsline {chapter}{Bibliografía}{77}{section*.79}%

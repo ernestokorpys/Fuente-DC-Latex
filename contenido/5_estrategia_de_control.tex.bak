@@ -4,19 +4,19 @@
 \label{C:Formas de control}
 
 \section{Principio de estrategia de control.}
-El algoritmo PID (proporcional, integral, derivado) está formado por la suma de tres componentes, Proporcional, Integral y Derivativo) Matemáticamente, un controlador PID tiene la siguiente formulación: \par
+El controlador PID (Proporcional, Integral, Derivativo) se basa en la suma de tres componentes: proporcional, integral y derivativo. Matemáticamente, su formulación es: \par
 \begin{equation}
 Output(t)=K_p\cdot e(t)+K_i\int_0^t e(t)\cdot dt+K_d\cdot \frac{de}{dt}
 \end{equation} \par 
 Cada componente del PID es \entreComillas{independiente} de las demás. en el sentido de que cada uno calcula una salida de lo que \entreComillas{para él} debería hacer para obtener la respuesta adecuada. \par 
-Los tres componentes se suman para dar la salida del controlador. Cada uno cumple una cierta función y mejoran cierta parte de la respuesta. Y cuando los tres componentes trabajan juntos, en la proporción adecuada, consiguen un gran comportamiento. \par 
+Los tres componentes se suman para dar la salida del controlador. Cada uno cumple una función específica que mejora la respuesta del sistema. Y cuando los tres componentes trabajan juntos, en la proporción adecuada, consiguen un gran comportamiento. \par 
 Cada componente tiene un parámetro $K_p$, $K_i$ y $K_d$, respectivamente. Estos parámetros indican la ponderación que tiene en el resultado final.
 \begin{itemize}
 \item El componente proporcional reacciona al presente.
 \item El componente integral reacciona al pasado, y aporta “memoria” al controlador.
 \item El componente derivado reacciona al futuro, y aporta “predicción” al controlador.
 \end{itemize} \par 
-Resumiendo los efectos del PID:
+Los efectos de cada componente del PID son los siguientes:
 \begin{itemize}
 \item Componente proporcional:
 \begin{itemize}
@@ -40,7 +40,7 @@ Resumiendo los efectos del PID:
 
 En base a estos conceptos, se propone el siguiente esquema de control presentado en la Figura \ref{F:Esquema_Control}. En el mismo, los parámetros configurables por el usuario serán la tensión de referencia, la corriente máxima de control y un valor de corriente de cortocircuito que desconectaría la carga por seguridad. \par 
 La corriente máxima de control $I_{cc}$ será el valor utilizado por el algoritmo anti-windup que se explicará en las secciones porvenir. Esta provoca que la acción de control resultante del lazo de tensión externo sea menor a este valor introducido por el usuario, de modo que durante la operación normal no se exceda este valor de corriente incluso si para ello es necesario bajar el nivel de tensión a la salida. \par 
-Por otro lado, la variable $I_{max}$ es el valor al cual se ajustará el potenciómetro digital, cuya función es establecer un valor de referencia al comparador analógico, donde si la tensión proporcional a la corriente actual es mayor a este, se abre forzosamente la llave que excita al relé y se genera una interrupción en el microcontrolador. Esto se aplica como medida adicional de protección, resultando en una respuesta más rápida dado que no depende del lazo de control para desconectar la carga.\par 
+Por otro lado, la variable $I_{max}$ es el valor al cual se ajustará el potenciómetro digital, cuya función es establecer un valor de referencia al comparador analógico, donde si la tensión proporcional a la corriente actual es mayor a este, se abre forzosamente la llave que excita al relé y se genera una interrupción en el microcontrolador. Esto proporciona una respuesta más rápida al no depender del lazo de control para desconectar la carga. \par 
 
 \begin{figure} [H]
 	\centering
@@ -58,7 +58,7 @@ Siendo su expresión en el dominio de Laplace:
 \begin{equation}
 U(s)=(K_p+\frac{K_i}{s}+sK_d)E(s)
 \end{equation}\par 
-Donde considerando una aproximación rectangular backward, la acción de control resultante en función de la variable 'z' resulta:
+Donde considerando una aproximación rectangular \textit{backward}, la acción de control resultante en función de la variable 'z' resulta:
 \begin{equation}
 s\approx\frac{(z-1)}{zT} \quad \to \quad U(z)=[K_p+K_iT\frac{z}{z-1}+\frac{K_d}{T}\frac{(z-1)}{z}]E(z)
 \end{equation}\par 
@@ -80,7 +80,7 @@ u_{PIDp}(k)=u_{PIDp}(k-1)+K_1e(k-1)+K_2e(k-2)+K_3e(k-3)
 
 \section{Lazo de corriente}
 Para realizar el diseño del lazo de control interno es necesario realizar un modelado del mismo. Al utilizar diversos softwares de simulación (PSIM y TINA TI), se verificó que efectivamente, mientras se encuentre en la zona lineal los transistores, la corriente de salida dependerá linealmente de la tensión de entrada, $I_L=k\cdot V_{ctrl}$\par 
-Sin embargo, determinar el valor de k no es sencillo, dado que en los extremos de la recta de carga, el sistema se vuelve no lineal como se observa en la \ref{F:Recta_de_carga_corriente}. Además. existe un cierto valor mínimo en el cual el transistor se mantendrá en corte (aproximadamente $V_B=0,3V$). Por ende, se asumirá una planta con ganancia unitaria mientras que se retocarán las ganancias del controlador experimentalmente hasta alcanzar la respuesta deseada.\par 
+Sin embargo, determinar el valor de k no es sencillo, dado que en los extremos de la recta de carga, el sistema se vuelve no lineal como se observa en la Figura \ref{F:Recta_de_carga_corriente}. Además. existe un cierto valor mínimo en el cual el transistor se mantendrá en corte (aproximadamente $V_B=0,3V$). Por ende, se asumirá una planta con ganancia unitaria mientras que se retocarán las ganancias del controlador experimentalmente hasta alcanzar la respuesta deseada.\par 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./imagenes/Recta_de_carga_corriente.png}
@@ -179,7 +179,7 @@ A continuación, se toman estos controladores y se los aplica en una condición 
 	\caption{Comparación de las respuestas al escalón del lazo externo de tensión ante una condición de carga $R=10\Omega$.}
 	\label{F:Resp_lazo_tension_carga}
 \end{figure} \par 
-Podemos observar que en este caso, la respuesta del sistema se vuelve muy lenta, siendo el controlador que mejor desempeño presenta el $G_{Cv_{v2}}$. Por lo que se puede concluir que existe una relación de compromiso entre el desempeño del sistema ante distintas condiciones de carga. \par
+En este caso, se observa que la respuesta del sistema se vuelve considerablemente lenta, siendo el controlador $G_{Cv_{v2}}$ el que presenta el mejor desempeño. Esto sugiere que existe un compromiso entre el rendimiento del sistema bajo diferentes condiciones de carga. Por lo tanto, se implementarán conjuntos de constantes distintos a la estrategia de control presentada, adaptándolos según el punto de operación de la fuente, el cual se definirá en función de la tensión y corriente de salida. Esto se definirá en la sección  (\ref{C:Implementación del algoritmo de control}).\par
 
 \section{Algoritmo Anti-Windup}
 La acción de control resultante, ya sea $u_v(k)$ o $u_i(k)$, puede ser saturada o limitada a valores positivos y/o negativos en casos en los que se presentan sobretensiones o sobrecorrientes por encima de los valores permitidos. La limitación de la acción de control a un valor fijo, significa que el sistema pierde la controlabilidad de los estados del proceso dado que sería similar a imponer un valor de referencia fijo; en este caso, esta referencia sería la del lazo interno de control de corriente. Esta situación provoca que el error entre la referencia y la salida varíe, tanto en sentido positivo como negativo, sin poder llevarlo a cero y por ende, al existir una acción de integración que acumula a cada periodo de muestreo, la misma puede crecer sin control, limitada únicamente por el tamaño de los registros que almacenen esta variable, con una excursión entre un valor máximo positivo a un valor máximo negativo, pasando el sistema lineal, a ser no lineal. Si esta situación no es controlada, puede provocar un comportamiento oscilatorio de los estados del proceso y si por acaso la acción de control vuelve a situarse dentro de los valores normales, puede que no vuelva a operar correctamente y deba reiniciarse el proceso. Este aumento sin control de la acción integral es lo que se denomina \textit{windup}, y es por lo que debe implementarse una acción \textit{anti-windup}. \par
@@ -208,3 +208,17 @@ Además, a cada periodo de muestreo, ya sea que la acción de control resulte li
 \begin{equation}
 	e[(k-2)T_s]=e[(k-1)T_s] \qquad	e[(k-1)T_s]=e(kT_s)
 \end{equation}
+
+\section{Modos de operación de la fuente.}
+A partir de las simulaciones, cálculos y estrategias de control, se han definido tres modos de funcionamiento principales que permiten adaptarse a diversas necesidades de aplicación. A continuación, se describirá cada uno de estos modos, incluyendo su principio de funcionamiento y los parámetros configurables. \par 
+\subsection{Modo Tensión}
+En este modo, la fuente de alimentación establece inicialmente el valor máximo de tensión deseado. Luego, limita la corriente máxima que la carga puede recibir. Este modo resulta especialmente útil cuando se necesita controlar la tensión suministrada a la carga de forma precisa, al tiempo que se garantiza la seguridad del sistema mediante la limitación de la corriente máxima.\par
+Para lograr este control, se emplea el lazo completo ilustrado en la Figura \ref{F:Esquema_Control}, que está delimitado en violeta. Este lazo consta de un lazo interno de corriente y uno externo de tensión, ambos con referencias externas de valores constantes.\par
+
+\subsection{Modo Corriente}
+En el modo de corriente, la fuente de alimentación establece y controla la corriente suministrada a la carga. Este modo es especialmente útil en situaciones donde es crucial mantener la corriente dentro de ciertos límites para proteger los componentes de la carga y garantizar su correcto funcionamiento. \par 
+En este caso, se utiliza únicamente la parte interna del lazo de control que corresponde a la zona encerrada en rojo de la Figura \ref{F:Esquema_Control}, que está relacionada con la corriente. Esto reduce la cantidad de operaciones necesarias para definir la acción de control y mejora parcialmente la velocidad de actualización de la acción de control. \par
+
+\subsection{Modo Rampa}
+El modo de rampa tiene como objetivo generar un aumento gradual y lineal de la tensión suministrada a la carga durante un período de tiempo determinado. Los parámetros configurables en este modo incluyen la tensión final deseada para la carga y el tiempo en el cual se alcanzará esta tensión desde un valor inicial de 0V. Este modo es útil en aplicaciones donde se requiere un inicio suave del sistema para evitar sobrecargas o picos de corriente al iniciar la energización de componentes. Especialmente útil en cargas como lo podrían ser por ejemplo motores.\par 
+Para la implementación del mismo, como para el modo de tensión, corresponde utilizar el lazo de control completo que engloba tensión y corriente. La diferencia unicamente radicará en que si bien la corriente máxima limitante se mantendrá fija, la tensión de referencia verá un aumento gradual escalonado en base al tiempo o duración de la rampa configurado. \par

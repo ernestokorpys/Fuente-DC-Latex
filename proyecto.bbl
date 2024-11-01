@@ -19,20 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{plantilla_universidad_de_costa_rica}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{addendum}{(Accedido: 13/11/2022)}
-      \field{title}{Plantilla Proyecto Eléctrico - Universidad de Costa Rica}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://es.overleaf.com/latex/templates/plantilla-proyecto-electrico/thtnrybqfsbf
-      \endverb
-      \verb{url}
-      \verb https://es.overleaf.com/latex/templates/plantilla-proyecto-electrico/thtnrybqfsbf
-      \endverb
-    \endentry
     \entry{agilent2000}{article}{}
       \name{author}{1}{}{%
         {{hash=5966618f12acd286726d0eaec59ee557}{%
@@ -234,6 +220,20 @@
       \field{title}{Diseño y construcción de una fuente de alimentación DC lineal con control digital de tensión y corriente}
       \field{year}{2023}
     \endentry
+    \entry{MCP4661}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{MCP466X Datasheet}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22107B.pdf
+      \endverb
+      \verb{url}
+      \verb https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22107B.pdf
+      \endverb
+    \endentry
     \entry{ISO1540}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -253,11 +253,54 @@
       \field{labeltitlesource}{title}
       \field{addendum}{(Accedido: 02/07/2024)}
       \field{title}{uA7800 Series Positive-Voltage Regulators}
+      \field{year}{2003}
       \verb{urlraw}
       \verb https://www.sparkfun.com/datasheets/Components/LM7805.pdf
       \endverb
       \verb{url}
       \verb https://www.sparkfun.com/datasheets/Components/LM7805.pdf
+      \endverb
+    \endentry
+    \entry{2N3055}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{2N3055 Datasheet}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/pdf/datasheet/2n3055-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/pdf/datasheet/2n3055-d.pdf
+      \endverb
+    \endentry
+    \entry{BD139}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{BD139 Datasheet}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.st.com/resource/en/datasheet/bd135.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/bd135.pdf
+      \endverb
+    \endentry
+    \entry{BC559}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{BC559 Datasheet}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/pdf/datasheet/bc559-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/pdf/datasheet/bc559-d.pdf
       \endverb
     \endentry
     \entry{2N2222}{online}{}
@@ -279,6 +322,7 @@
       \field{labeltitlesource}{title}
       \field{addendum}{(Accedido: 02/07/2024)}
       \field{title}{TL084xx}
+      \field{year}{2022}
       \verb{urlraw}
       \verb https://www.st.com/resource/en/datasheet/tl084ac.pdf
       \endverb
@@ -308,6 +352,174 @@
       \field{title}{Diseño de controladores en el dominio de tiempo discreto}
       \field{year}{2020}
     \endentry
+    \entry{Atmega328p}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{Atmega328p}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+      \endverb
+    \endentry
+    \entry{ArduinoDATASHEET}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{Arduino Nano Datasheet}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf
+      \endverb
+    \endentry
+    \entry{SSD1306}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{SSD1306 Datasheet}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+      \endverb
+    \endentry
+    \entry{ADS1115}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{ADS1115 Datasheet}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/ads1113.pdf?ts=1730157153024
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/ads1113.pdf?ts=1730157153024
+      \endverb
+    \endentry
+    \entry{MCP4725}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 29/10/2024)}
+      \field{title}{MCP4725 Datasheet}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf
+      \endverb
+      \verb{url}
+      \verb https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf
+      \endverb
+    \endentry
+    \entry{ArduinoNanoPinout}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Pinout del Arduino Nano}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://descubrearduino.com/arduino-nano-pinout/
+      \endverb
+      \verb{url}
+      \verb https://descubrearduino.com/arduino-nano-pinout/
+      \endverb
+    \endentry
+    \entry{Keypad}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Device Control Keypad Library}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://docs.arduino.cc/libraries/keypad/\#Releases
+      \endverb
+      \verb{url}
+      \verb https://docs.arduino.cc/libraries/keypad/%5C#Releases
+      \endverb
+    \endentry
+    \entry{WireLibrary}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Wire Library}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://github.com/esp8266/Arduino/blob/master/libraries/Wire/Wire.h
+      \endverb
+      \verb{url}
+      \verb https://github.com/esp8266/Arduino/blob/master/libraries/Wire/Wire.h
+      \endverb
+    \endentry
+    \entry{ADS1115Library}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{ADS1X15 Library}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/Adafruit_ADS1X15?tab=readme-ov-file
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/Adafruit_ADS1X15?tab=readme-ov-file
+      \endverb
+    \endentry
+    \entry{GFXLibrary}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Adafruit GFX Library}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/Adafruit-GFX-Library
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/Adafruit-GFX-Library
+      \endverb
+    \endentry
+    \entry{SSD1306Library}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Adafruit SSD1306 Library}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/Adafruit_SSD1306
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/Adafruit_SSD1306
+      \endverb
+    \endentry
+    \entry{MCP4725Library}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(Accedido: 02/07/2024)}
+      \field{title}{Adafruit MCP4725 Library}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/Adafruit_MCP4725
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/Adafruit_MCP4725
+      \endverb
+    \endentry
     \entry{kicad}{online}{}
       \name{author}{1}{}{%
         {{hash=65a497b7130fb0033c9aa6850ba3aedb}{%
@@ -320,8 +532,8 @@
       \strng{authorbibnamehash}{65a497b7130fb0033c9aa6850ba3aedb}
       \strng{authornamehash}{65a497b7130fb0033c9aa6850ba3aedb}
       \strng{authorfullhash}{65a497b7130fb0033c9aa6850ba3aedb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Versión 6.0.8}

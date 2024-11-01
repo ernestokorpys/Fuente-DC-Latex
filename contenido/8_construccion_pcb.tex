@@ -53,9 +53,9 @@ Se incluye un modelo 3D en el diseño con el fin de visualizar la disposición y
     \label{F:montaje_componentes}
 \end{foto} \par 
 
-\section{Ensayo de laboratorio y pruebas prácticas.}
+\section{Primeras pruebas prácticas.}
 Una vez verificada la continuidad de las pistas, el adecuado funcionamiento de los componentes, y los niveles de tensión en varios puntos clave, se procedió a energizar la fuente con todos los transformadores, tomando todas las precauciones necesarias para evitar daños a los componentes.\par 
-A partir de este punto, se realizó una serie de pruebas y ajustes detallados para garantizar el correcto funcionamiento de la fuente. Estas pruebas incluyen la verificación de la respuesta del sistema bajo diversas condiciones de carga y la evaluación de la estabilidad del lazo de control. El uso del osciloscopio fue fundamental en este proceso, como se aprecia en la Figura \ref{F:esayos_y_pruebas}, ya que permitió observar en tiempo real cómo el lazo de control afectaba la salida de la fuente, aspecto crucial para el correcto desempeño del dispositivo.\par 
+A partir de este punto, se realizó una serie de pruebas y ajustes detallados para garantizar el correcto funcionamiento de la fuente. Estas pruebas incluyen la verificación de la respuesta del sistema bajo diversas condiciones de carga y la evaluación de la estabilidad del lazo de control. El uso del osciloscopio fue fundamental en este proceso, como se aprecia en la Fotografía \ref{F:esayos_y_pruebas}, ya que permitió observar en tiempo real cómo el lazo de control afectaba la salida de la fuente, aspecto crucial para el correcto desempeño del dispositivo.\par 
 Durante estas pruebas, se monitorizaron diversos parámetros, tales como la tensión de salida, la respuesta transitoria, y el comportamiento ante variaciones en la carga. Cada ajuste se realizó con el objetivo de optimizar la \textit{performance} del prototipo, asegurando que este cumpliera con los requisitos especificados y operara de manera eficiente y estable.\par 
 
 \begin{foto}[H]
@@ -65,7 +65,45 @@ Durante estas pruebas, se monitorizaron diversos parámetros, tales como la tens
     \label{F:esayos_y_pruebas}
 \end{foto}\par 
 
+\section{Resultados experimentales}
+En esta sección, se presentan los resultados obtenidos del desempeño de la fuente de tensión bajo una condición de carga específica, prestando atención a su respuesta transitoria. Para ello, se utilizaron distintas configuraciones del controlador PID, cada una con distintas constantes $K_p$, $K_i$ y $K_d$, con el fin de estudiar cómo estas afectan el comportamiento dinámico del sistema.\par 
+
+Las gráficas que se presentarán describen el comportamiento de la fuente de tensión durante el proceso de regulación, mostrando su respuesta ante la conexión de una carga. Durante estos ensayos registrados se utilizó un control ON-OFF para, de alguna manera, estabilizar la tensión de salida ante el estado de vacío. En cada uno de los gráficos se destacan los siguientes parámetros característicos de la respuesta transitoria:
+\begin{itemize}
+	\item \textbf{Tiempo de asentamiento ($t_s$)}: El tiempo necesario para que la respuesta permanezca dentro de un rango específico alrededor del valor final. Se utiliza para evaluar la rapidez de estabilización del sistema.
+	\item \textbf{Sobrepaso($M_p$)}: La cantidad máxima que la señal de salida excede el valor de referencia. Este parámetro es clave para evaluar la estabilidad y robustez del controlador, ya que un sobrepaso elevado puede ser indeseable en sistemas críticos.
+	\item \textbf{Error en estado estacionario}: Se analizará si, una vez estabilizada la señal, el valor final de la salida se aproxima adecuadamente al valor de referencia, o si existe un error residual que deba corregirse.
+\end{itemize}\par 
+Inicialmente, se presenta el gráfico que describe la respuesta del lazo de corriente en la figura \ref{F:Resultados obtenidos para el lazo de corriente}. Para el mismo se utiliza las siguientes constantes de control: $Ki_1=0,1$; $Ki_2=0,01$; y $Ki_3=0,001$. La resistencia de carga utilizada es de $100 \Omega$ y el valor de referencia utilizado es de $0,2A$. 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./imagenes/NF5_lazo_corriente.jpg}
+    \caption{Resultados obtenidos para el lazo de corriente.}
+    \label{F:Resultados obtenidos para el lazo de corriente}
+\end{figure}\par 
+De la misma se observa una sobrecarga inicial, con un sobrepaso significativo en la corriente, llegando a aproximadamente $0,35A$. Este comportamiento se debe al control ON-OFF que se había implementado para controlar el voltaje en condición de vacío, dado que al momento de conectar la carga, el valor de tensión sobre la base del transistor resultó elevado. Tras el sobrepaso inicial, se observa una buena respuesta por parte del controlador, obteniendo una salida con un tiempo de asentamiento en torno a $0,5s$ y un sobrepaso casi nulo, verificando que las constantes para este lazo son adecuadas. El error en estado estacionario se debe principalmente a dos factores: se realizó una medición indirecta considerando que la resistencia de salida era de $100\Omega$ y faltó un ajuste fino en la calibración del ADC.\par 
+A continuación, se presenta en la figura \ref{F:Resultados obtenidos para el lazo de tensión} los resultados obtenidos para el lazo de tensión. El valor fijado en este caso fue de $5V$ y nuevamente se empleó una resistencia de carga de $100\Omega$. Las constantes para el lazo de control utilizadas fueron: $Kv_1=0,0005$; $Kv_2=-0,0004$; y $Kv_3=0,0000001$.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./imagenes/NF3_tension_salida.jpg}
+    \caption{Resultados obtenidos para el lazo de tensión.}
+    \label{F:Resultados obtenidos para el lazo de tensión}
+\end{figure}\par 
+De la gráfica se observa una subida inicial, alcanzando un valor aproximado de $7V$para luego estabilizarse en torno a los $5V$ establecidos. El tiempo de asentamiento observado se encuentra alrededor de los $1,5s$. Es una buena aproximación para el primer conjunto de ganancias utilizado, sin embargo se requiere un poco de ajuste para disminuir el sobrepaso elevado que presenta.\par 
+
+Finalmente, se presenta en la figura \ref{F:Resultados_3} los resultados obtenidos para un conjunto distinto de constantes de control para el lazo de tensión. Los valores utilizados fueron: $Kv_1=0,0005$; $Kv_2=-0,00032$; y $Kv_3=0,0000001$. En esta ocasión se fijó el valor de referencia a $15V$. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./imagenes/NF10_tension_control.jpg}
+    \caption{Respuesta de la tensión de salida y la tensión inyectada a la base de los transistores.}
+    \label{F:Resultados_3}
+\end{figure}\par 
+Observando ambas gráficas se aprecia que el primer sobrepaso es sin dudas producido por el efecto del controlador ON-OFF al momento de conectar la carga. Luego, se produce un ligero sobrepaso de la tensión, siendo este aceptable para el valor configurado. El error en estado estacionario es muy cercano a cero, verificando una buena calibración de la medición de tensión además de un buen desempeño de la parte integral del control. \par 
+
 El resultado de estos ensayos fue satisfactorio, evidenciando que el diseño y la construcción del PCB fueron exitosos pero sin embargo no del todo concluyentes. Por lo que para la construcción del siguiente prototipo, se obtuvieron las siguientes observaciones que serán tomadas en cuenta.  \par 
+
+
 \section*{Observaciones}
 \begin{itemize}
     \item Los transistores comienzan a operar con una acción de control mínima de $0,3V$.

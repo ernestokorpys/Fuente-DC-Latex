@@ -14,7 +14,7 @@ Se presenta a continuación en la Figura \ref{F:arduino_nano} un \textit{pinout}
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{./imagenes/arduino_nano.jpg}
-    \caption{Arduino Nano.}
+    \caption{Pinout del Arduino Nano.\cite{ArduinoNanoPinout}}
     \label{F:arduino_nano}
 \end{figure}\par 
 \underline{Entradas}:
@@ -48,10 +48,10 @@ La forma en que interactúan y se conectan los dispositivos entre sí en base al
 
 Durante la comunicación con los demás dispositivos mediante el canal I2C el Arduino Nano toma el rol de único maestro. Debido a que todos se encuentran conectados en una misma línea la forma de acceder a cada dispositivo independientemente de los demás es mediante el uso de direcciones de 7 bits. En este caso estas serán las que se encuentran a continuación. Sin embargo se recuerda que estas en algunos casos son determinadas por la conexión del pin ADDRESS de los componentes, así que ante cualquier duda debe consultarse la hoja de datos del elemento correspondiente.
 \begin{itemize}
-    \item ADC ADS1115 ADDRESS: 0x48
-    \item DAC MCP4725 ADDRESS: 0x60
-    \item Display OLED ADDRESS: 0x3C
-    \item Potenciómetro MCP4661 ADDRESS: 0x28
+    \item ADC ADS1115 \cite{ADS1115} ADDRESS: 0x48
+    \item DAC MCP4725\cite{MCP4725} ADDRESS: 0x60
+    \item Display OLED SSD1306 \cite{SSD1306} ADDRESS: 0x3C
+    \item Potenciómetro MCP4661 \cite{MCP4661} ADDRESS: 0x28
 \end{itemize}
 
 \subsection{Dependencias y Librerías Empleadas}
@@ -59,13 +59,13 @@ Durante la comunicación con los demás dispositivos mediante el canal I2C el Ar
 Una de las ventajas más destacadas de trabajar con Arduino es su activa y extensa comunidad, que ha desarrollado una vasta colección de librerías para simplificar la escritura de código y la implementación de funcionalidades avanzadas. Estas librerías permiten a los desarrolladores enfocarse en la lógica central de sus proyectos, sin tener que preocuparse por programar desde cero cada tarea sencilla. A continuación, se presentan las principales librerías utilizadas en este proyecto:
 
 \begin{itemize}
-    \item \textbf{Key.h}: Esta librería facilita la gestión de entradas de teclado, permitiendo la detección y el procesamiento eficiente de pulsaciones de teclas.
-    \item \textbf{Keypad.h}: Utilizada para manejar teclados matriciales, esta librería simplifica la lectura de teclas y la interpretación de entradas de usuario.
-    \item \textbf{Wire.h}: Esencial para la comunicación I2C, esta librería permite la interacción con una variedad de dispositivos periféricos compatibles con este protocolo, como sensores y expansores de E/S.
-    \item \textbf{Adafruit\_ADS1X15.h}: Proporciona soporte para la familia de convertidores analógico-digital (ADC) ADS1X15 de Adafruit, permitiendo lecturas precisas de señales analógicas.
-    \item \textbf{Adafruit\_GFX.h}: Una librería gráfica que proporciona primitivas de dibujo básicas, tales como líneas, círculos y texto, utilizada comúnmente en pantallas gráficas.
-    \item \textbf{Adafruit\_SSD1306.h}: Especializada en el control de pantallas OLED basadas en el controlador SSD1306, esta librería facilita la visualización de información en pantallas compactas y de alta resolución.
-    \item \textbf{Adafruit\_MCP4725.h}: Proporciona una interfaz sencilla para controlar el DAC MCP4725, permitiendo la generación de señales analógicas de manera precisa.
+    \item \textbf{Key.h}\cite{Keypad}: Esta librería facilita la gestión de entradas de teclado, permitiendo la detección y el procesamiento eficiente de pulsaciones de teclas.
+    \item \textbf{Keypad.h}\cite{Keypad}: Utilizada para manejar teclados matriciales, esta librería simplifica la lectura de teclas y la interpretación de entradas de usuario.
+    \item \textbf{Wire.h}\cite{WireLibrary} Esencial para la comunicación I2C, esta librería permite la interacción con una variedad de dispositivos periféricos compatibles con este protocolo, como sensores y expansores de E/S.
+    \item \textbf{Adafruit\_ADS1X15.h}\cite{ADS1115Library}: Proporciona soporte para la familia de convertidores analógico-digital (ADC) ADS1X15 de Adafruit, permitiendo lecturas precisas de señales analógicas.
+    \item \textbf{Adafruit\_GFX.h}\cite{GFXLibrary}: Una librería gráfica que proporciona primitivas de dibujo básicas, tales como líneas, círculos y texto, utilizada comúnmente en pantallas gráficas.
+    \item \textbf{Adafruit\_SSD1306.h}\cite{SSD1306Library} : Especializada en el control de pantallas OLED basadas en el controlador SSD1306, esta librería facilita la visualización de información en pantallas compactas y de alta resolución.
+    \item \textbf{Adafruit\_MCP4725.h}\cite{MCP4725Library} : Proporciona una interfaz sencilla para controlar el DAC MCP4725, permitiendo la generación de señales analógicas de manera precisa.
 \end{itemize}
 
 \section{Ensayos y simulación}
@@ -90,8 +90,9 @@ Basado en el desarrollo descrito en la sección anterior, se obtuvo un modelo fu
 \end{foto}
 
 \section{Diagrama de Control del Software}
-El software implementado en el microcontrolador para el control de la fuente de alimentación está diseñado siguiendo una estructura modular y organizada, lo que permite una adecuada secuenciación de las tareas y una toma de decisiones eficiente. El siguiente diagrama de la figura \ref{F:diagrama_de_procesos} muestra el flujo de trabajo del software, representando el orden en el que se ejecutan las distintas funciones y cómo se toman las decisiones dentro del microcontrolador para garantizar un control preciso de la salida.\par
-El código del sistema se ha estructurado en cuatro secciones principales, cada una de las cuales cumple una función clave en la operación global:\par
+El software implementado en el microcontrolador para el control de la fuente de alimentación está diseñado siguiendo una estructura modular y organizada, lo que permite una adecuada secuenciación de las tareas y una toma de decisiones eficiente. La Figura \ref{F:diagrama_de_procesos} presenta el flujo de trabajo del software, detallando el orden de ejecución de las funciones y la toma de decisiones que permiten un control preciso de la salida.\par
+
+El sistema se organiza en cuatro secciones principales, cada una de ellas desempeñando un rol clave en la operación general:\par
 \begin{itemize}
     \item \textbf{Manejo de Presión de Teclas:} Esta sección se encarga de detectar la pulsación de alguna de las teclas del panel de control por parte del usuario. En función de la tecla presionada, se ejecuta la acción correspondiente, como ajustar los valores de referencia de la tensión o corriente de salida, modificar configuraciones, o activar/desactivar la fuente.
     \item \textbf{Manejo de la Interacción con el Encoder:} El \textit{encoder} rotativo es un dispositivo crucial para la manipulación de las referencias en lazo de control. Esta sección del código capta los movimientos de rotación del \textit{encoder}, ya sea en sentido horario o antihorario, y actualiza en tiempo real las referencias de tensión y corriente que el sistema debe alcanzar. Gracias a esta implementación, el usuario puede ajustar de manera precisa los valores de salida.

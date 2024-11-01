@@ -1,11 +1,11 @@
 
-\chapter{Introducción teórica a fuentes CC}
+\chapter{Introducción a las Fuentes de Alimentación de Corriente Continua}
 % ----------------------
 
 \label{C:Fuentes de corriente continua}
 
 \section{Sobre las fuentes de alimentación.} \par
-Las fuentes de alimentación electrónicas se definen como circuitos que transforman la potencia eléctrica de entrada, ya sea de corriente alterna (CA) o de corriente continua (CC), en potencia de salida, ya sea de corriente alterna (CA) o de corriente continua (CC). Esta definición excluye así a las fuentes de alimentación basadas en los principios de máquinas rotativas y distingue las fuentes de alimentación de la categoría más general de fuentes de energía eléctrica que derivan la potencia eléctrica de otras formas de energía (por ejemplo, baterías, celdas solares, celdas de combustible). Las fuentes de alimentación electrónicas se pueden dividir en cuatro amplias clasificaciones:
+Las fuentes de alimentación electrónicas se definen como circuitos que transforman la potencia eléctrica de entrada, ya sea de corriente alterna (CA) o de corriente continua (CC), en potencia de salida, que puede ser de corriente alterna (CA) o de corriente continua (CC). Esta definición excluye así a las fuentes de alimentación basadas en los principios de máquinas rotativas y distingue las fuentes de alimentación de la categoría más general de fuentes de energía eléctrica que derivan la potencia eléctrica de otras formas de energía (por ejemplo, baterías, celdas solares, celdas de combustible). Las fuentes de alimentación electrónicas se pueden clasificar en cuatro categorías principales:
 
 \begin{enumerate}
     \item CA de entrada, CA de salida regulada por línea o cambiadores de frecuencia.
@@ -26,7 +26,8 @@ Como se explica en esta sección, las fuentes de alimentación están diseñadas
 La analizada en este informe será una fuente con entrada CA y salida CC con control de voltaje y límite de corriente.
 
 \subsection{Fuente ideal de  tensión.} \par 
-No existe tal cosa como un dispositivo perfecto en la electrónica, sin embargo con el fin de buscar la excelencia en el diseño y producción de un prototipo de fuente se parte del principio de que características debería presentar la misma para estar lo más próxima a este escenario hipotético. Todo esto lleva a decir que una fuente de alimentación de voltaje constante ideal sería aquella que tendría una impedancia de salida cero en todas las frecuencias. Por lo tanto, el voltaje permanece perfectamente constante a pesar de cualquier cambio en la corriente de salida demandada por la carga. \par 
+En la electrónica, no existen dispositivos perfectos, sin embargo con el fin de buscar la excelencia en el diseño y producción de un prototipo de fuente se parte del principio de que características debería presentar la misma para estar lo más próxima a este escenario hipotético. Por lo tanto, una fuente de alimentación de voltaje constante ideal tendría una impedancia de salida cero en todas las frecuencias, lo que permitiría que el voltaje se mantuviera constante independientemente de la carga. \par 
+
 Una simple fuente de alimentación no regulada compuesta únicamente por un rectificador y un filtro no es capaz de proporcionar un voltaje de salida de corriente continua sin ondulaciones cuyo valor permanece razonablemente constante. Para obtener siquiera una aproximación básica de la característica de salida ideal, algún tipo de elemento de control (regulador) debe incluirse en la fuente. \cite{agilent2000}. 
 
 \begin{figure}
@@ -39,10 +40,10 @@ Una simple fuente de alimentación no regulada compuesta únicamente por un rect
 \subsection{Técnicas de Regulación}\par 
 La mayoría de las fuentes de alimentación de voltaje constante actuales emplean una de estas cuatro técnicas de regulación:
 \begin{itemize}
-    \item Serie (Lineal).
-    \item Pre-regulador/Regulador en Serie.
-    \item Conmutación.
-    \item SCR.
+    \item Serie (Lineal): utiliza un dispositivo que actúa como resistencia variable. Eficiente para bajas potencias, pero genera calor.
+    \item Pre-regulador/Regulador en Serie: combina un pre-regulador con un regulador en serie para mejorar la eficiencia y reducir el calentamiento.
+    \item Conmutación: usa interruptores que se encienden y apagan rápidamente para regular el voltaje. Es más eficiente y compacto.
+    \item SCR(Silicon Controlled Rectifier): Controla la corriente usando tiristores, útil para manejar alta potencia mediante modulación del ciclo de trabajo.
 \end{itemize}\par 
 
 El objetivo principal de este documento no es proporcionar una explicación exhaustiva de cada uno de estos modelos. En su lugar, se hará una mención breve de todos ellos y se identificará específicamente el modelo que tiene mayor relevancia para los fines de este estudio. Esta aproximación permitirá centrar el análisis en el modelo más pertinente, sin desviar la atención hacia detalles que, aunque importantes, no son esenciales para los propósitos de este trabajo.
@@ -53,7 +54,7 @@ Las fuentes de alimentación lineales son un elemento fundamental en la mayoría
 Una fuente de alimentación lineal consta de varios componentes básicos, como el transformador, el rectificador, el filtro y el regulador de voltaje. Cada uno de estos elementos juega un papel fundamental en garantizar que la energía suministrada sea constante y adecuada para los dispositivos electrónicos, asegurando su correcto funcionamiento.
 
 \section{Funcionamiento básico.} \par 
-El tipo más simple y común de fuentes de alimentación de corriente continua (CC) es un sistema \entreComillas{lineal} , mostrado esquemáticamente en la Figura \ref{F:componentesFL}. Primero, se utiliza un transformador para \entreComillas{reducir} la tensión de línea de CA a un voltaje pico más pequeño, que generalmente es aproximadamente 3 voltios superior que el voltaje de salida de CC deseado. Luego, un circuito de diodos rectifica la señal de CA, produciendo una forma de onda con una gran componente de CC. Seguidamente, se utiliza un banco de filtros de condensadores para \entreComillas{suavizar} o \entreComillas{filtrar} la sinusoidal rectificada. \par 
+El tipo más simple y común de fuentes de alimentación de corriente continua (CC) es un sistema \entreComillas{lineal}, mostrado esquemáticamente en la Figura \ref{F:componentesFL}. Primero, se utiliza un transformador para \entreComillas{reducir} la tensión de línea de CA a un voltaje pico más pequeño, que generalmente es aproximadamente 3 voltios superior que el voltaje de salida de CC deseado. Luego, un circuito de diodos rectifica la señal de CA, produciendo una forma de onda con una gran componente de CC. Seguidamente, se utiliza un banco de filtros de condensadores para \entreComillas{suavizar} o \entreComillas{filtrar} la sinusoidal rectificada. \par 
 Bajo condiciones de carga normales, siempre hay alguna variación periódica residual o \entreComillas{ripple} en la señal filtrada. Si la aplicación requiere un ripple muy bajo y una salida de CC constante sobre un amplio rango de condiciones de carga, entonces se requiere regulación activa para reducir o eliminar aún más este ripple residual. \cite{tektronix_pws4305}
 \begin{figure}
     \centering
@@ -86,7 +87,7 @@ Todo dispositivo cuenta con una serie de características que la hacen una opci�
 \end{itemize}\par 
 \underline{Desventajas}:
 \begin{itemize}
-    \item Baja eficiencia energética: Tienen una eficiencia energética más baja en comparación con las fuentes de alimentación conmutadas, especialmente en aplicaciones de alta potencia.
+    \item Baja eficiencia energética: La eficiencia es menor en comparación con fuentes de alimentación conmutadas, especialmente en aplicaciones de alta potencia.
     \item Disipación de calor: Tienden a generar más calor durante la operación debido a la regulación de voltaje a través de dispositivos de regulación lineal, lo que puede requerir disipadores de calor o ventilación adicional.
     \item Mayor tamaño y peso: Suelen ser más grandes y pesadas en comparación con las fuentes de alimentación conmutadas con la misma capacidad de potencia.
     \item Menor rango de voltaje de entrada: Tienen un rango de voltaje de entrada limitado en comparación con las fuentes de alimentación conmutadas, lo que puede limitar su aplicabilidad en ciertos entornos o condiciones de operación.

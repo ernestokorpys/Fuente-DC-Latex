@@ -77,7 +77,7 @@ El circuito observado en la Figura \ref{F:Circuito_Actuador} tiene la finalidad 
 	\label{F:Circuito_Actuador}
 \end{figure} \par 
 
-Se utilizó como transistor de potencia tres 2N3055 conectados en paralelo, con ganancia $h_{FE1} =20$ y $V_{BE1(ON)} =1,5~V$ mientras que para accionarlo se utiliza un BD139 con $h_{FE4} =30$ y $V_{BE4(ON)} =1V$. \par 
+Se utilizó como transistor de potencia tres 2N3055\cite{2N3055} conectados en paralelo, con ganancia $h_{FE1} =20$ y $V_{BE1(ON)} =1,5~V$ mientras que para accionarlo se utiliza un BD139 \cite{BD139} con $h_{FE4} =30$ y $V_{BE4(ON)} =1V$. \par 
 Considerando el caso de máxima carga $V_L =30V$ y $I_L =3A$ en la base de los transistores debe haber una tensión igual a:
 \begin{equation}
 \begin{split}
@@ -147,7 +147,7 @@ Para el cálculo de R8 establecemos que $I_L=0A$ de modo que la base de Q4 tenga
 \begin{equation}
 I_{R7(max)}=\frac{V_{cc1}-V_{B4(min)}}{R7}=\frac{12V-0,8V}{1200}\cong 9,33 mA
 \end{equation} \par 
-El transistor Q5 es un BC559 y tiene una ganancia $hfe5=110$ y una tensión emisor-base $V_{EB5}=0,7V$ con la cual la resistencia R8 resulta:
+El transistor Q5 es un BC559 \cite{BC559} y tiene una ganancia $hfe5=110$ y una tensión emisor-base $V_{EB5}=0,7V$ con la cual la resistencia R8 resulta:
 \begin{equation}
 R8=\frac{V_{B4}-V_{EB5}}{(\frac{I_{R7}}{hfe5})}=\frac{0,8V-0,7V}{(\frac{9,33 mA}{110})}=1178,57\Omega \to 1200\Omega
 \end{equation}\par 

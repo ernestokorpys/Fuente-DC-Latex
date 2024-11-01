@@ -120,6 +120,34 @@ A continuación se presentan las Figuras \ref{F:Rampa24_16} y \ref{F:Rampa24_30}
 \end{figure}\par 
 En las gráficas se puede apreciar un crecimiento lineal de la tensión conforme al tiempo establecido. Se observa un mayor incremento en los primeros instantes de la rampa, lo cual es atribuible a la estrategia de control implementada. Sin embargo, este efecto es insignificante y no compromete el correcto funcionamiento del sistema.\par 
 
+\section{Análisis de la tensión de entrada}
+Para determinar el rango de operación de la fuente de alimentación, se analizó el comportamiento de la tensión de entrada rectificada antes del regulador basado en BJT. Este análisis permite evaluar la estabilidad y el margen de operación de los transistores en la zona activa, incluso bajo condiciones de carga variables. \par
 
+Se presentan dos condiciones principales para observar el comportamiento de la tensión de entrada. En primer lugar, se evaluó el funcionamiento en una condición de baja corriente, en torno a 200 mA, como se muestra en la Figura \ref{F:Tension_entrada_12}.En esta figura, se observa que cuando la fuente está desactivada, la tensión rectificada se mantiene cerca de 46 V. Sin embargo, al habilitar la salida y establecer un nivel de tensión dado, la tensión de entrada desciende hasta aproximadamente 34 V. Este descenso es aceptable y evidencia un margen de operación adecuado para los transistores, asegurando su funcionamiento en la zona activa incluso si se incrementa la tensión de salida hasta 30 V. \par
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./imagenes/Tension_12.jpg}
+    \caption{Análisis de la tensión de entrada frente a un punto de operación normal.}
+    \label{F:Tension_entrada_12}
+\end{figure}\par
+
+La segunda condición analizada corresponde a la corriente de salida máxima, en la que la fuente suministra aproximadamente 3 A. La Figura \ref{F:Vrec_Isal} muestra el análisis de la tensión de entrada bajo esta carga nominal. Al exigir esta corriente, se observa que la tensión de entrada vuelve a caer, similar al caso anterior, pero se mantiene por encima de 34 V. Este resultado confirma que, incluso en condiciones de máxima demanda de corriente, los transistores continúan operando dentro de la zona activa, manteniendo así el margen necesario para una regulación estable. \par
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./imagenes/Vrec_Isal.jpg}
+    \caption{Análisis de la tensión de entrada frente a una condición de carga nominal.}
+    \label{F:Vrec_Isal}
+\end{figure}\par 
+
+Finalmente, se analizó el rizado en la tensión de entrada para esta última condición de carga máxima. Para capturar el rizado, se configuró el osciloscopio en modo de acoplamiento de corriente alterna (CA), permitiendo medir exclusivamente el componente de riple. La Figura \ref{F:ripple} muestra los resultados obtenidos, donde se observa un rizado de aproximadamente 2 V pico a pico con una frecuencia cercana a 100 Hz, correspondiente al rectificador de onda completa. Estos valores de rizado son aceptables, confirmando el correcto funcionamiento de la fuente dentro del rango especificado en los objetivos del diseño.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./imagenes/ripple.jpg}
+    \caption{Análisis de la tensión de entrada frente a una condición de carga nominal.}
+    \label{F:ripple}
+\end{figure}\par 
 
 

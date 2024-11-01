@@ -1,0 +1,20 @@
+% LOS RECONOCIMIENTOS
+% -------------------
+
+% Aquí se escribe la dedicatoria del proyecto y los agradecimientos. El entorno 'reconocimiento' tiene la estructura \begin{reconocimiento}{Dedicatoria} Agradecimientos \end{reconocimiento}
+
+\begin{reconocimiento}{Dedicado a nuestras familias y amigos Saludos.}
+
+Korpys Ernesto.
+Agradezco de corazón a mi familia por su inquebrantable apoyo a lo largo de toda mi vida. En especial, a mi madre Gladys, cuyo amor y sacrificio han sido mi mayor inspiración y motor para alcanzar mis metas.
+Agradezco enormemente a mi compañero de proyecto, Fernando, quien no solo fue mi compañero de trabajo, sino también un amigo invaluable durante esta travesía académica. Su colaboración y compañerismo fueron fundamentales para el éxito de este proyecto.
+A mis amigos presentes, les doy las gracias por su constante ánimo y respaldo, por compartir conmigo momentos de alegría y por ser un pilar fundamental en mi vida.
+Expreso mi profundo agradecimiento al equipo docente, a los ingenieros Botteron, Fernandez y Kolodziej, quienes no solo compartieron su conocimiento y experiencia conmigo, sino que también me brindaron su apoyo académico cuando más lo necesité. Gracias por ser guías en este viaje de aprendizaje y crecimiento profesional.
+
+\textbf{Krindges Fernando:}
+Llegar hasta aquí ha sido un camino de esfuerzo, dedicación y, sobre todo, de apoyo de quienes creyeron en mí. A mi madre, Vogel Claudia, debo el mayor de mis agradecimientos. Su apoyo incondicional, sus sacrificios y su fortaleza fueron el pilar que me impulsó a no rendirme. Gracias, mamá, por ser mi inspiración y por brindarme todas las oportunidades para que pudiera alcanzar mis metas.\par 
+
+También agradezco de corazón a Korpys Ernesto, mi amigo y compañero de proyecto, con quien enfrenté desafíos, noches de estudio y momentos inolvidables. Ernesto, tu dedicación y amistad hicieron este recorrido mucho más enriquecedor. Gracias por tu esfuerzo y por ser un apoyo constante en esta etapa de nuestras vidas.\par 
+
+Finalmente, quiero expresar mi gratitud hacia los ingenieros que fueron una guía inestimable, especialmente a Fernández Guillermo y Botteron Fernando. Con paciencia y generosidad, compartieron sus conocimientos y nos guiaron, haciendo de cada lección una puerta abierta a nuevas oportunidades. Ellos, junto con todos los docentes que nos acompañaron, hicieron de la ingeniería no solo una carrera, sino una vocación apasionante.\par 
+\end{reconocimiento}

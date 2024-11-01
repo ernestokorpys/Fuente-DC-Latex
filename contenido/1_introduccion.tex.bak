@@ -2,14 +2,13 @@
   \chapter{Introducción}
 % ----------------------
 
-\label{C:introduccion}
+\label{C:introduccion} 
 
-El proyecto se centra en la modernización de una fuente de alimentación preexistente, en su mayoría analógica, de una tensión variable desde 0V hasta 30V y una corriente ajustable desde 0A hasta 3A, mediante la implementación de un control digital para la regulación precisa de la tensión y corriente de salida, así como la implementación de lazos de control digital para garantizar la estabilidad de la salida en diversas condiciones de carga. \par
-La esencia de este proyecto radica en la utilización de un controlador digital de señales para ajustar la salida de la fuente de alimentación, introduciendo el valor deseado a través de un teclado o un encoder rotativo. Este enfoque proporciona al usuario la capacidad de configurar fácilmente los valores deseados de tensión y corriente de salida, mientras que un display integrado ofrece una retroalimentación visual en tiempo real, mostrando tanto los valores establecidos como los valores reales de salida.\par
-Como núcleo de control, se emplea el microcontrolador digital Arduino NANO, destacando su bajo costo, accesibilidad y la disponibilidad de librerías creadas por la gran comunidad que lo respalda. Resulta importante mencionar que este diseño no requiere de conexión inalámbrica, lo que simplifica su implementación y uso.
- \cite{plantilla_universidad_de_costa_rica}. \par 
+El proyecto se enfoca en la modernización de una fuente de alimentación existente, predominantemente analógica, que ofrece un rango de tensión variable de 0V a 30V y una corriente ajustable de 0A a 3A. Esto se logrará mediante la implementación de un control digital que permitirá una regulación precisa de la tensión y la corriente de salida, así como el establecimiento de lazos de control digital que asegurarán la estabilidad de la salida bajo diversas condiciones de carga. \par
+
+La esencia de este proyecto radica en la utilización de un controlador digital de señales para ajustar la salida de la fuente de alimentación, introduciendo el valor deseado a través de un teclado o un \textit{encoder} rotativo. Este enfoque proporciona al usuario la capacidad de configurar fácilmente los valores deseados de tensión y corriente de salida, mientras que un display integrado ofrece una retroalimentación visual en tiempo real, mostrando tanto los valores establecidos como los valores reales de salida.\par
+
+Como núcleo de control, se emplea el microcontrolador digital \entreComillas{Arduino NANO}, destacando su bajo costo, accesibilidad y la disponibilidad de librerías creadas por la gran comunidad que lo respalda. Resulta importante mencionar que este diseño no requiere de conexión inalámbrica, lo que simplifica su implementación y uso.
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
