@@ -1,4 +1,4 @@
-\chapter{Modificación de la Fuente CC anterior}
+\chapter{Modificación de la Primera Versión de la Fuente CC Lineal}
 % ----------------------
 
 \label{C:Sobre la fuente anterior}
@@ -8,17 +8,17 @@ La revisión y adaptación del trabajo previo titulado \entreComillas{Diseño y 
 Esta sección se centra en analizar y discutir las modificaciones realizadas en la fuente de alimentación, específicamente la transición de su mayoría analógica a una configuración digital. Entre los principales cambios introducidos se destacan los siguientes aspectos:
 
 \subsection{Circuito Fijador de Referencia para los Transistores}
-El circuito fijador de referencia para los transistores ha sido modificado para incorporar la salida de un Convertidor Analógico-Digital (DAC). El DAC es ahora responsable de aplicar niveles de voltaje acorde a los valores determinados por el control digital. Esta modificación permite un ajuste preciso y programable de las referencias de voltaje, eliminando la necesidad de ajustes mecánicos, por ende mejorando la precisión y flexibilidad del sistema.
+El circuito fijador de referencia para los transistores ha sido modificado para incorporar la salida de un Convertidor Analógico-Digital (DAC). El DAC es ahora responsable de aplicar niveles de voltaje acorde a los valores determinados por el control digital. Esta modificación permite un ajuste preciso y programable de las referencias de voltaje, eliminando la necesidad de ajustes mecánicos, por ende mejorando la precisión y flexibilidad del sistema.\par
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{./imagenes/Eliminada1.PNG}
     \caption{Sección de referencia de tensión a aplicar sobre la base de los transistores.}
     \label{F:Eliminada1}
 \end{figure}\par 
-Entre los cambios a realizarse a la Figura \ref{F:Eliminada1} se incluye la sustitución de la resistencia de \textit{pull-up} R9 por una de \textit{pull-down}. Se agrega además un seguidor de tensión del voltaje de salida del DAC que inyecte la misma magnitud sobre la base del transistor Q5.
+Entre los cambios a realizarse a la Figura \ref{F:Eliminada1} se incluye la sustitución de la resistencia de \textit{pull-up} R9 por una de \textit{pull-down}. Se agrega además un seguidor de tensión del voltaje de salida del DAC que inyecte la misma magnitud sobre la base del transistor Q5.\par
 
 \subsection{Modificación de uso de Potenciómetros Digitales MCP4661}
-Originalmente, los potenciómetros digitales MCP4661 se utilizaban para establecer una referencia de voltaje que comandaba los transistores, definiendo tanto la tensión como la corriente sobre la carga. Sin embargo, con la incorporación del DAC, esta función ya no es necesaria. En su lugar, los potenciómetros digitales ahora se utilizan para establecer una referencia de tensión destinada a un circuito de protección analógica contra cortocircuitos. Esta reasignación permite una respuesta inmediata para proteger la carga, evitando los retrasos inherentes a los cálculos y actualizaciones de salida necesarios en un sistema de control digital.
+Originalmente, los potenciómetros digitales MCP4661 se utilizaban para establecer una referencia de voltaje que comandaba los transistores, definiendo tanto la tensión como la corriente sobre la carga. Sin embargo, con la incorporación del DAC, esta función ya no es necesaria. En su lugar, los potenciómetros digitales ahora se utilizan para establecer una referencia de tensión destinada a un circuito de protección analógica contra cortocircuitos. Esta reasignación permite una respuesta inmediata para proteger la carga, evitando los retrasos inherentes a los cálculos y actualizaciones de salida necesarios en un sistema de control digital.\par
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{./imagenes/potenciometro_digital.png}
@@ -28,36 +28,38 @@ Originalmente, los potenciómetros digitales MCP4661 se utilizaban para establec
 En la Figura \ref{F:potenciometro_digital} podemos observar el símbolo del potenciómetro mencionado. Con el mismo es posible modificar el porcentaje de resistencia mediante comunicación digital a través del protocolo \entreComillas{Circuito Inter-Integrado} (I2C). \cite{MCP4661}
 
 \subsection{Eliminación del circuito de medición externo}
-Dado que la fuente de alimentación ahora cuenta con una pantalla integrada que muestra en tiempo real los valores de tensión y corriente, el circuito dedicado a la conexión de un voltímetro-amperímetro digital se ha considerado innecesario y, por lo tanto, ha sido removido del diseño. Esta simplificación reduce la complejidad y el número de componentes necesarios reduciendo los costos constructivos de la fuente.
+Dado que la fuente de alimentación ahora cuenta con una pantalla integrada que muestra en tiempo real los valores de tensión y corriente, el circuito dedicado a la conexión de un voltímetro-amperímetro digital se ha considerado innecesario y, por lo tanto, ha sido removido del diseño. Esta simplificación reduce la complejidad y el número de componentes necesarios reduciendo los costos constructivos de la fuente.\par
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{./imagenes/voltimetro_amperimetro.png}
     \caption{Conexión voltímetro/amperímetro.}
     \label{F:voltimetro_amperimetro}
 \end{figure}
-En la Figura \ref{F:voltimetro_amperimetro} se aprecia los interconexión de los elementos que conformaban esta etapa. También se resalta que para su correcto funcionamiento era necesario una batería de 9V.
+En la Figura \ref{F:voltimetro_amperimetro} se aprecia la interconexión de los elementos que conformaban esta etapa. También se resalta que para su correcto funcionamiento era necesaria una batería de 9V.\par
 
 \subsection{Modificación del Circuito de Acople y Desacople de Carga}\par 
-Se ha modificado considerablemente el circuito de disparo del relé de acople y desacople de carga, aprovechando las capacidades proporcionadas por el \entreComillas{Arduino Nano} con sus entradas y salidas digitales.
+Se ha modificado considerablemente el circuito de disparo del relé de acople y desacople de carga, aprovechando las capacidades proporcionadas por el \entreComillas{Arduino Nano} con sus entradas y salidas digitales.\par
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{./imagenes/conexion_carga.PNG}
     \caption{Acople y desacople de carga.}
     \label{F:conexion_carga}
 \end{figure}\par 
-En la Figura \ref{F:conexion_carga} se presenta el esquema utilizado por la fuente anterior. Gracias a las características del microcontrolador es posible prescindir del NE555 en cuanto a la temporización se refiere. Sin embargo, se sigue requiriendo el uso de optoacopladores para mantener la aislación entre la etapa de potencia y la etapa digital.
+En la Figura \ref{F:conexion_carga} se presenta el esquema utilizado por la fuente anterior. Gracias a las características del microcontrolador es posible prescindir del NE555 en cuanto a la temporización se refiere. Sin embargo, se sigue requiriendo el uso de optoacopladores para mantener la aislación entre la etapa de potencia y la etapa digital.\par
 
 \subsection{Simplificación del Circuito Indicador de Modo de Operación}
-La pantalla integrada también cumple la función de indicar el modo de operación, eliminando la necesidad de un circuito adicional dedicado a esta tarea. Esto no solo simplifica el diseño del sistema, sino que también mejora la experiencia del usuario al centralizar toda la información relevante en un solo lugar.
+El circuito representado en la figura \ref{F:modo_operacion} fue originalmente concebido para indicar y definir el modo de operación de la fuente de alimentación a través de un circuito dedicado. Este enfoque era fundamental en el diseño inicial, ya que el proceso se realizaba de manera completamente analógica, lo que requería la implementación de un mecanismo de señalización que informara al usuario sobre el estado y la configuración operativa de la fuente en cada momento.\par
+Sin embargo, con la transición a un sistema de control digital, la necesidad de este tipo de circuitos ha quedado eliminada. Gracias a la incorporación de un software de gestión, el usuario puede configurar, supervisar y modificar los parámetros de funcionamiento de la fuente de manera más eficiente y precisa, simplificando el proceso y reduciendo la necesidad de circuitos adicionales de indicación gracias a la pantalla.\par
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{./imagenes/modo_operacion.PNG}
-    \caption{Sección de referencia de tensión.}
+    \caption{Circuito Indicador de Modo de Operación.}
     \label{F:modo_operacion}
 \end{figure}
 
 \subsection{Integración del Circuito con NodeMCU ESP-32S}
-Dado que no se requiere una conexión inalámbrica según las especificaciones del circuito, se ha prescindido del microcontrolador ESP con módulo Wi-Fi que tenía como objetivo la visualización de la información en un display, leer el estado de los \textit{encoders} rotativos y registrar los datos mas relevantes. Para mantener la aislación utilizaba el circuito integrado ISO1540 \cite{ISO1540}. El esquemático del circuito registrador que utilizaban puede observarse en la Figura \ref{F:ESP_32S}.
+Dado que no se requiere una conexión inalámbrica según las especificaciones del circuito, se ha prescindido del microcontrolador ESP con módulo Wi-Fi que tenía como objetivo la visualización de la información en un display, leer el estado de los \textit{encoders} rotativos y registrar los datos mas relevantes. Para mantener la aislación utilizaba el circuito integrado ISO1540 \cite{ISO1540}. El esquemático del circuito registrador que utilizaban puede observarse en la Figura \ref{F:ESP_32S}.\par
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{./imagenes/ESP_32S.png}
@@ -66,7 +68,7 @@ Dado que no se requiere una conexión inalámbrica según las especificaciones d
 \end{figure}
 
 \subsection{Encoders rotativos}\par 
-El uso de un teclado numérico hace que este elemento no sea necesario. Sin embargo, se dejará este como una alternativa para el ajuste fino de las magnitudes a tiempo real. Esto se debe a una cuestión tradicional ya que la gran mayoría de los usuarios están acostumbrado a configurar manualmente las fuentes de tensión mediante perillas.\par
+El uso de un teclado numérico hace que este elemento no sea necesario. Sin embargo, se dejará este como una alternativa para el ajuste fino de las magnitudes a tiempo real. Esto se debe a una cuestión tradicional ya que la gran mayoría de los usuarios están acostumbrado a configurar manualmente las fuentes de tensión mediante perillas. En la figura \ref{F:encoder_rotativo} se muestra una imagen del encoder utilizado. [\cite{Encoder}] \par
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{./imagenes/encoder_rotativo.jpg}
@@ -74,7 +76,7 @@ El uso de un teclado numérico hace que este elemento no sea necesario. Sin emba
     \label{F:encoder_rotativo}
 \end{figure}
 \par 
-Estas modificaciones han permitido no solo modernizar la fuente de alimentación, sino también mejorar su funcionalidad y eficiencia mediante la incorporación de tecnología digital y la simplificación de circuitos redundantes. 
+Estas modificaciones han permitido no solo modernizar la fuente de alimentación, sino también mejorar su funcionalidad y eficiencia mediante la incorporación de tecnología digital y la simplificación de circuitos redundantes. \par
 
 \section{Fuente de alimentación CC lineal planteada}
 
@@ -86,7 +88,7 @@ Para medir la tensión y la corriente, se emplearán circuitos acondicionadores 
 
 El circuito de acople y desacople de carga permitirá conectar y desconectar la carga según el estado de la fuente, protegiendo así la carga ante condiciones de sobretensión o sobrecorriente. \par 
 
-La parte digital de la fuente se alimentará con una tensión de +5V, que se obtendrá del transformador de 9V. El microcontrolador estará completamente aislado de la sección de potencia mediante un aislador I2C y optoacopladores, según sea necesario. El programa ejecutado en el microcontrolador regulará la tensión y la corriente de salida en función de los valores introducidos por el usuario, quienes podrán interactuar a través de un teclado o perillas. Los cambios se visualizarán en un display, que servirá como interfaz entre la fuente y el usuario.
+La parte digital de la fuente se alimentará con una tensión de +5V, que se obtendrá del transformador de 9V. El microcontrolador estará completamente aislado de la sección de potencia mediante un aislador I2C y optoacopladores, según sea necesario. El programa ejecutado en el microcontrolador regulará la tensión y la corriente de salida en función de los valores introducidos por el usuario, quienes podrán interactuar a través de un teclado o perillas. Los cambios se visualizarán en un display, que servirá como interfaz entre la fuente y el usuario.\par
 
 \begin{figure}[H]
     \centering

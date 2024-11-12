@@ -6,7 +6,7 @@
 \section{Principio de estrategia de control.}
 El controlador PID (Proporcional, Integral, Derivativo) se basa en la suma de tres componentes: proporcional, integral y derivativo. Matemáticamente, su formulación es: \par
 \begin{equation}
-Output(t)=K_p\cdot e(t)+K_i\int_0^t e(t)\cdot dt+K_d\cdot \frac{de}{dt}
+u(t)=K_p\cdot e(t)+K_i\int_0^t e(t)\cdot dt+K_d\cdot \frac{de}{dt}
 \end{equation} \par 
 Cada componente del PID es \entreComillas{independiente} de las demás. en el sentido de que cada uno calcula una salida de lo que \entreComillas{para él} debería hacer para obtener la respuesta adecuada. \par 
 Los tres componentes se suman para dar la salida del controlador. Cada uno cumple una función específica que mejora la respuesta del sistema. Y cuando los tres componentes trabajan juntos, en la proporción adecuada, consiguen un gran comportamiento. \par 
@@ -79,8 +79,8 @@ u_{PIDp}(k)=u_{PIDp}(k-1)+K_1e(k-1)+K_2e(k-2)+K_3e(k-3)
 
 
 \section{Lazo de corriente}
-Para realizar el diseño del lazo de control interno es necesario realizar un modelado del mismo. Al utilizar diversos softwares de simulación (PSIM y TINA TI), se verificó que efectivamente, mientras se encuentre en la zona lineal los transistores, la corriente de salida dependerá linealmente de la tensión de entrada, $I_L=k\cdot V_{ctrl}$\par 
-Sin embargo, determinar el valor de k no es sencillo, dado que en los extremos de la recta de carga, el sistema se vuelve no lineal como se observa en la Figura \ref{F:Recta_de_carga_corriente}. Además. existe un cierto valor mínimo en el cual el transistor se mantendrá en corte (aproximadamente $V_B=0,3V$). Por ende, se asumirá una planta con ganancia unitaria mientras que se retocarán las ganancias del controlador experimentalmente hasta alcanzar la respuesta deseada.\par 
+Para realizar el diseño del lazo de control interno es necesario realizar un modelado del mismo. Al utilizar diversos softwares de simulación (PSIM y TINA TI), se verificó que efectivamente, mientras los transistores se encuentren operando en la zona de  lineal, la corriente de salida dependerá linealmente de la tensión de entrada, $I_L=k\cdot V_{ctrl}$\par 
+Sin embargo, determinar el valor de \textit{k} no es sencillo, dado que en los extremos de la recta de carga, el sistema se vuelve no lineal como se observa en la Figura \ref{F:Recta_de_carga_corriente}. Además. existe un cierto valor mínimo en el cual el transistor se mantendrá en corte (aproximadamente $V_B=0,3V$). Por ende, se asumirá una planta con ganancia unitaria mientras que se retocarán las ganancias del controlador experimentalmente hasta alcanzar la respuesta deseada.\par 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./imagenes/Recta_de_carga_corriente.png}
@@ -100,8 +100,8 @@ G_{C_{PID}}(z)&=\frac{K_pz^2+K_iz+K_d}{z^2-z}
 \end{split}
 \end{equation}\par 
 
-Determinamos la ubicación de los polos deseados en función de las siguientes especificaciones: un $5\%$ de sobrepaso y un tiempo de asentamiento de $0,1s$. Esto resulta en los polos $s_{1,2}=-40\pm 41,95i$ del plano 's'. Para llevarlos al plano 'z' se aplica $z=e^{sT}$, obteniendo $z_{1,2}=0,8999\pm 0,0947i$. Al tercer polo del controlador PID lo ubicamos cerca del origen para no afectar significativamente la respuesta del sistema $z_3=0,1$.\par 
-Queremos que los polos del lazo cerrado coincidan con $z_1$, $z_2$ y $z_3$. La ecuación característica del sistema en lazo cerrado es:
+Se determina la ubicación de los polos deseados en función de las siguientes especificaciones: un $5\%$ de sobrepaso y un tiempo de asentamiento de $0,1s$. Esto resulta en los polos $s_{1,2}=-40\pm 41,95i$ del plano 's'. Para llevarlos al plano 'z' se aplica $z=e^{sT}$, obteniendo $z_{1,2}=0,8999\pm 0,0947i$. Al tercer polo del controlador PID lo ubicamos cerca del origen para no afectar significativamente la respuesta del sistema $z_3=0,1$.\par 
+Se desea que los polos del lazo cerrado coincidan con $z_1$, $z_2$ y $z_3$. La ecuación característica del sistema en lazo cerrado es:
 \begin{equation}
 (z-z_1)(z-z_2)(z-z_3)=z^3-(z_1+z_2+z_3)z^2+(z_1z_2+z_1z_3+z_2z_3)z-z_1z_2z_3
 \end{equation}

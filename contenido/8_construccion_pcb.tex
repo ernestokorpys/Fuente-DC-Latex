@@ -5,14 +5,35 @@
 
 \section{Software y herramientas de diseño empleadas.}
 
-A partir de los circuitos desarrollados en los capítulos anteriores, se procedió a diseñar una placa de circuito impreso (PCB) personalizada. Esta placa está diseñada para integrar todos los componentes necesarios y crear un prototipo funcional que permita realizar ensayos sobre materiales en una superficie comprimida. \par 
-La modelación y diseño del PCB se llevaron a cabo utilizando el software KiCad, reconocido por su amplia gama de herramientas de personalización de componentes. Este software permite a los diseñadores lograr un alto nivel de precisión y calidad en sus diseños, adecuándose a las habilidades específicas de cada usuario.\cite{kicad} \par 
-El proceso de diseño incluyó la disposición estratégica de los componentes para optimizar el rendimiento del circuito, así como la consideración de factores como la disipación de calor, la integridad de la señal y la minimización de interferencias electromagnéticas. Además, se realizaron varias iteraciones del diseño para asegurar que el PCB final cumpliera con todos los requisitos técnicos y de funcionamiento necesarios para los ensayos planificados. \par 
+A partir de los circuitos desarrollados en los capítulos anteriores, se procedió a diseñar una placa de circuito impreso (PCB) personalizada. Esta placa está diseñada para integrar todos los componentes necesarios y crear un prototipo funcional que permita realizar ensayos sobre materiales en una superficie comprimida. La modelación y diseño del PCB se llevó a cabo utilizando el software KiCad, reconocido por su amplia gama de herramientas de personalización de componentes. Este software permite a los diseñadores lograr un alto nivel de precisión y calidad en sus diseños, adecuándose a las habilidades específicas de cada usuario.\cite{kicad} \par 
+El proceso de diseño del (PCB) incluyó la disposición estratégica de los componentes para optimizar el rendimiento del circuito, así como la consideración de factores como la disipación de calor, la integridad de la señal y la minimización de interferencias electromagnéticas. Además, se realizaron varias iteraciones del diseño para asegurar que el PCB final cumpliera con todos los requisitos técnicos y de funcionamiento necesarios para los ensayos planificados. \par 
 El uso de KiCad facilitó la creación de un diseño detallado y eficiente, permitiendo visualizar en todo momento el aspecto final del PCB y realizar ajustes necesarios antes de proceder a su fabricación.\par
+A su vez para realizar los ensayos del código del microcontrolador, se empleó el software de simulación de circuitos electrónicos \textit{Proteus 8 Professional}. Este programa ofrece un conjunto de herramientas avanzadas que facilitan la evaluación del comportamiento de los componentes integrados en el control digital, permitiendo compararlos con modelos teóricos de manera eficiente. Además, \textit{Proteus 8 Professional} permite la carga directa de archivos de código en microcontroladores ficticios, lo que posibilita la simulación completa del sistema y el análisis de su desempeño en condiciones virtuales antes de su implementación física.
+
+
+\section{Ensayos y simulación de periféricos}
+Una de las características más destacadas de \entreComillas{Proteus 8 Professional}, y la razón principal por la que se prefiere frente a otras alternativas, es su comunidad activa. Esta comunidad ha desarrollado librerías extensivas de componentes, incluidos microcontroladores Arduino. Estas librerías no solo incluyen las huellas (footprints) de los componentes, sino que también permiten programarlos de manera similar a como se haría con los dispositivos reales. Esta funcionalidad es particularmente valiosa, ya que permite al diseñador observar una simulación precisa de la interacción entre todos los elementos, sirviendo como base para la implementación con componentes físicos en etapas posteriores del desarrollo.\par
+
+En la Figura \ref{F:esquematico_proteus} se presenta resumidamente la etapa de control de periféricos del proyecto, indicando la interconexión de los distintos módulos al microcontrolador.\par
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{./imagenes/proteus_esquema2.jpg}
+    \caption{Esquemático de conexión de los componentes digitales para un primer ensayo.}
+    \label{F:esquematico_proteus}
+\end{figure}
+
+\subsection{Resultados experimentales de periféricos}
+Basado en el desarrollo descrito en la sección anterior, se obtuvo un modelo funcional de circuito y código que cumplía con los objetivos propuestos del sistema de control. Esto culminó en el ensayo físico de los componentes utilizando una base \textit{protoboard}, donde se comprobó que todos los elementos funcionaron, siguiendo el esquema provisto en la Figura \ref{F:ensayo_digital}. Así, se concluyó exitosamente el ensayo de esta sección, validando el diseño y su implementación práctica.\par
+\begin{foto}[H]
+    \centering
+    \includegraphics[scale=0.08]{./imagenes/ensayo_digital.jpg}
+    \caption{Ensayo en \textit{protoboard} de los componentes correspondientes a la etapa digital.}
+    \label{F:ensayo_digital}
+\end{foto}
 
 \section{Construcción del primer prototipo.}
-La fase de construcción se inició con el desmontaje de la placa analógica de la fuente utilizada en un proyecto anterior que se puede apreciar en la Figura \ref{F:placa_original}, la cual se caracterizaba por sus atributos de control predominantemente analógicos. Este proceso permitió la recuperación de una variedad de materiales que, en su mayoría, se emplearían en el desarrollo del nuevo prototipo de fuente digital. Entre los componentes rescatados se encuentran resistencias, capacitores, disipadores de calor, borneras, entre otros. La reutilización de estos elementos fue posible gracias a la topología de la nueva fuente digital, que permitía su integración sin comprometer el diseño ni la funcionalidad del prototipo.  \par 
-El proceso de desmontaje y reutilización de componentes se llevó a cabo meticulosamente, asegurando que cada pieza recuperada estuviera en condiciones óptimas para su reincorporación como se observa en la Figura \ref{F:desmontaje_de_la_placa}. Este esfuerzo contribuyó a la eficiencia del proyecto y a la racionalización de recursos, destacando la importancia de la sostenibilidad y la economía circular en el ámbito del diseño y construcción de dispositivos electrónicos.\par
+La fase de construcción se inició con el desmontaje de la placa analógica de la fuente utilizada en un proyecto anterior que se puede apreciar en la fotografía \ref{F:placa_original}, la cual se caracterizaba por sus atributos de control predominantemente analógicos. Este proceso permitió la recuperación de una variedad de materiales que, en su mayoría, se emplearían en el desarrollo del nuevo prototipo de fuente digital. Entre los componentes rescatados se encuentran resistencias, capacitores, disipadores de calor, borneras, entre otros. La reutilización de estos elementos fue posible gracias a la topología de la nueva fuente digital, que permitía su integración sin comprometer el diseño ni la funcionalidad del prototipo.  \par 
+El proceso de desmontaje y reutilización de componentes se llevó a cabo meticulosamente, asegurando que cada pieza recuperada estuviera en condiciones óptimas para su reincorporación como se observa en la fotografía \ref{F:desmontaje_de_la_placa}. Este esfuerzo contribuyó a la eficiencia del proyecto y a la racionalización de recursos, destacando la importancia de la sostenibilidad y la economía circular en el ámbito del diseño y construcción de dispositivos electrónicos.\par
 \begin{foto}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{./imagenes/fotos/placa_original.jpg}
@@ -74,7 +95,7 @@ Las gráficas que se presentarán describen el comportamiento de la fuente de te
 	\item \textbf{Sobrepaso($M_p$)}: La cantidad máxima que la señal de salida excede el valor de referencia. Este parámetro es clave para evaluar la estabilidad y robustez del controlador, ya que un sobrepaso elevado puede ser indeseable en sistemas críticos.
 	\item \textbf{Error en estado estacionario}: Se analizará si, una vez estabilizada la señal, el valor final de la salida se aproxima adecuadamente al valor de referencia, o si existe un error residual que deba corregirse.
 \end{itemize}\par 
-Inicialmente, se presenta el gráfico que describe la respuesta del lazo de corriente en la figura \ref{F:Resultados obtenidos para el lazo de corriente}. Para el mismo se utiliza las siguientes constantes de control: $Ki_1=0,1$; $Ki_2=0,01$; y $Ki_3=0,001$. La resistencia de carga utilizada es de $100 \Omega$ y el valor de referencia utilizado es de $0,2A$. 
+Inicialmente, se presenta el gráfico que describe la respuesta del lazo de corriente en la figura \ref{F:Resultados obtenidos para el lazo de corriente}. Para el mismo se utilizan las siguientes constantes de control: $Ki_1=0,1$; $Ki_2=0,01$; y $Ki_3=0,001$. La resistencia de carga utilizada es de $100 \Omega$ y el valor de referencia utilizado es de $0,2A$. 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.9\textwidth]{./imagenes/NF5_lazo_corriente.jpg}

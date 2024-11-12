@@ -18,16 +18,16 @@
 \contentsline {section}{\numberline {2.3}Ventajas y desventajas}{6}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Evolución y mejoras con el pasar de los años}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Fuentes comerciales}{7}{section.2.5}%
-\contentsline {chapter}{\chapternumberline {3}Modificación de la Fuente CC anterior}{9}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}Modificación de la Primera Versión de la Fuente CC Lineal}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Fuente de alimentación CC lineal a modificar}{9}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Circuito Fijador de Referencia para los Transistores}{9}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Modificación de uso de Potenciómetros Digitales MCP4661}{10}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Eliminación del circuito de medición externo}{10}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Modificación del Circuito de Acople y Desacople de Carga}{10}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.4}Modificación del Circuito de Acople y Desacople de Carga}{11}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Simplificación del Circuito Indicador de Modo de Operación}{11}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Integración del Circuito con NodeMCU ESP-32S}{11}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.6}Integración del Circuito con NodeMCU ESP-32S}{12}{subsection.3.1.6}%
 \contentsline {subsection}{\numberline {3.1.7}Encoders rotativos}{12}{subsection.3.1.7}%
-\contentsline {section}{\numberline {3.2}Fuente de alimentación CC lineal planteada}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Fuente de alimentación CC lineal planteada}{13}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}Diseño del prototipo}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Etapa de alimentación}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Etapa de Potencia}{16}{section.4.2}%
@@ -45,12 +45,12 @@
 \contentsline {subsection}{\numberline {5.5.2}Modo Corriente}{29}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Modo Rampa}{29}{subsection.5.5.3}%
 \contentsline {chapter}{\chapternumberline {6}Implementación del controlador.}{31}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Implementación Física del Algoritmo de Control}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Implementación del Algoritmo de Control}{31}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Condiciones de Funcionamiento}{31}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Rangos de Funcionamiento}{31}{subsection.6.1.2}%
 \contentsline {subsection}{\numberline {6.1.3}Determinación de Escenarios}{31}{subsection.6.1.3}%
 \contentsline {section}{\numberline {6.2}Estrategia Empleada en el Algoritmo}{32}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Soft Reset}{32}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Soft Reset}{33}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Protección ante sobretensiones y falso contacto}{33}{subsection.6.2.2}%
 \contentsline {chapter}{\chapternumberline {7}Interfaz de datos de entrada y salida}{35}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Diagrama de bloques de la interfaz de datos}{35}{section.7.1}%
@@ -61,21 +61,21 @@
 \contentsline {subsection}{\numberline {7.2.4}Aislador I2C capacitivo.}{37}{subsection.7.2.4}%
 \contentsline {subsection}{\numberline {7.2.5}Convertidor analógico digital. ADC.}{37}{subsection.7.2.5}%
 \contentsline {subsection}{\numberline {7.2.6}Convertidor digital analógico. DAC.}{38}{subsection.7.2.6}%
-\contentsline {chapter}{\chapternumberline {8}Software de programación y ensayo del control digital}{39}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {8}Software y programación de microcontrolador}{39}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Características físicas del microcontrolador}{39}{section.8.1}%
 \contentsline {subsection}{\numberline {8.1.1}Lógica Interna del Arduino Nano}{39}{subsection.8.1.1}%
 \contentsline {subsection}{\numberline {8.1.2}Pinout de arduino nano}{39}{subsection.8.1.2}%
 \contentsline {subsection}{\numberline {8.1.3}Protocolo de comunicación.}{40}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Dependencias y Librerías Empleadas}{41}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Ensayos y simulación}{41}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Resultados Experimentales}{42}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Diagrama de Control del Software}{42}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Detalles y Optimización del Código}{44}{subsection.8.4.1}%
+\contentsline {section}{\numberline {8.2}Dependencias y Librerías Empleadas}{41}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Diagrama de Control del Software}{41}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Detalles y Optimización del Código}{42}{section.8.4}%
 \contentsline {chapter}{\chapternumberline {9}Modelado y construcción del PCB.}{45}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Software y herramientas de diseño empleadas.}{45}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Construcción del primer prototipo.}{45}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Primeras pruebas prácticas.}{47}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Resultados experimentales}{49}{section.9.4}%
+\contentsline {section}{\numberline {9.2}Ensayos y simulación de periféricos}{45}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Resultados experimentales de periféricos}{46}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Construcción del primer prototipo.}{46}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Primeras pruebas prácticas.}{48}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Resultados experimentales}{50}{section.9.5}%
 \contentsline {chapter}{\chapternumberline {10}Segundo prototipo.}{53}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Construcción de la fuente definitiva}{53}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Presentación Física.}{53}{section.10.2}%
@@ -96,15 +96,15 @@
 \contentsline {subsection}{\numberline {12.1.2}Conexión de carga}{64}{subsection.12.1.2}%
 \contentsline {subsection}{\numberline {12.1.3}Desconexión de carga}{65}{subsection.12.1.3}%
 \contentsline {subsection}{\numberline {12.1.4}Prueba con motor de 12 V}{66}{subsection.12.1.4}%
-\contentsline {subsection}{\numberline {12.1.5}Protección por sobrecorriente}{66}{subsection.12.1.5}%
+\contentsline {subsection}{\numberline {12.1.5}Protección por sobrecorriente}{67}{subsection.12.1.5}%
 \contentsline {section}{\numberline {12.2}Resultados para el modo de corriente}{68}{section.12.2}%
 \contentsline {section}{\numberline {12.3}Resultados para el modo rampa}{69}{section.12.3}%
 \contentsline {section}{\numberline {12.4}Análisis de la tensión de entrada}{70}{section.12.4}%
 \contentsline {chapter}{\chapternumberline {13}Conclusiones y resultados finales.}{73}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Rendimiento de la fuente}{73}{section.13.1}%
+\contentsline {section}{\numberline {13.1}Desempeño de la fuente}{73}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Mejoras y limitaciones}{73}{section.13.2}%
 \contentsline {subsection}{\numberline {13.2.1}Mejoras}{73}{subsection.13.2.1}%
 \contentsline {subsection}{\numberline {13.2.2}Limitaciones}{74}{subsection.13.2.2}%
 \contentsline {section}{\numberline {13.3}Conclusiones}{74}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Retoma del proyecto en un futuro}{74}{section.13.4}%
+\contentsline {section}{\numberline {13.4}Reanudación del proyecto en un futuro}{74}{section.13.4}%
 \contentsline {chapter}{Bibliografía}{77}{section*.79}%
